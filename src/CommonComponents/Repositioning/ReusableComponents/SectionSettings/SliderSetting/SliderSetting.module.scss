@@ -1,0 +1,31 @@
+.BannerEditorDropdown {
+    background: #F3F4F6;
+    border-radius: 18px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    
+    .EditorBtns {
+        padding: 4px 21px;
+        border: 5rem;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: transparent;
+        width: 100%;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+
+        &.ActiveBtn {
+            background-color: #3758F9;
+            color: #fff;
+            border-radius: 5rem;
+        }
+    }
+}
+
+.ColorPopup_Wrapper{
+    position: absolute;
+    top: 0;
+    right: 325px;
+}

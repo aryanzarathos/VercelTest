@@ -1,0 +1,89 @@
+.RenderTabWrapper {
+    overflow-y: auto;
+    height: 70vh;
+    margin-top: 39px;
+    padding-right: 11px;
+
+    .CardWrapper {
+        -webkit-columns: 3 auto;
+        -webkit-column-count: 3;
+        column-count: 3;
+
+        .card {
+            position: relative;
+            width: 100%;
+            height: auto;
+            margin-bottom: 14px;
+            line-height: 0;
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                border-radius: 8px;
+                background-color: rgba(0, 0, 0, 0.2);
+                opacity: 0;
+                z-index: 1;
+                transition: all .2s ease-in-out;
+            }
+
+            .addButton {
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                padding:8px 18px;
+                box-shadow: 2px 5px 10px rgba(32, 32, 32, 0.15);
+                border-radius: 2.74922px;
+                background-color: #FFFFFF;
+                color: #3758F9;
+                font-size: 12px;
+                font-weight: 500;
+                transform: translate(-50%, -50%);
+                z-index: 2;
+                outline: none;
+                border: none;
+                cursor: pointer;
+                transition: all .3s ease-in-out;
+                display: flex;
+                align-items: center;
+                gap: 2px;
+
+                .AddIcon {
+                    width: 15px;
+                    height: 15px;
+                    display: block;
+                    cursor: pointer;
+                    background-color: #3758F9;
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/plus.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/plus.svg') no-repeat center;
+                }
+
+                &:hover {
+                    opacity: 1;
+                    background-color: #3758F9;
+                    color: #FFFFFF;
+                    border: none;
+
+                    .AddIcon {
+                        background-color: #FFFFFF;
+                    }
+                }
+            }
+
+            &:hover {
+                &::after {
+                    opacity: 1;
+                }
+
+                .addButton {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+}

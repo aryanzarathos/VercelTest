@@ -1,0 +1,14 @@
+.MyBookingWrapperPopupModal {
+    .BookingModalHeader {
+        h2 {
+            color: var(--global-color-quaternary);
+            font-size: var(--global-typography-fontSizeH5);
+            font-family: var(--global-typography-fontFamilyH5);
+            font-style: var(--global-typography-fontStyleH5);
+            font-weight: var(--global-typography-fontWightMedium);
+            line-height: var(--global-typography-lineHeightH5);
+        }
+
+        border-bottom: 1px solid var(--global-color-quaternary-lightShadeThin);
+    }
+}

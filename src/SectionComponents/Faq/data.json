@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "title": "Is there a free trial available ?",
+        "desc": "Yes, you can try us for free for 30days. If you we’ll provide you with a free, personalized 30-minute onboarding call to get you upand running as soon as possible."
+    },
+    {
+        "id": 1,
+        "title": "Can I change my plan later ?",
+        "desc": "Yes, you can try us for free for 30days. If you we’ll provide you with a free, personalized 30-minute onboarding call to get you upand running as soon as possible."
+    },
+    {
+        "id": 2,
+        "title": "What is your cancellation policy ?",
+        "desc": "Yes, you can try us for free for 30days. If you we’ll provide you with a free, personalized 30-minute onboarding call to get you upand running as soon as possible."
+    },
+    {
+        "id": 3,
+        "title": "Can other info be added to an invoice ?",
+        "desc": "Yes, you can try us for free for 30days. If you we’ll provide you with a free, personalized 30-minute onboarding call to get you upand running as soon as possible."
+    },
+    {
+        "id": 4,
+        "title": "How does billing work ?",
+        "desc": "Yes, you can try us for free for 30days. If you we’ll provide you with a free, personalized 30-minute onboarding call to get you upand running as soon as possible."
+    }
+]

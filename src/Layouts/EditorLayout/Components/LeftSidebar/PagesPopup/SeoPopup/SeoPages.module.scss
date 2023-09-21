@@ -1,0 +1,32 @@
+
+
+.ModalBodyWrap{
+    padding: 0 !important;
+    .Seo_Wrapper {
+        padding: 12px 24px 16px;
+        .SeoPopup_Tab {
+            margin-bottom: 12px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+    
+            .Tab_Btns {
+                padding: 6px 20px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                background: #FFFFFF;
+                border: 1px solid #3758F9;
+                color: #3758F9;
+                border-radius: 39px;
+                cursor: pointer;
+                font-family: "Poppins", sans-serif;
+    
+                &.Active_Tab {
+                    background-color: #3758F9;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

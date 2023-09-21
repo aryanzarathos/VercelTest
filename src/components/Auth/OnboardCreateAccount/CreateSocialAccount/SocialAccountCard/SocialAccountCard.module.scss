@@ -1,0 +1,23 @@
+@import "../../../../../styles/GloablStyle/theme";
+.mainSocialAccount {
+  display: flex;
+  width: 100%;
+  max-width: 321px;
+  margin: 0 auto;
+  padding: 15px 16px;
+  background: transparent;
+  border: 1px solid rgba($base, 0.2);
+  border-radius: 4px;
+  align-items: center;
+  cursor: pointer;
+  &__image {
+    display: flex;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: $black;
+    width: 100%;
+  }
+}

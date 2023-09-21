@@ -1,0 +1,99 @@
+$paddingBottom: (
+  0: "0",
+  2: "2px",
+  3: "3px",
+  5: "8px",
+  10: "10px",
+  15: "15px",
+  20: "20px",
+  25: "25px",
+  30: "30px",
+  40: "40px",
+  50: "50px",
+  60: "60px",
+  80: "80px",
+  90: "90px",
+  100: "100px",
+);
+
+@each $key,
+$val in $paddingBottom {
+  .pb-#{$key} {
+    padding-bottom: #{$val};
+  }
+}
+
+$paddingTop: (
+  0: "0",
+  2: "2px",
+  3: "3px",
+  5: "8px",
+  10: "10px",
+  15: "15px",
+  20: "20px",
+  25: "25px",
+  30: "30px",
+  40: "40px",
+  50: "50px",
+  60: "60px",
+  80: "80px",
+  90: "90px",
+  100: "100px",
+);
+
+@each $key,
+$val in $paddingTop {
+  .pT-#{$key} {
+    padding-top: #{$val};
+  }
+}
+
+$paddingRight: (
+  0: "0",
+  2: "2px",
+  3: "3px",
+  5: "8px",
+  10: "10px",
+  15: "15px",
+  20: "20px",
+  25: "25px",
+  30: "30px",
+  40: "40px",
+  50: "50px",
+  60: "60px",
+  80: "80px",
+  90: "90px",
+  100: "100px",
+);
+
+@each $key,
+$val in $paddingRight {
+  .pr-#{$key} {
+    padding-right: #{$val};
+  }
+}
+
+$paddingLeft: (
+  0: "0",
+  2: "2px",
+  3: "3px",
+  5: "8px",
+  10: "10px",
+  15: "15px",
+  20: "20px",
+  25: "25px",
+  30: "30px",
+  40: "40px",
+  50: "50px",
+  60: "60px",
+  80: "80px",
+  90: "90px",
+  100: "100px",
+);
+
+@each $key,
+$val in $paddingLeft {
+  .pl-#{$key} {
+    padding-left: #{$val};
+  }
+}

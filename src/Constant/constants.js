@@ -1,0 +1,16 @@
+export const DATE_FORMAT = "DD-MM-YYYY";
+export const DATETIME_FORMAT = "DD-MM-YYYY hh:mm";
+export const DATETIME_FORMAT_AP = "DD-MM-YYYY h:mm a";
+export const DATETIME_LOCAL_FORMAT = "YYYY-MM-DDThh:mm";
+export const IMG_ACCEPT = "image/jpg,image/JPG,image/jpeg,image/JPEG,image/png,image/PNG,image/tif,image/TIF,image/tiff,image/TIFF,image/bmp,image/BMP,image/GIF,image/gif,image/EPS,image/eps,image/raw,image/RAW,image/JFIF,image/jfif,image/webp,image/WEBP,image/heic,image/HEIC"
+export const VIDEO_ACCEPT = "video/MP4,video/MP4";
+export const AUDIO_ACCEPT = "video/mp3,video/MP3";
+export const FILE_ACCEPT = "file/doc,file/DOC,file/docx,file/DOCX,file/pdf,file/PDF,file/xls,file/XLS,file/xlsx,file/XLSX";
+export const dummyImg = "https://site-editor-images.s3.ap-south-1.amazonaws.com/default-img-site-editor/Image.png"
+// export const dummyImgProduct = "https://site-editor-images.s3.ap-south-1.amazonaws.com/default-img-site-editor/Product.png"
+export const dummyImgProduct ="https://webneed-images-uat.s3.ap-south-1.amazonaws.com/main/newProduct.png";
+export const dummyImgCategory = "https://site-editor-images.s3.ap-south-1.amazonaws.com/default-img-site-editor/Categories.png"
+export const dummyImgCollection = "https://site-editor-images.s3.ap-south-1.amazonaws.com/default-img-site-editor/Collection.png"
+export const dummyUserImg = "https://site-editor-images.s3.ap-south-1.amazonaws.com/default-img-site-editor/User.png"
+export const dummyUserImg2 = "https://webneed-images-uat.s3.ap-south-1.amazonaws.com/defaultUser.png"
+export const dummyVideoImg = "https://site-editor-images.s3.ap-south-1.amazonaws.com/default-img-site-editor/Video.png"

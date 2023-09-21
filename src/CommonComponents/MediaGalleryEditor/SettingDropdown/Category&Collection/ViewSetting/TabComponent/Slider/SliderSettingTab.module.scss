@@ -1,0 +1,78 @@
+.SliderSettingTab_Wrapper {
+    .SliderSettingTab {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 0;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid #EAEAEA;
+        }
+
+        .SliderSettingTab_Item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .title {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                font-family: "Poppins", sans-serif;
+                color: #202020;
+            }
+
+            .Select_Wrapper {
+                width: 152.23px;
+            }
+
+            .AutoSpeedWrapper {
+                position: relative;
+                width: 152.23px;
+
+                .FormInputFields {
+                    margin-top: 0;
+                    width: 100%;
+                    height: 34px;
+                    padding: 6px 35px 6px 12px;
+                    background: #FCFCFC;
+                    border: 1.5px solid #ECECEC;
+                    border-radius: 6px;
+                    font-family:"Poppins", sans-serif;
+                    &::-webkit-outer-spin-button,
+                    &::-webkit-inner-spin-button {
+                      -webkit-appearance: none;
+                      appearance: none;
+                    }
+                }
+
+                .measure {
+                    position: absolute;
+                    top: 50%;
+                    right: 12px;
+                    transform: translateY(-50%);
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #787878;
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+        }
+    }
+}
+.button_group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    button{
+        width: 100%;
+    }
+}
+
+.SliderSetting_ColorPicker{
+    position: absolute;
+    top: 0;
+    left: 360px;
+}

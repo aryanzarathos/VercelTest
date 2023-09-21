@@ -1,0 +1,37 @@
+// @import '../../../../styles/GloablStyle/style.scss';
+
+.selectDropdownButtonContainer {
+  .selectDropDownButtonWrap {
+    background: #FCFCFC;
+    border: 1.5px solid #ececec;
+    border-radius: 6px;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 7px;
+  }
+
+  .btnOvalShape {
+    border-radius: 30px;
+  }
+
+
+
+  .iconDown {
+    -webkit-mask: url("../../../../Assets/SiteEditor/Icons/arrow-down.svg") no-repeat center;
+    mask-image: url("../../../../Assets/SiteEditor/Icons/arrow-down.svg") no-repeat center;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(#3758F9, 1);
+    display: block;
+    transform: rotate(0deg);
+    transition: all 0.4s linear;
+  }
+
+  .iconRotate {
+    transform: rotate(180deg);
+  }
+
+}

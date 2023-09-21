@@ -1,0 +1,783 @@
+.FirstLeftAside,
+.SecondLeftAside {
+    position: absolute;
+    top: 36px;
+    left: 362px;
+    z-index: 1099;
+    transition-duration: 700ms;
+    border: 1px solid rgba(32, 32, 32, 0.1);
+    min-height: calc(100vh - 129px);
+    max-height: calc(100vh - 129px);
+    border-radius: 8px;
+    width: 0;
+    display: block;
+    background: #FFFFFF;
+    transition: all 500ms ease-in-out;
+    opacity: 0;
+    overflow: hidden;
+
+    &.Active_LeftSidebar {
+        opacity: 1;
+        width: 282px;
+
+        .FirstLeftAsideInnerWrap {
+            opacity: 1;
+            width: 280px;
+
+            .FirstHeadWrapper {
+                width: 280px;
+            }
+        }
+
+        .fixed_Discription {
+            opacity: 1;
+            width: 280px;
+        }
+    }
+
+
+    .fixed_Discription {
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        background-color: #FFFFFF;
+        width: 100%;
+        padding: 16px 16px 16px 16px;
+        border-radius: 16px;
+        opacity: 0;
+        width: 0;
+
+        &.fixed_button {
+            position: absolute;
+            right: 0;
+        }
+
+        .add_pages_button {
+            display: block;
+            background: #3758F9;
+            border-radius: 35px;
+            padding: 7px 24px;
+            border: none;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            width: 100%;
+            cursor: pointer;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .title {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+            color: #747779;
+            padding-top: 12px;
+            border-top: 1px solid #EAEAEA;
+            font-family: "Poppins", sans-serif;
+        }
+
+
+    }
+
+
+
+    .FirstLeftAsideInnerWrap,
+    .SecondFirstLeftAsideInnerWrap {
+        padding-right: 4px;
+        width: 0;
+        opacity: 0;
+
+        .FirstHeadWrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 16px 16px 0 16px;
+            border-radius: 16px;
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #ffffff;
+            z-index: 99;
+            width: 0;
+
+            .Heading {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+                text-transform: capitalize;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #EAEAEA;
+                display: block;
+                width: 100%;
+                font-family: "Poppins", sans-serif;
+            }
+
+            .CloseButton {
+                position: absolute;
+                right: 16px;
+                top: 16px;
+                width: 24px;
+                height: 24px;
+                opacity: 1;
+                border: none;
+                background-color: transparent;
+                outline: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+                &::before,
+                &::after {
+                    position: absolute;
+                    left: 12px;
+                    content: ' ';
+                    height: 12px;
+                    width: 2px;
+                    background-color: #000000;
+                }
+
+                &::before {
+                    transform: rotate(45deg);
+                }
+
+                &::after {
+                    transform: rotate(-45deg);
+                }
+
+            }
+        }
+
+        .ListWrap {
+            max-height: calc(100vh - 184px);
+            min-height: calc(100vh - 184px);
+            overflow-y: auto;
+            overflow-x: hidden;
+            transition: all .3s linear;
+
+            &.site_page_list_wrap {
+                max-height: calc(100vh - 251px);
+                min-height: calc(100vh - 251px);
+            }
+
+            &::-webkit-scrollbar-thumb {
+                transition: all .3s linear;
+                background: transparent;
+            }
+
+            &::-webkit-scrollbar-track {
+                transition: all .3s linear;
+                background: transparent;
+            }
+
+            &:hover {
+                &::-webkit-scrollbar-track {
+                    background: transparent;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background: rgba(55, 88, 249, 0.6);
+                }
+            }
+
+            &.dynamic_Height {
+                max-height: calc(100vh - 264px);
+                min-height: calc(100vh - 264px);
+            }
+
+            &.ActivePagesList {
+                padding: 16px;
+
+            }
+
+            &.ActivePagesMenuList {
+                padding: 0;
+
+            }
+
+            &.unActivePagesList {
+                padding: 16px;
+            }
+
+            .PagesList {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding-bottom: 16px;
+                cursor: pointer;
+                gap: 12px;
+
+                &:last-child {
+                    padding-bottom: 0;
+                }
+
+                .heading {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #000000;
+                }
+
+                .scetionImages {
+                    height: 116px;
+                    width: 100%;
+                    border-radius: 8px;
+                    position: relative;
+                    overflow: hidden;
+
+                    &:hover {
+                        &::after {
+                            opacity: 1;
+                        }
+
+                        .addButton {
+                            opacity: 1;
+                        }
+                    }
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 8px;
+                        background-color: rgba(0, 0, 0, 0.2);
+                        opacity: 0;
+                        z-index: 1;
+                        transition: all .2s ease-in-out;
+                    }
+
+                    .addButton {
+                        opacity: 0;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        padding: 6px 10px;
+                        box-shadow: 2px 5px 10px rgba(32, 32, 32, 0.15);
+                        border-radius: 2.74922px;
+                        background-color: #FFFFFF;
+                        color: #3758F9;
+                        font-size: 12px;
+                        font-weight: 500;
+                        transform: translate(-50%, -50%);
+                        z-index: 2;
+                        outline: none;
+                        border: none;
+                        cursor: pointer;
+                        transition: all .3s ease-in-out;
+                        display: flex;
+                        align-items: center;
+                        gap: 2px;
+
+                        .AddIcon {
+                            width: 15px;
+                            height: 15px;
+                            display: block;
+                            cursor: pointer;
+                            background-color: #3758F9;
+                            -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/plus.svg') no-repeat center;
+                            mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/plus.svg') no-repeat center;
+                        }
+
+                        &:hover {
+                            opacity: 1;
+                            background-color: #3758F9;
+                            color: #FFFFFF;
+                            border: none;
+
+                            .AddIcon {
+                                background-color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .List {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 12px 18px;
+                cursor: pointer;
+
+                // &:hover{
+
+                // }
+
+                &.desiabled {
+                    background: rgba(32, 32, 32, 0.05);
+                }
+
+                .Navigate_button_Wrapper {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+
+                    .Arrow_button {
+                        background-color: transparent;
+                        border: none;
+                        padding: 9.22px 7.5px;
+                        border-radius: 5rem;
+
+                        .Arrow_Icon {
+                            background-color: rgba(32, 32, 32, 0.6);
+                            width: 10.55px;
+                            height: 6.99px;
+                            display: block;
+                            cursor: pointer;
+                            transform: rotateX(0);
+                            transition: transform .3s ease-in;
+                            -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/arrow-down.svg') no-repeat center;
+                            mask-image: url('../../../../../Assets/SiteEditor/Icons/arrow-down.svg') no-repeat center;
+                        }
+
+                        &.active,
+                        &:hover {
+                            background-color: rgba(55, 88, 249, 0.05);
+
+                            .Arrow_Icon {
+                                background-color: #3758F9;
+                            }
+                        }
+
+                        &.active {
+                            .Arrow_Icon {
+                                transform: rotateX(180deg);
+                            }
+                        }
+                    }
+
+                    .buttonWrapper {
+                        position: relative;
+
+                        .DotsButton {
+                            height: 24px;
+                            width: 24px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 4px;
+                            border-radius: 24px;
+                            border: none;
+                            background: transparent;
+
+                            &.active,
+                            &:hover {
+                                background-color: rgba(55, 88, 249, 0.05);
+
+                                .dots {
+                                    background-color: #3758F9;
+                                }
+                            }
+
+                            .dots {
+                                display: block;
+                                height: 16px;
+                                width: 14px;
+                                cursor: pointer;
+                                background: rgba(32, 32, 32, 0.6);
+                                -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dots.svg') no-repeat center;
+                                mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dots.svg') no-repeat center;
+                            }
+                        }
+                    }
+                }
+
+
+                &.Active,
+                &:hover {
+                    background: #F2F7FF;
+
+                    .RightArrow {
+                        background: rgba(55, 88, 249, 0.05);
+                        color: #3758F9;
+                    }
+
+                    .HeadingWrap {
+
+                        .Slider,
+                        .Banner,
+                        .Products,
+                        .Categories,
+                        .Collections,
+                        .blog,
+                        .Services,
+                        .ImageGallery,
+                        .VideoGallery {
+                            background-color: #3758F9;
+                        }
+
+                        .Title {
+                            color: #3758F9;
+                        }
+                    }
+                }
+
+                .buttonWrapper {
+                    position: relative;
+
+                    .DotsButton {
+                        height: 24px;
+                        width: 24px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 4px;
+                        border-radius: 24px;
+                        border: none;
+                        background: transparent;
+
+                        &.active,
+                        &:hover {
+                            background-color: rgba(55, 88, 249, 0.05);
+
+                            .dots {
+                                background-color: #3758F9;
+                            }
+                        }
+
+                        .dots {
+                            display: block;
+                            height: 16px;
+                            width: 14px;
+                            cursor: pointer;
+                            background: rgba(32, 32, 32, 0.6);
+                            -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dots.svg') no-repeat center;
+                            mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dots.svg') no-repeat center;
+                        }
+                    }
+                }
+
+                .HeadingWrap {
+                    display: flex;
+                    align-items: center;
+                    gap: 13px;
+
+                    .Title {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #000000;
+                    }
+
+                    .Slider,
+                    .Banner,
+                    .Products,
+                    .Categories,
+                    .Collections,
+                    .ImageGallery,
+                    .blog,
+                    .Services,
+                    .VideoGallery {
+                        display: block;
+                        height: 20px;
+                        width: 20px;
+                        cursor: pointer;
+                        background-color: #202020;
+                        -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/mediaSlider.svg') no-repeat center;
+                        mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/mediaSlider.svg') no-repeat center;
+                    }
+
+                    .Slider {
+                        -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/media.svg') no-repeat center;
+                        mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/media.svg') no-repeat center;
+                    }
+
+                    .Products {
+                        -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Product.svg') no-repeat center;
+                        mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Product.svg') no-repeat center;
+                    }
+
+                    .Categories {
+                        -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Categorie.svg') no-repeat center;
+                        mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Categorie.svg') no-repeat center;
+                    }
+
+                    .Collections {
+                        -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Collection.svg') no-repeat center;
+                        mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Collection.svg') no-repeat center;
+                    }
+
+                    .ImageGallery {
+                        -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/media.svg') no-repeat center;
+                        mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/media.svg') no-repeat center;
+                    }
+
+                    .VideoGallery {
+                        -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/video.svg') no-repeat center;
+                        mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/video.svg') no-repeat center;
+                    }
+
+                    .Services {
+                        -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/service.svg') no-repeat center;
+                        mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/service.svg') no-repeat center;
+                    }
+
+                    .blog {
+                        -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/blog.svg') no-repeat center;
+                        mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/blog.svg') no-repeat center;
+                    }
+                }
+
+                .RightArrow {
+                    background-color: transparent;
+                    padding: auto;
+                    font-size: 11px;
+                    border: none;
+                    border-radius: 24px;
+                    height: 24px;
+                    width: 24px;
+                    line-height: 0;
+                    cursor: pointer;
+                }
+            }
+
+            .secondLavel_pages_wrap {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                padding-left: 26px;
+                max-width: 100%;
+                padding-right: 13px;
+                margin: 5px 0;
+                position: relative;
+                // opacity: 0;
+                // overflow: hidden;
+                height: 0;
+                transition: height 0.3s ease;
+
+                &.Expend_Dropdown {
+                    // opacity: 1;
+                    height: auto;
+                }
+
+                &::before {
+                    border-left: 0.5px dashed #9BABFC;
+                    right: auto;
+                    top: -6px;
+                    left: 13px;
+                    height: calc(100% - 19px);
+                }
+
+                .secondLavel_pages {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 12px 16px;
+                    border: 0.5px solid rgba(32, 32, 32, 0.1);
+                    border-radius: 8px;
+                    position: relative;
+
+                    &::before {
+                        border-bottom: 0.5px dashed #9BABFC;
+                        top: -5px;
+                        left: -13px;
+                        right: auto;
+                        width: 13px;
+                        height: calc(100% - 19px);
+                        z-index: -1;
+                    }
+
+                    .title {
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 21px;
+                        text-transform: capitalize;
+                        color: #000000;
+
+                        &.title_active {
+                            color: #3758F9;
+                        }
+                    }
+
+                    .pages_button_wrap {
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+
+                        .Arrow_button {
+                            background-color: transparent;
+                            border: none;
+                            padding: 9.22px 7.5px;
+                            border-radius: 5rem;
+
+                            .Arrow_Icon {
+                                background-color: rgba(32, 32, 32, 0.6);
+                                width: 10.55px;
+                                height: 6.99px;
+                                display: block;
+                                cursor: pointer;
+                                transform: rotateX(0);
+                                transition: transform .3s ease-in;
+                                -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/arrow-down.svg') no-repeat center;
+                                mask-image: url('../../../../../Assets/SiteEditor/Icons/arrow-down.svg') no-repeat center;
+                            }
+
+                            &.active,
+                            &:hover {
+                                background-color: rgba(55, 88, 249, 0.05);
+
+                                .Arrow_Icon {
+                                    background-color: #3758F9;
+                                }
+                            }
+
+                            &.active {
+                                .Arrow_Icon {
+                                    transform: rotateX(180deg);
+                                }
+                            }
+                        }
+
+                        .buttonWrapper {
+                            position: relative;
+
+                            .DotsButton {
+                                height: 24px;
+                                width: 24px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 4px;
+                                border-radius: 24px;
+                                border: none;
+                                background: transparent;
+
+                                &.active,
+                                &:hover {
+                                    background-color: rgba(55, 88, 249, 0.05);
+
+                                    .dots {
+                                        background-color: #3758F9;
+                                    }
+                                }
+
+                                .dots {
+                                    display: block;
+                                    height: 16px;
+                                    width: 14px;
+                                    cursor: pointer;
+                                    background: rgba(32, 32, 32, 0.6);
+                                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dots.svg') no-repeat center;
+                                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dots.svg') no-repeat center;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .thirdlevel_wrap {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6px;
+                    padding-left: 30px;
+                    max-width: 100%;
+                    position: relative;
+
+                    &::before {
+                        border-left: 0.5px dashed #9BABFC;
+                        right: auto;
+                        top: -6px;
+                        left: 15px;
+                        height: calc(100% - 19px);
+                    }
+
+                    .thirdlevel_list {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 12px 16px;
+                        border: 0.5px solid rgba(32, 32, 32, 0.1);
+                        border-radius: 8px;
+                        position: relative;
+
+                        &::before {
+                            border-bottom: 0.5px dashed #9BABFC;
+                            top: -5px;
+                            left: -15px;
+                            right: auto;
+                            width: 14px;
+                            height: calc(100% - 19px);
+                            z-index: -1;
+                        }
+
+                        .title {
+                            font-family: "Poppins", sans-serif;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 21px;
+                            text-transform: capitalize;
+                            color: #000000;
+
+                        }
+
+                        .buttonWrapper {
+                            position: relative;
+
+                            .DotsButton {
+                                height: 24px;
+                                width: 24px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: 4px;
+                                border-radius: 24px;
+                                border: none;
+                                background: transparent;
+
+                                &.active,
+                                &:hover {
+                                    background-color: rgba(55, 88, 249, 0.05);
+
+                                    .dots {
+                                        background-color: #3758F9;
+                                    }
+                                }
+
+                                .dots {
+                                    display: block;
+                                    height: 16px;
+                                    width: 14px;
+                                    cursor: pointer;
+                                    background: rgba(32, 32, 32, 0.6);
+                                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dots.svg') no-repeat center;
+                                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dots.svg') no-repeat center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .FirstLeftAsideInnerWrap {
+        &.description_Active {
+            // padding-bottom: 67px;
+        }
+    }
+}
+
+.SecondLeftAside {
+    left: 655px;
+
+    &.Active_LeftSidebar {
+        opacity: 1;
+        width: 282px;
+
+        .SecondFirstLeftAsideInnerWrap {
+            opacity: 1;
+            width: 280px;
+        }
+    }
+}

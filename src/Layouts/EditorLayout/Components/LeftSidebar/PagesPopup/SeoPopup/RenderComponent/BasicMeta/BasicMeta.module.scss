@@ -1,0 +1,90 @@
+.BasicMeta_Wrapper {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 2fr 1fr;
+
+    .LeftPanel {
+        .LeftPanel_Wrap{
+            padding-right: 16px;
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            .FormField_Wrap {
+                margin-bottom: 16px;
+    
+                .label {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+        }
+        .ButtonGroup {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding-right: 16px;
+            button{
+                width: 100%;
+            }
+        }
+    }
+
+    .RightPanel {
+        .title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #202020;
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 12px;
+        }
+
+        .SearchEngine_button {
+            padding: 4px 16px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #3758F9;
+            background: #F2F7FF;
+            border-radius: 39px;
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .GoogleSearch_title,
+        .Link {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #0F41F3;
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 8px;
+        }
+
+        .Link {
+            color: rgba(0, 0, 0, 0.8);
+            margin-bottom: 4px;
+        }
+
+        .subTitle {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #0F41F3;
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 12px;
+        }
+
+        .discription {
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 16px;
+            color: #202020;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+}
+

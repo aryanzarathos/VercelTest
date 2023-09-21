@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Sumit Kumar",
+        "address": "Edneed, 203, Tower C, Ithum Towers, Sector 62, Noida, Uttar Pradesh 201309",
+        "mobileNo": "9192939495"
+    },
+    {
+        "id": 2,
+        "name": "Amit Kumar",
+        "address": "Edneed, 203, Tower C, Ithum Towers, Sector 62, Noida, Uttar Pradesh 201309",
+        "mobileNo": "9192939495"
+    },
+    {
+        "id": 3,
+        "name": "Raju Kumar",
+        "address": "Edneed, 203, Tower C, Ithum Towers, Sector 62, Noida, Uttar Pradesh 201309",
+        "mobileNo": "9192939495"
+    }
+]

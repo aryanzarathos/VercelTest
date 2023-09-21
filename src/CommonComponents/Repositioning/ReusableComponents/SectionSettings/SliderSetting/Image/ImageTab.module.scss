@@ -1,0 +1,32 @@
+.ImageSetting_wrapper{
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    .ImageSetting_Item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .title {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            font-family: "Poppins", sans-serif;
+            color: #202020;
+        }
+    
+        .Select_Wrapper {
+            width: 152.23px;
+        }
+    }
+    .button_group{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        button{
+            width: 100%;
+        }
+    }
+}

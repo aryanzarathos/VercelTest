@@ -1,0 +1,1153 @@
+{
+    "data": [
+        {
+            "access_id": "5463819fce0473378c326777",
+            "query_name": "richtext",
+            "containerWidth": "containerlg",
+            "customWidth": false,
+            "componentRender": "container",
+            "container_name": "Rich Text",
+            "appearenceType": "RichText",
+            "variationName": "richTextTheme2",
+            "style": {
+                "desktop": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": "80",
+                    "display": "grid",
+                    "gridColumns": "1",
+                    "backgroundType": "color",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "tablet": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "backgroundType": "",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "mobile": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "backgroundType": "color",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                }
+            },
+            "data": [
+                {
+                    "componentRender": "subContainer",
+                    "backgroundType": "image",
+                    "style": {
+                        "desktop": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "backgroundType": "video",
+                            "overlayColor": "0,0,0",
+                            "overlayOpacity": 0.5,
+                            "zIndex": "0",
+                            "backgroundColor": "",
+                            "display": "grid",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "height": "min-height",
+                            "width": "100%",
+                            "background": "",
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            },
+                            "video": {
+                                "url": "",
+                                "autoPlay": "true",
+                                "mute": "false",
+                                "loop": "true",
+                                "objectFit": "cover",
+                                "objectPosition": "center"
+                            }
+                        },
+                        "tablet": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "backgroundType": "",
+                            "overlayColor": "0,0,0",
+                            "overlayOpacity": 0.5,
+                            "zIndex": "0",
+                            "backgroundColor": "",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "width": "100%",
+                            "background": "",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            },
+                            "video": {
+                                "url": "",
+                                "autoPlay": "true",
+                                "mute": "false",
+                                "loop": "true",
+                                "objectFit": "cover",
+                                "objectPosition": "center"
+                            }
+                        },
+                        "mobile": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "backgroundType": "",
+                            "overlayColor": "0,0,0",
+                            "overlayOpacity": 0.5,
+                            "backgroundColor": "transparent",
+                            "background": "transparent",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "width": "100%",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            },
+                            "video": {
+                                "url": "",
+                                "autoPlay": "true",
+                                "mute": "false",
+                                "loop": "true",
+                                "objectFit": "cover",
+                                "objectPosition": "center"
+                            }
+                        }
+                    },
+                    "data": [
+                        {
+                            "componentRender": "grid",
+                            "style": {
+                                "desktop": {
+                                    "position": {
+                                        "position": "relative",
+                                        "positionTop": "0px",
+                                        "positionRight": "0px",
+                                        "positionBottom": "0px",
+                                        "positionLeft": "0px"
+                                    },
+                                    "padding": {
+                                        "paddingTop": "0",
+                                        "paddingRight": "0",
+                                        "paddingBottom": "0",
+                                        "paddingLeft": "0"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "transparent",
+                                    "display": "grid",
+                                    "flexdirection": "column",
+                                    "gridColumns": "2",
+                                    "gap": "70px",
+                                    "height": "",
+                                    "alignItems": "flex-start",
+                                    "borderRadius": {
+                                        "borderTopLeftRadius": "0",
+                                        "borderTopRightRadius": "0",
+                                        "borderBottomLeftRadius": "0",
+                                        "borderBottomRightRadius": "0"
+                                    },
+                                    "borderStyle": "",
+                                    "borderWidth": "",
+                                    "borderColor": "",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "tablet": {
+                                    "padding": {
+                                        "paddingTop": "24px",
+                                        "paddingRight": "24px",
+                                        "paddingBottom": "24px",
+                                        "paddingLeft": "24px"
+                                    },
+                                    "backgroundColor": "transparent",
+                                    "background": "transparent",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "mobile": {
+                                    "padding": {
+                                        "paddingTop": "24px",
+                                        "paddingRight": "24px",
+                                        "paddingBottom": "24px",
+                                        "paddingLeft": "24px"
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "background": "transparent",
+                                    "backgroundColor": "transparent",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "gap": "40px",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    }
+                                },
+                                "backgroundImage": {
+                                    "url": "",
+                                    "backgroundPostion": "center",
+                                    "alt": "",
+                                    "backgroundSize": "cover"
+                                }
+                            },
+                            "data": [
+                                {
+                                    "type": "custom",
+                                    "custom": true,
+                                    "componentRender": "customComponent",
+                                    "name": "Dynamic Section",
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "min-height",
+                                            "width": "100%",
+                                            "textAlign": "center",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "backgroundColor": "",
+                                            "background": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "background": "var(--global-color-penitentiary)",
+                                            "backgroundColor": "var(--global-color-penitentiary)",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            }
+                                        },
+                                        "backgroundImage": {
+                                            "url": "",
+                                            "backgroundPostion": "center",
+                                            "alt": "",
+                                            "backgroundSize": "cover"
+                                        }
+                                    },
+                                    "data": [
+                                        {
+                                            "tagType": "h2",
+                                            "text": "This is a header Now   you can Write  anything ! ",
+                                            "name": "Block Heading",
+                                            "show": true,
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontSize": "var(--global-typography-fontSizeH2)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH2)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH2)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "textTransform": "capitalize",
+                                                    "backgroundColor": "transparent ",
+                                                    "textAlign": "left",
+                                                    "width": "",
+                                                    "maxWidth": "100%",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0",
+                                                        "marginBottom": "25px",
+                                                        "marginLeft": "0"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "width": "100%",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                }
+                                            },
+                                            "data": [
+                                                {
+                                                    "type": "alignLeft",
+                                                    "children": [
+                                                        {
+                                                            "type": "h2",
+                                                            "children": [
+                                                                {
+                                                                    "fontSize": "40px",
+                                                                    "lineHeight": "52px",
+                                                                    "text": "This is a header  Now you can  Write anything !"
+                                                                }
+                                                            ],
+                                                            "style": {
+                                                                "desktop": {
+                                                                    "color": "var(--global-color-primary)",
+                                                                    "fontSize": "var(--global-typography-fontSizeH2)",
+                                                                    "fontFamily": "var(--global-typography-fontFamilyH2)",
+                                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                                    "lineHeight": "0px",
+                                                                    "fontStyle": "var(--global-typography-fontStyleH2)",
+                                                                    "padding": {
+                                                                        "paddingTop": "0",
+                                                                        "paddingRight": "0",
+                                                                        "paddingBottom": "0",
+                                                                        "paddingLeft": "0"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "25px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "tablet": {
+                                                                    "color": "",
+                                                                    "fontSize": "",
+                                                                    "fontWeight": "",
+                                                                    "lineHeight": "",
+                                                                    "backgroundColor": "",
+                                                                    "textAlign": "center",
+                                                                    "position": {
+                                                                        "position": "relative",
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "mobile": {
+                                                                    "color": "",
+                                                                    "fontsize": "",
+                                                                    "fontweight": "",
+                                                                    "lineheight": "",
+                                                                    "backgroundcolor": "",
+                                                                    "textalign": "",
+                                                                    "position": {
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "tagType": "button",
+                                            "show": true,
+                                            "text": "Read more",
+                                            "name": "Button",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontFamilyButton)",
+                                                    "fontStyle": "var(--global-typography-fontStyleButton)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "lineHeight": "18px",
+                                                    "color": "var(--global-color-primary)",
+                                                    "backgroundColor": "var(--global-color-penitentiary)",
+                                                    "borderWidth": "1px",
+                                                    "borderStyle": "solid",
+                                                    "borderColor": "var(--global-color-primary)",
+                                                    "fontSize": "var(--global-typography-fontSizeButton)",
+                                                    "transition": "all .3s",
+                                                    "defaultBackgroundColor": "var(--global-color-penitentiary)",
+                                                    "defaultBorderColor": "var(--global-color-primary)",
+                                                    "padding": {
+                                                        "paddingTop": "7px",
+                                                        "paddingRight": "18px",
+                                                        "paddingBottom": "7px",
+                                                        "paddingLeft": "18px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "24px",
+                                                        "marginRight": "",
+                                                        "marginBottom": "",
+                                                        "marginLeft": ""
+                                                    },
+                                                    "hover": {
+                                                        "color": "var(--global-color-penitentiary)",
+                                                        "backgroundColor": "var(--global-color-primary)"
+                                                        
+                                                    },
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "borderWidth": "1px",
+                                                    "borderStyle": "solid",
+                                                    "borderColor": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "padding": {
+                                                        "paddingTop": "7px",
+                                                        "paddingRight": "18px",
+                                                        "paddingBottom": "7px",
+                                                        "paddingLeft": "18px"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "borderWidth": "1px",
+                                                    "borderStyle": "solid",
+                                                    "borderColor": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "padding": {
+                                                        "paddingTop": "7px",
+                                                        "paddingRight": "18px",
+                                                        "paddingBottom": "7px",
+                                                        "paddingLeft": "18px"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "custom",
+                                    "custom": true,
+                                    "componentRender": "customComponent",
+                                    "name": "Dynamic Section",
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "12px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "transparent",
+                                            "backgroundColor": "",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "min-height",
+                                            "width": "100%",
+                                            "textAlign": "center",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "backgroundColor": "",
+                                            "background": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "background": "var(--global-color-penitentiary)",
+                                            "backgroundColor": "var(--global-color-penitentiary)",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            }
+                                        },
+                                        "backgroundImage": {
+                                            "url": "",
+                                            "backgroundPostion": "center",
+                                            "alt": "",
+                                            "backgroundSize": "cover"
+                                        }
+                                    },
+                                    "data": [
+                                        {
+                                            "tagType": "p",
+                                            "text": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  ",
+                                            "show": true,
+                                            "name": "Block Description",
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "textTransform": "capitalize",
+                                                    "textAlign": "left",
+                                                    "width": "",
+                                                    "maxWidth": "100%",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0",
+                                                        "marginBottom": "20px",
+                                                        "marginLeft": "0"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "width": "100%",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                }
+                                            },
+                                            "data": [
+                                                {
+                                                    "type": "alignLeft",
+                                                    "children": [
+                                                        {
+                                                            "type": "p",
+                                                            "children": [
+                                                                {
+                                                                    "fontSize": "16px",
+                                                                    "lineHeight": "25px",
+                                                                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  "
+                                                                }
+                                                            ],
+                                                            "style": {
+                                                                "desktop": {
+                                                                    "color": "var(--global-color-primary)",
+                                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                                    "lineHeight": "0px",
+                                                                    "padding": {
+                                                                        "paddingTop": "0",
+                                                                        "paddingRight": "0",
+                                                                        "paddingBottom": "0",
+                                                                        "paddingLeft": "0"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "30px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "tablet": {
+                                                                    "color": "",
+                                                                    "fontSize": "",
+                                                                    "fontWeight": "",
+                                                                    "lineHeight": "",
+                                                                    "backgroundColor": "",
+                                                                    "textAlign": "center",
+                                                                    "position": {
+                                                                        "position": "relative",
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "mobile": {
+                                                                    "color": "",
+                                                                    "fontsize": "",
+                                                                    "fontweight": "",
+                                                                    "lineheight": "",
+                                                                    "backgroundcolor": "",
+                                                                    "textalign": "",
+                                                                    "position": {
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero,",
+                                            "show": true,
+                                            "name": "Block Description",
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "textTransform": "capitalize",
+                                                    "textAlign": "left",
+                                                    "width": "",
+                                                    "maxWidth": "100%",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0",
+                                                        "marginBottom": "0",
+                                                        "marginLeft": "0"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "width": "100%",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                }
+                                            },
+                                            "data": [
+                                                {
+                                                    "type": "alignLeft",
+                                                    "children": [
+                                                        {
+                                                            "type": "p",
+                                                            "children": [
+                                                                {
+                                                                    "fontSize": "16px",
+                                                                    "lineHeight": "25px",
+                                                                    "text": "  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, "
+                                                                }
+                                                            ],
+                                                            "style": {
+                                                                "desktop": {
+                                                                    "color": "var(--global-color-primary)",
+                                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                                    "lineHeight": "0px",
+                                                                    "padding": {
+                                                                        "paddingTop": "0",
+                                                                        "paddingRight": "0",
+                                                                        "paddingBottom": "0",
+                                                                        "paddingLeft": "0"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "30px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "tablet": {
+                                                                    "color": "",
+                                                                    "fontSize": "",
+                                                                    "fontWeight": "",
+                                                                    "lineHeight": "",
+                                                                    "backgroundColor": "",
+                                                                    "textAlign": "center",
+                                                                    "position": {
+                                                                        "position": "relative",
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "mobile": {
+                                                                    "color": "",
+                                                                    "fontsize": "",
+                                                                    "fontweight": "",
+                                                                    "lineheight": "",
+                                                                    "backgroundcolor": "",
+                                                                    "textalign": "",
+                                                                    "position": {
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

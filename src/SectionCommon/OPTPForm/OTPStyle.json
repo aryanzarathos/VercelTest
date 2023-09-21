@@ -1,0 +1,381 @@
+{
+    "custom_section_editable" : [
+        {
+            "tagType": "div",
+            "name": "OtpMainContainer",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "width": "100%",
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    },
+                    "padding": {
+                        "paddingTop": "px",
+                        "paddingRight": "0px",
+                        "paddingBottom": "0px",
+                        "paddingLeft": "0px"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {
+                    "width": "100%",
+                    "padding": {
+                        "paddingTop": "0px",
+                        "paddingRight": "0px",
+                        "paddingBottom": "0px",
+                        "paddignLeft": "36px"
+                    }
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "name": "OtpMainHeadingContainer",
+            "className": "",
+            "text": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "24px",
+                        "marginLeft": "0px"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "h5",
+            "name": "OtpMainHeadingContainerH1",
+            "show": true,
+            "className": "",
+            "text": "Verify with OTP",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyH5) !important",
+                    "fontSize": "var(--global-typography-fontSizeH5) !important",
+                    "lineHeight": "var(--global-typography-lineHeightH5) !important",
+                    "color": "var(--global-color-primary) !important",
+                    "textAlign": "center !important" ,
+                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                    "fontStyle": "var(--global-typography-fontStyleH5) !important",
+                    "background": "",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {
+                    "flexDirection": "column"
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "name": "OtpNumber",
+            "show": true,
+            "className": "",
+            "style": {
+                "desktop": {
+                    "display": "flex",
+                    "alignItems": "center",
+                    "gap": "10px",
+                    "justifyContent": "center",
+                    "margin": {
+                        "marginTop": "3px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "p",
+            "name": "OtpNumberTextPart",
+            "className": "",
+            "text": "An OTP has been sent to",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                    "fontSize": "12px !important",
+                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                    "color": "var(--global-color-primary-lightShadeThin) !important",
+                    "textAlign": "center !important",
+                    "fontWeight": "var(--global-typography-fontWightLight) !important",
+                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "p",
+            "name": "OtpNumberNumberPart",
+            "show": true,
+            "className": "",
+            "text": "+91 9354690041",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                    "fontSize": "12px !important",
+                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                    "color": "var(--global-color-primary) !important",
+                    "textAlign": "center !important",
+                    "fontWeight": "var(--global-typography-fontWightLight) !important",
+                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {
+                    "top": "9px"
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "name": "VerifyOtpInputOtpContainer",
+            "text": "",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "width": "100%",
+                    "display": "flex",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "marginBottom": "16px",
+                    "gap": "20px",
+                    "margin": {
+                        "marginTop": "",
+                        "marginRight": "",
+                        "marginBottom": "16px",
+                        "marginLeft": ""
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {
+                    "gap": "10px"
+                }
+            }
+        },
+        {
+            "tagType": "input",
+            "name": "VerifyOtpInput",
+            "type": "text",
+            "show": true,
+            "className": "",
+            "style": {
+                "desktop": { 
+                    "fontFamily": "var(--global-typography-fontFamilyH5) !important",
+                    "fontSize": "var(--global-typography-fontSizeH5) !important",
+                    "lineHeight": "var(--global-typography-lineHeightH5) !important",
+                    "color": "var(--global-color-quaternary-lightShadeRegular) !important",
+                    "background": "transparent !important",
+                    "border": "1px solid rgba(32, 32, 32, 0.2) !important",
+                    "borderRadius": "4px",
+                    "width": "38px",
+                    "height": "41px",
+                    "textAlign": "center",
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    },
+                    "padding": {
+                        "paddingTop": "0px",
+                        "paddingRight": "0px",
+                        "paddingBottom": "0px",
+                        "paddingLeft": "0px"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {
+                    "height": "32px",
+                    "width": "32px"
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "name": "OtpRecive",
+            "show": true,
+            "className": "",
+            "style": {
+                "desktop": {
+                    "display": "flex",
+                    "alignItems": "center",
+                    "gap": "10px",
+                    "justifyContent": "center",
+                    "margin": {
+                        "marginTop": "16px",
+                        "marginRight": "0px",
+                        "marginBottom": "40px",
+                        "marginLeft": "0px"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "p",
+            "name": "OtpReciveP",
+            "show": true,
+            "text": "Didn’t recieve OTP? ",
+            "className": "",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                    "fontSize": "12px !important",
+                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                    "color": "var(--global-color-quaternary-lightShadeRegular) !important",
+                    "textAlign": "center !important",
+                    "fontWeight": "var(--global-typography-fontWightLight) !important",
+                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "",
+                        "marginBottom": "",
+                        "marginLeft": ""
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "p",
+            "name": "OtpReciveSpan",
+            "show": true,
+            "text": "",
+            "className": "",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                    "fontSize": "12px !important",
+                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                    "color": "var(--global-color-tertiary) !important",
+                    "textAlign": "center !important",
+                    "fontWeight": "var(--global-typography-fontWightLight) !important",
+                    "fontStyle": "var(--global-typography-fontStyleP) !important ",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "button",
+            "text": "Submit",
+            "show": true,
+            "name": "SubmitBtn",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "backgroundColor": "var(--global-color-primary)",
+                    "borderRadius": "8px",
+                    "border": "none",
+                    "width": "100%",
+                    "display": "flex",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "gap": "8px",
+                    "color":"var(--global-color-penitentiary)",
+                    "defaultBackgroundColor": "var(--global-color-primary)",
+                    "defaultBorderColor": "var(--global-color-primary)",
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    },
+                    "padding": {
+                        "paddingTop": "12px",
+                        "paddingRight": "0px",
+                        "paddingBottom": "12px",
+                        "paddingLeft": "0px"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "h5",
+            "text": "Loading...",
+            "show": true,
+            "name": "loadingText",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyH5) !important",
+                    "fontSize": "var(--global-typography-fontSizeH5) !important",
+                    "lineHeight": "var(--global-typography-lineHeightH5) !important",
+                    "color": "var(--global-color-penitentiary) !important",
+                    "fontStyle": "var(--global-typography-fontStyleH5) !important",
+                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    },
+                    "padding": {
+                        "paddingTop": "0px",
+                        "paddingRight": "0px",
+                        "paddingBottom": "0px",
+                        "paddingLeft": "0px"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        }
+    ]
+}

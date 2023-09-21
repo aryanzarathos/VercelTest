@@ -1,0 +1,188 @@
+// @import "../../styles/GloablStyle/style.scss";
+@import "../../styles/GloablStyle/theme";
+
+
+.alertPopupWrapper {
+    z-index: 999;
+    position: relative;
+
+    .alertPopupWrap {
+        position: fixed;
+        right: 20px;
+        top: 65px;
+
+        &.successPopup {
+            right: 68px;
+            top: 90px;
+        }
+
+        .popupAlertBox {
+            position: relative;
+            margin-bottom: 10px;
+            background-color: $white;
+            border-radius: 5px;
+            box-shadow: 0 0 8px rgba($base, 0.125);
+            max-width: 320px;
+            min-width: 250px;
+            display: none;
+            padding: 25px 15px 20px 15px;
+            // -webkit-animation: cssAnimation 3s forwards;
+            // animation: cssAnimation 3s forwards;
+
+            &.show {
+                display: block;
+            }
+
+            &.error {
+                border-top: 5px solid $red;
+
+                .alertIcon {
+                    background-image: url("../../Assets/Icons/icon-error.svg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 75%;
+                    width: 64px;
+                    height: 48px;
+                }
+
+                h4 {
+                    color: $red;
+                }
+            }
+
+            &.success {
+                border-top: 5px solid $secondary;
+
+                // .alertIcon {
+                //     background-image: url("../images/icons/icon-success.svg");
+                //     background-position: center;
+                //     background-repeat: no-repeat;
+                //     background-size: 75%;
+                //     width: 64px;
+                //     height: 48px;
+                // }
+
+                h4 {
+                    color: $secondary;
+                }
+            }
+
+            &.purple {
+                border-top: 5px solid $purple;
+
+                // .alertIcon {
+                //     background-image: url("../images/icons/icon-error.svg");
+                //     background-position: center;
+                //     background-repeat: no-repeat;
+                //     background-size: 75%;
+                //     width: 64px;
+                //     height: 48px;
+                // }
+            }
+
+            &.gray {
+                border-top: 5px solid $gray;
+
+                // .alertIcon {
+                //     background-image: url("../images/icons/icon-error.svg");
+                //     background-position: center;
+                //     background-repeat: no-repeat;
+                //     background-size: 75%;
+                //     width: 64px;
+                //     height: 48px;
+                // }
+            }
+
+            .alertBody {
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                justify-content: flex-start;
+
+                .alertText {
+                    margin-left: 10px;
+                }
+            }
+
+            .closeIconAlert {
+                position: absolute;
+                right: 0;
+                top: 0;
+                padding: 10px 10px 0 0;
+                cursor: pointer;
+                text-transform: uppercase;
+                @extend .w-500;
+                @extend .text-2xs;
+
+                &::before {
+                    content: "x";
+                    margin-right: 3px;
+                    position: relative;
+                }
+            }
+
+            @keyframes cssAnimation {
+                0% {
+                    opacity: 1;
+                }
+
+                90% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 0;
+                }
+            }
+
+            @-webkit-keyframes cssAnimation {
+                0% {
+                    opacity: 1;
+                }
+
+                90% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 0;
+                }
+            }
+        }
+
+        // .SuccessAlertBox {
+        //     background: $white;
+        //     box-shadow: 0px -2px 16px rgba(238, 238, 238, 0.4), 0px -2px 16px rgba(238, 238, 238, 0.4);
+        //     border-radius: 4px;
+        //     padding: 13px 16px;
+        //     display: none;
+        //     position: relative;
+
+        //     &.show {
+        //         display: block;
+        //     }
+
+        //     .SuccessBody {
+        //         display: flex;
+        //         align-items: center;
+        //         justify-content: space-between;
+        //         gap: 9.7px;
+
+        //         .SuccessIcon {
+        //             background-image: url("../images/icons/icon-success2.svg");
+        //             background-position: center;
+        //             background-repeat: no-repeat;
+        //             background-size: 100%;
+        //             width: 17px;
+        //             height: 17px;
+        //         }
+
+        //         .SuccessText {
+        //             font-weight: 500;
+        //             font-size: 16px;
+        //             line-height: 22px;
+        //         }
+        //     }
+        // }
+    }
+}

@@ -1,0 +1,110 @@
+.sidebar {
+  position: fixed;
+  height: calc(100vh - 57px);
+  padding: 36px 0;
+
+  .AsideInnerWrap {
+    height: 100%;
+    width: 56px;
+    background: #3758F9;
+    transition: 0.5s;
+    // overflow: hidden;
+    z-index: 999;
+    border: 1px solid rgba(1, 132, 255, 0.1);
+    box-shadow: inset 4px 3px 4px rgba(0, 0, 0, 0.18);
+    border-radius: 36px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .MenuItemWrap {
+    .MenuItem {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      -webkit-transition-duration: 700ms;
+      -moz-transition-duration: 700ms;
+      -o-transition-duration: 700ms;
+      transition-duration: 700ms;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &:hover {
+        background-color: #FFF;
+        box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+
+        .MenuIcon {
+          background-color: #3758F9;
+        }
+      }
+
+      &.Active {
+        background-color: #FFF;
+        box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+
+        .MenuIcon {
+          background-color: #3758F9;
+        }
+      }
+    }
+  }
+
+  .MenuIcon {
+    width: 22px;
+    height: 22px;
+    display: block;
+    cursor: pointer;
+    background-color: #FFF;
+
+    &.AddPage {
+      -webkit-mask: url("../../Assets/SiteEditor/Icons/plus-icon.svg") no-repeat center;
+      mask-image: url("../../Assets/SiteEditor/Icons/plus-icon.svg") no-repeat center;
+    }
+
+    &.ColorPalette {
+      -webkit-mask: url("../../Assets/SiteEditor/Icons/color-palette-icon.svg") no-repeat center;
+      mask-image: url("../../Assets/SiteEditor/Icons/color-palette-icon.svg") no-repeat center;
+    }
+    &.HeaderFooter {
+      -webkit-mask: url("../../Assets/SiteEditor/Icons/HeaderFooter.svg") no-repeat center;
+      mask-image: url("../../Assets/SiteEditor/Icons/HeaderFooter.svg") no-repeat center;
+    }
+
+    &.Pages {
+      -webkit-mask: url("../../Assets/SiteEditor/Icons/page-icon.svg") no-repeat center;
+      mask-image: url("../../Assets/SiteEditor/Icons/page-icon.svg") no-repeat center;
+    }
+
+    &.Setting {
+      -webkit-mask: url("../../Assets/SiteEditor/Icons/setting-icon.svg") no-repeat center;
+      mask-image: url("../../Assets/SiteEditor/Icons/setting-icon.svg") no-repeat center;
+    }
+
+    &.Dashboard {
+      -webkit-mask: url("../../Assets/SiteEditor/Icons/dashboard-icon.svg") no-repeat center;
+      mask-image: url("../../Assets/SiteEditor/Icons/dashboard-icon.svg") no-repeat center;
+    }
+    &.Cart {
+      -webkit-mask: url("../../Assets/SiteEditor/Icons/Union-icon.svg") no-repeat center;
+      mask-image: url("../../Assets/SiteEditor/Icons/Union-icon.svg") no-repeat center;
+    }
+
+    &.Support {
+      -webkit-mask: url("../../Assets/SiteEditor/Icons/support-icon.svg") no-repeat center;
+      mask-image: url("../../Assets/SiteEditor/Icons/support-icon.svg") no-repeat center;
+    }
+
+  }
+}

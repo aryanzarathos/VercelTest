@@ -1,0 +1,52 @@
+.newLoaderWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .logoLoader {
+        position: relative;
+    }
+
+    .loader {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px Solid rgba(225, 225, 225, 1);
+        border-radius: 50%;
+    }
+
+    .spinner {
+        position: absolute;
+        transform: rotate(-90deg);
+        top: 0;
+
+        & circle {
+            stroke-linecap: round;
+            stroke-dasharray: 1070;
+            animation: dash 3s linear infinite;
+
+        }
+    }
+
+    .logoContent {
+        margin-top: 46px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        color: rgba(165, 165, 165, 1);
+    }
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+
+    from {
+        stroke-dashoffset: 1050;
+    }
+}

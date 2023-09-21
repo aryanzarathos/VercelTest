@@ -1,0 +1,34 @@
+@import '../../../../../../../styles/GloablStyle/theme';
+
+.mapImageMain {
+    padding: 12px 17px;
+
+    .showSelectionTxt {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: $base;
+        margin-bottom: 6px;
+    }
+
+    .dropdownmap {
+        margin-bottom: 12px;
+    }
+
+    .ManageLocation_btn {
+        color: #3758F9;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        width: 100%;
+        padding: 10px 40px;
+        border-radius: 6px;
+        border: 1px solid #3758F9;
+        cursor: pointer;
+        background-color: #FFF;
+    }
+}

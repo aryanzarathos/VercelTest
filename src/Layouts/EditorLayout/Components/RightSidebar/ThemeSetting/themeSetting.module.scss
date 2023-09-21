@@ -1,0 +1,469 @@
+.ThemeSettingWrapper {
+  background: #F3F4F6;
+  border-radius: 18px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 8px 12px;
+
+  .ThemeSettingButton {}
+}
+
+.spinerLoader_wrap {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 108px);
+}
+
+.ThemeSettingButton {
+  border-radius: 6px;
+  width: 100%;
+  background-color: transparent;
+
+  &.ActiveSmallTab {
+    background: rgba(1, 132, 255, 0.2);
+    color: #0184FF;
+  }
+}
+
+
+/*Color Setting*/
+.ColorPaletteGrid {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.ColorPaletteList {
+  // position: relative;
+
+  .titleWrapper {
+    background: #F3F3F3;
+    padding: 12px 16px;
+
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+
+  .ColorPaletListWrapper {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    // &::-webkit-scrollbar {
+    //   display: none;
+    // }
+  }
+
+  .FooterPalette {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 9.5px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px -3px 13px rgba(32, 32, 32, 0.15);
+
+    .btn_disable {
+      cursor: default;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}
+
+.ColorPaletteItem {
+  border: 2px solid rgba(32, 32, 32, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px 14px;
+  cursor: pointer;
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
+
+  .HeadPalette {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+
+    .TitleWrapper {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+
+      .CheckIcon,
+      .UnCheckIcon {
+        display: block;
+        cursor: pointer;
+        min-width: 16px;
+        min-height: 16px;
+        background: url('../../../../../Assets/SiteEditor/Icons/colorCheck.svg');
+      }
+
+      .UnCheckIcon {
+        background: #FFFFFF;
+        border: 2px solid rgba(32, 32, 32, 0.1);
+        border-radius: 50%;
+      }
+
+      h6 {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.004em;
+        text-transform: capitalize;
+      }
+    }
+
+    .IconWrapper {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+      button {
+        background: transparent;
+        border: none;
+
+        .EditIcon,
+        .DeleteIcon {
+          display: block;
+          cursor: pointer;
+          width: 16px;
+          height: 16px;
+          background-color: #202020;
+          -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/delete-icon.svg') no-repeat center;
+          mask-image: url('../../../../../Assets/SiteEditor/Icons/delete-icon.svg') no-repeat center;
+        }
+
+        .EditIcon {
+          -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/edit-icon.svg') no-repeat center;
+          mask-image: url('../../../../../Assets/SiteEditor/Icons/edit-icon.svg') no-repeat center;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    border-color: #3758F9;
+  }
+
+  &.Active {
+    border: 2px solid #3758F9;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+
+}
+
+/*Close Color Setting*/
+
+/*Fonts Setting*/
+.SizeVariantSection {
+  margin-top: 16px;
+
+  .VariantHead {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+
+}
+
+.StyleVariantSection {
+  margin-top: 16px;
+
+  .VariantHead {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+
+  .PresetTypoList,
+  .CustomTypoList {
+    padding: 18px 0;
+    padding-bottom: 48px;
+  }
+
+  .PresetTypoItem {
+    border: 1px solid rgba(32, 32, 32, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+
+    &:hover {
+      border-color: #0184FF;
+    }
+
+    &.Active {
+      border: 1px solid #0184FF;
+
+      .PresetFontFamily {
+        &.PresetFontFamily {
+          position: relative;
+          padding-left: 20px;
+
+          &::before {
+            content: "L";
+            -ms-transform: scaleX(-1) rotate(-35deg);
+            /* IE 9 */
+            -webkit-transform: scaleX(-1) rotate(-35deg);
+            /* Chrome, Safari, Opera */
+            transform: scaleX(-1) rotate(-35deg);
+            left: 9px;
+            color: #FFF;
+            z-index: 1;
+            top: 1px;
+          }
+
+          &::after {
+            width: 14px;
+            height: 14px;
+            background: #0184FF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            left: 0;
+            top: 2px;
+          }
+        }
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .PresetFontFamily {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      text-transform: capitalize;
+      color: #202020;
+      position: relative;
+      margin-bottom: 8px;
+    }
+
+    .PresetTypo {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 8px;
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #202020;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: rgba(32, 32, 32, 0.4);
+      }
+    }
+  }
+
+  .CustomTypoItem {
+
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    label {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: #202020;
+    }
+
+    .CustomTypoSelect {
+      margin-top: 8px;
+      position: relative;
+      -webkit-transition-duration: 700ms;
+      -moz-transition-duration: 700ms;
+      -o-transition-duration: 700ms;
+      transition-duration: 700ms;
+
+      &::before {
+        position: absolute;
+        right: 16px;
+        border-left: solid 5px transparent;
+        border-right: solid 5px transparent;
+        border-top: solid 7px rgba(32, 32, 32, 0.8);
+        height: 0;
+        width: 0;
+        left: auto;
+        top: 16px;
+        transition-duration: 700ms;
+      }
+
+      &.Active {
+        select {
+          border-color: #0184FF;
+        }
+
+        &::before {
+          transform: rotate(180deg);
+          border-top-color: #0184FF;
+        }
+      }
+
+      select {
+        width: 100%;
+        border: 1px solid rgba(32, 32, 32, 0.2);
+        border-radius: 4px;
+        padding: 8px 24px 8px 16px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: #202020;
+        cursor: pointer;
+
+        -webkit-transition-duration: 700ms;
+        -moz-transition-duration: 700ms;
+        -o-transition-duration: 700ms;
+        transition-duration: 700ms;
+
+        &::-ms-expand {
+          display: none;
+        }
+
+        -moz-appearance: none;
+        -webkit-appearance: none;
+      }
+
+
+    }
+  }
+}
+
+.CustomThemePopup {
+  width: 278px;
+  position: absolute;
+  left: auto;
+  top: 103px;
+  right: 289px;
+  z-index: 999;
+  background: #FFFFFF;
+  border: 1px solid rgba(32, 32, 32, 0.2);
+  border-radius: 8px;
+
+  .customhead {
+    padding: 16px 16px 12px 16px;
+    position: relative;
+
+    .title {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      color: #000000;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(32, 32, 32, 0.2);
+    }
+
+    .closebutton {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      top: 16px;
+      right: 16px;
+
+      .closeIcon {
+        font-size: 16px;
+      }
+    }
+
+  }
+
+  .custombody {
+    padding: 0 16px;
+
+    .formFieldWrap {
+      .CustomInput {
+        margin-top: 0;
+        border: 1.5px solid #ECECEC;
+      }
+    }
+
+    .SelectColoPaletteWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 12px;
+
+      .SelectColoPalette {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+
+        .title {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+          color: #202020;
+        }
+      }
+    }
+
+    .buttonGroup {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      justify-content: space-between;
+      padding: 16px 0 12px 0;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.colorPickerPopupWrap {
+  position: absolute;
+  left: auto;
+  top: 0;
+  right: 286px;
+}
+
+/*Close Fonts Setting*/

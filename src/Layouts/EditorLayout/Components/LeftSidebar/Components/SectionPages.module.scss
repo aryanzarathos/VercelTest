@@ -1,0 +1,217 @@
+.Main_ListWrap {
+    // padding-right: 6px;
+
+    .ListWrap {
+        max-height: calc(100vh - 184px);
+        min-height: calc(100vh - 184px);
+        overflow-y: auto;
+        overflow-x: hidden;
+        transition: all .3s linear;
+
+        &::-webkit-scrollbar-thumb {
+            background: transparent;
+        }
+        &::-webkit-scrollbar-track{
+            background: transparent;  
+        }
+
+        &:hover {
+            &::-webkit-scrollbar-track{
+                background: transparent;  
+            }
+            &::-webkit-scrollbar-thumb {
+                background: rgba(55, 88, 249, 0.6);
+            }
+        }
+
+        .List {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 18px;
+            cursor: pointer;
+
+            &.Active,
+            &:hover {
+                background: #F2F7FF;
+
+                .RightArrow {
+                    background: rgba(55, 88, 249, 0.05);
+                    color: #3758F9;
+                }
+
+                .HeadingWrap {
+
+                    .BannerSlide,
+                    .RichText,
+                    .Media,
+                    .Store,
+                    .Services,
+                    .Facilities,
+                    .About,
+                    .Contact,
+                    .Blog,
+                    .Team,
+                    .Testimonials,
+                    .CallAction,
+                    .FAQ,
+                    .Navigation,
+                    .Cart,
+                    .Booking,
+                    .Member,
+                    .Policies,
+                    .Dynamic {
+                        background-color: #3758F9;
+                    }
+
+                    .Title {
+                        color: #3758F9;
+                    }
+                }
+            }
+
+            .HeadingWrap {
+                display: flex;
+                align-items: center;
+                gap: 13px;
+
+                .Title {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #000000;
+                }
+
+                .BannerSlide,
+                .RichText,
+                .Media,
+                .Store,
+                .Services,
+                .Facilities,
+                .About,
+                .Contact,
+                .Blog,
+                .Team,
+                .Testimonials,
+                .CallAction,
+                .FAQ,
+                .Navigation,
+                .Cart,
+                .Booking,
+                .Member,
+                .Policies,
+                .Dynamic {
+                    display: block;
+                    height: 20px;
+                    width: 20px;
+                    cursor: pointer;
+                    background-color: #202020;
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/bannerSlide.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/bannerSlide.svg') no-repeat center;
+                }
+
+                .RichText {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/text.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/text.svg') no-repeat center;
+                }
+
+                .Media {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/media.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/media.svg') no-repeat center;
+                }
+
+                .Store {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/store.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/store.svg') no-repeat center;
+                }
+
+                .Services {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/service.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/service.svg') no-repeat center;
+                }
+
+                .Facilities {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Facilities.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Facilities.svg') no-repeat center;
+                }
+
+                .About {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/about.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/about.svg') no-repeat center;
+                }
+
+                .Contact {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/contact.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/contact.svg') no-repeat center;
+                }
+
+                .Blog {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/blog.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/blog.svg') no-repeat center;
+                }
+
+                .Team {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/team.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/team.svg') no-repeat center;
+                }
+
+                .Testimonials {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Testimonial.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Testimonial.svg') no-repeat center;
+                }
+
+                .CallAction {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/call.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/call.svg') no-repeat center;
+                }
+
+                .FAQ {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/faq.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/faq.svg') no-repeat center;
+                }
+
+                .Navigation {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Navigation.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/Navigation.svg') no-repeat center;
+                }
+
+                .Cart {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/cart.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/cart.svg') no-repeat center;
+                }
+
+                .Booking {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/booking.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/booking.svg') no-repeat center;
+                }
+
+                .Member {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/member.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/member.svg') no-repeat center;
+                }
+
+                .Policies {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/policies.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/policies.svg') no-repeat center;
+                }
+
+                .Dynamic {
+                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dynamic.svg') no-repeat center;
+                    mask-image: url('../../../../../Assets/SiteEditor/Icons/AddSectionIcon/dynamic.svg') no-repeat center;
+                }
+            }
+
+            .RightArrow {
+                background-color: transparent;
+                padding: auto;
+                font-size: 11px;
+                border: none;
+                border-radius: 24px;
+                height: 24px;
+                width: 24px;
+                line-height: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}

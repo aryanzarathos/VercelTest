@@ -1,0 +1,90 @@
+// @import '../../../../../styles/GloablStyle/style.scss';
+@import '../../../../../styles/GloablStyle/theme';
+
+.EditFooterHero {
+    .HeadingWrapper {
+        padding-left: 17px;
+    }
+
+    .formWrapper {
+
+        .black {
+            color: $black;
+        }
+
+        .SocialWrapper {
+            padding: 8px 20px 16px 17px;
+
+            .inlineLabel {
+                display: block;
+            }
+
+            .formControl {
+                padding: 6px 8px;
+                height: auto;
+                display: block;
+                border: 1px solid rgba(32, 32, 32, 0.4);
+                border-radius: 4px;
+                width: 100%;
+
+                &:focus {
+                    border: 1px solid rgba($base, 0.2);
+                }
+
+            }
+        }
+
+        .ColorPickerWrapper {
+            position: relative;
+
+            .ColorPickerWrap {
+                background: #FFFFFF;
+                border: 1px solid rgba(32, 32, 32, 0.4);
+                border-radius: 4px;
+                padding: 6px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .ColorType {
+                background: transparent;
+                border: none;
+                letter-spacing: -0.4px;
+                color: rgba(32, 32, 32, 0.8);
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    border: 1px solid rgba(32, 32, 32, 0.2);
+                    height: 100%;
+                    left: 24px;
+                }
+            }
+
+            .ColorPicker {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20px !important;
+                height: 20px !important;
+                overflow: hidden;
+                border-radius: 2px;
+                border: 1px solid rgba(0, 0, 0, 0.08);
+
+                .popover {
+                    position: absolute;
+                    top: 48px;
+                    left: 18px;
+                    z-index: 9;
+
+                    >div {
+                        position: initial !important;
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,1173 @@
+{
+    "SectionPages": [
+        {
+            "_id": "1",
+            "title": "Banner & Sliders",
+            "icon": "BannerSlide",
+            "heading": "",
+            "renderComponent": "BannerSlide",
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "heading": "Banner",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "heading": "Sliders",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "2",
+            "title": "Rich Text",
+            "icon": "RichText",
+            "heading": "",
+            "renderComponent": "RichText",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "3",
+            "title": "Media",
+            "icon": "Media",
+            "heading": "What do you want to add ?",
+            "renderComponent": "Media",
+            "data": [
+                {
+                    "_id": "1",
+                    "title": "Image Gallery",
+                    "icon": "Media",
+                    "innerData": [
+                        {
+                            "_id": "1",
+                            "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        },
+                        {
+                            "_id": "2",
+                            "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                        },
+                        {
+                            "_id": "3",
+                            "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        },
+                        {
+                            "_id": "4",
+                            "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                        },
+                        {
+                            "_id": "5",
+                            "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        }
+                    ]
+                },
+                {
+                    "_id": "2",
+                    "title": "Video Gallery",
+                    "icon": "Video",
+                    "innerData": [
+                        {
+                            "_id": "1",
+                            "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        },
+                        {
+                            "_id": "2",
+                            "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                        },
+                        {
+                            "_id": "3",
+                            "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        },
+                        {
+                            "_id": "4",
+                            "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": "4",
+            "title": "Store",
+            "icon": "Store",
+            "heading": "What do you want to add ?",
+            "renderComponent": "Store",
+            "data": [
+                {
+                    "_id": "1",
+                    "title": "Products",
+                    "icon": "Product",
+                    "renderComponent": "Product",
+                    "innerData": [
+                        {
+                            "_id": "1",
+                            "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        },
+                        {
+                            "_id": "2",
+                            "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                        },
+                        {
+                            "_id": "3",
+                            "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        }
+                    ]
+                },
+                {
+                    "_id": "2",
+                    "title": "Categories",
+                    "icon": "Categorie",
+                    "renderComponent": "Categorie",
+                    "innerData": [
+                        {
+                            "_id": "1",
+                            "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        },
+                        {
+                            "_id": "2",
+                            "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                        },
+                        {
+                            "_id": "3",
+                            "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        },
+                        {
+                            "_id": "4",
+                            "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                        }
+                    ]
+                },
+                {
+                    "_id": "3",
+                    "title": "Collections",
+                    "icon": "Collection",
+                    "renderComponent": "Collection",
+                    "innerData": [
+                        {
+                            "_id": "1",
+                            "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        },
+                        {
+                            "_id": "2",
+                            "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                        },
+                        {
+                            "_id": "3",
+                            "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        },
+                        {
+                            "_id": "4",
+                            "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                        },
+                        {
+                            "_id": "5",
+                            "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": "5",
+            "title": "Services",
+            "icon": "Service",
+            "heading": "",
+            "renderComponent": "Service",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "6",
+            "title": "Facilities",
+            "icon": "Facilities",
+            "heading": "",
+            "renderComponent": "Facilities",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                },
+                {
+                    "_id": "5",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "6",
+                    "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
+                },
+                {
+                    "_id": "7",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "7",
+            "title": "About",
+            "icon": "About",
+            "heading": "",
+            "renderComponent": "About",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                },
+                {
+                    "_id": "5",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "6",
+                    "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
+                },
+                {
+                    "_id": "7",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "8",
+            "title": "Contact",
+            "icon": "Contact",
+            "heading": "",
+            "renderComponent": "Contact",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                },
+                {
+                    "_id": "5",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "6",
+                    "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
+                },
+                {
+                    "_id": "7",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "9",
+            "title": "Blogs",
+            "icon": "Blog",
+            "heading": "",
+            "renderComponent": "Blog",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                },
+                {
+                    "_id": "5",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "6",
+                    "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
+                },
+                {
+                    "_id": "7",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "10",
+            "title": "Team",
+            "icon": "Team",
+            "heading": "",
+            "renderComponent": "Team",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                },
+                {
+                    "_id": "5",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "6",
+                    "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
+                },
+                {
+                    "_id": "7",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "11",
+            "title": "Testimonials",
+            "icon": "Testimonials",
+            "heading": "",
+            "renderComponent": "Testimonials",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                },
+                {
+                    "_id": "5",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "6",
+                    "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
+                },
+                {
+                    "_id": "7",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "12",
+            "title": "Call to action",
+            "icon": "CallAction",
+            "heading": "",
+            "renderComponent": "CallAction",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1559789687-32dfebd97d67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                },
+                {
+                    "_id": "5",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "6",
+                    "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
+                },
+                {
+                    "_id": "7",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                }
+            ]
+        },
+        {
+            "_id": "13",
+            "title": "FAQs",
+            "icon": "FAQ",
+            "heading": "",
+            "renderComponent": "RichText",
+            "data": [],
+            "sectionData": [
+                {
+                    "_id": "1",
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "2",
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                },
+                {
+                    "_id": "3",
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "_id": "4",
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+                }
+            ]
+        }
+    ],
+    "SitePage": [
+        {
+            "_id": "1",
+            "title": "Navigation Menu",
+            "icon": "Navigation",
+            "heading": "Pages",
+            "renderComponent": "NavigationPages",
+            "pagesList": [
+                {
+                    "_id": "1",
+                    "title": "Home",
+                    "editable": true
+                },
+                {
+                    "_id": "2",
+                    "title": "About",
+                    "editable": true
+                },
+                {
+                    "_id": "3",
+                    "title": "Shop",
+                    "editable": true
+                },
+                {
+                    "_id": "4",
+                    "title": "Contact",
+                    "editable": true
+                }
+            ]
+        },
+        {
+            "_id": "2",
+            "title": "Store Pages",
+            "icon": "Store",
+            "heading": "Pages",
+            "renderComponent": "StorePages",
+            "pagesList": [
+                {
+                    "_id": "1",
+                    "title": "Product Page",
+                    "editable": false
+                },
+                {
+                    "_id": "2",
+                    "title": "Shop",
+                    "editable": false
+                }
+            ]
+        },
+        {
+            "_id": "3",
+            "title": "Cart & Thank You",
+            "icon": "Cart",
+            "heading": "Pages",
+            "renderComponent": "CartPages",
+            "pagesList": [
+                {
+                    "_id": "1",
+                    "title": "Cart Page",
+                    "editable": false
+                },
+                {
+                    "_id": "2",
+                    "title": "Empty Cart",
+                    "editable": false
+                },
+                {
+                    "_id": "3",
+                    "title": "Thank you",
+                    "editable": false
+                }
+            ]
+        },
+        {
+            "_id": "4",
+            "title": "Blog Pages",
+            "icon": "Blog",
+            "heading": "Pages",
+            "renderComponent": "BlogPages",
+            "pagesList": [
+                {
+                    "_id": "1",
+                    "title": "Blog Listing",
+                    "editable": true
+                },
+                {
+                    "_id": "2",
+                    "title": "Blog Category",
+                    "editable": true
+                },
+                {
+                    "_id": "3",
+                    "title": "Blog Page",
+                    "editable": true
+                },
+                {
+                    "_id": "4",
+                    "title": "Blog Preview",
+                    "editable": true
+                }
+            ]
+        },
+        {
+            "_id": "5",
+            "title": "Bookings Pages",
+            "icon": "Booking",
+            "heading": "Pages",
+            "renderComponent": "BookingPages",
+            "pagesList": [
+                {
+                    "_id": "1",
+                    "title": "service Page",
+                    "editable": true
+                },
+                {
+                    "_id": "2",
+                    "title": "Service Detail Page",
+                    "editable": true
+                },
+                {
+                    "_id": "3",
+                    "title": "Facilities Page",
+                    "editable": true
+                },
+                {
+                    "_id": "4",
+                    "title": "Categories Page",
+                    "editable": true
+                },
+                {
+                    "_id": "5",
+                    "title": "Collection Page",
+                    "editable": true
+                },
+                {
+                    "_id": "6",
+                    "title": "Booking Form",
+                    "editable": false
+                }
+            ]
+        },
+        {
+            "_id": "6",
+            "title": "Member's Page",
+            "icon": "Member",
+            "heading": "Pages",
+            "renderComponent": "MemberPages",
+            "pagesList": [
+                {
+                    "_id": "1",
+                    "title": "Login/Signup",
+                    "editable": false
+                },
+                {
+                    "_id": "2",
+                    "title": "My Orders",
+                    "editable": false
+                },
+                {
+                    "_id": "3",
+                    "title": "My Bookings",
+                    "editable": false
+                },
+                {
+                    "_id": "4",
+                    "title": "My Addresses",
+                    "editable": false
+                },
+                {
+                    "_id": "5",
+                    "title": "My Wishlist",
+                    "editable": false
+                },
+                {
+                    "_id": "6",
+                    "title": "My Profile",
+                    "editable": false
+                }
+            ]
+        },
+        {
+            "_id": "7",
+            "title": "Policies & Error Pages",
+            "icon": "Policies",
+            "heading": "Pages",
+            "renderComponent": "PoliciesPages",
+            "pagesList": [
+                {
+                    "_id": "1",
+                    "title": "T&C",
+                    "editable": true
+                },
+                {
+                    "_id": "2",
+                    "title": "Privacy Policy",
+                    "editable": true
+                },
+                {
+                    "_id": "3",
+                    "title": "or Any other policies",
+                    "editable": true
+                },
+                {
+                    "_id": "4",
+                    "title": "Page not found",
+                    "editable": false
+                }
+            ]
+        },
+        {
+            "_id": "8",
+            "title": "Dynamic Pages",
+            "icon": "Dynamic",
+            "heading": "Pages",
+            "renderComponent": "DynamicPages",
+            "pagesList": [
+                {
+                    "_id": "1",
+                    "title": "FAQ",
+                    "editable": true
+                },
+                {
+                    "_id": "2",
+                    "title": "Testimonial",
+                    "editable": true
+                },
+                {
+                    "_id": "3",
+                    "title": "Services",
+                    "editable": true
+                },
+                {
+                    "_id": "4",
+                    "title": "Team",
+                    "editable": true
+                },
+                {
+                    "_id": "5",
+                    "title": "Announcement",
+                    "editable": true
+                },
+                {
+                    "_id": "6",
+                    "title": "Gallery",
+                    "editable": true
+                },
+                {
+                    "_id": "7",
+                    "title": "Announcement",
+                    "editable": true
+                }
+            ]
+        }
+    ],
+    "sectionPageslist": [
+        {
+            "_id": "1",
+            "type": "About us",
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://images.unsplash.com/photo-1541417904950-b855846fe074?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=841&q=80",
+                    "caption": "Beautiful sunset",
+                    "tags": [
+                        "nature",
+                        "sunset"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "url": "https://images.unsplash.com/photo-1508313157893-34fe6176c189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+                    "caption": "Adorable kitten",
+                    "tags": [
+                        "animals",
+                        "cats"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+                    "caption": "City skyline",
+                    "tags": [
+                        "city",
+                        "urban"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80",
+                    "caption": "Colorful flowers",
+                    "width": 1000,
+                    "height": 1200
+                },
+                {
+                    "id": 5,
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+                    "caption": "City skyline",
+                    "width": 2000,
+                    "height": 1000
+                },
+                {
+                    "id": 6,
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+                    "caption": "Delicious food",
+                    "width": 1500,
+                    "height": 800
+                },
+                {
+                    "id": 7,
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+                    "caption": "Cute kittens",
+                    "width": 1200,
+                    "height": 900
+                },
+                {
+                    "id": 8,
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+                    "caption": "Vibrant sunset",
+                    "width": 1600,
+                    "height": 1000
+                },
+                {
+                    "id": 9,
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80",
+                    "caption": "Serene beach",
+                    "width": 1800,
+                    "height": 1200
+                },
+                {
+                    "id": 10,
+                    "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+                    "caption": "Playful dolphins",
+                    "width": 1400,
+                    "height": 700
+                }
+            ]
+        },
+        {
+            "_id": "2",
+            "type": "Our Team",
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+                    "caption": "Beautiful sunset",
+                    "tags": [
+                        "nature",
+                        "sunset"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "url": "https://images.unsplash.com/photo-1543988884-c01cfa7b41c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=327&q=80",
+                    "caption": "Adorable kitten",
+                    "tags": [
+                        "animals",
+                        "cats"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "url": "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1033&q=80",
+                    "caption": "City skyline",
+                    "tags": [
+                        "city",
+                        "urban"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80",
+                    "caption": "Colorful flowers",
+                    "width": 1000,
+                    "height": 1200
+                },
+                {
+                    "id": 5,
+                    "url": "https://images.unsplash.com/photo-1473221326025-9183b464bb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+                    "caption": "City skyline",
+                    "width": 2000,
+                    "height": 1000
+                },
+                {
+                    "id": 6,
+                    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+                    "caption": "Delicious food",
+                    "width": 1500,
+                    "height": 800
+                },
+                {
+                    "id": 7,
+                    "url": "https://images.unsplash.com/photo-1535262412227-85541e910204?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+                    "caption": "Cute kittens",
+                    "width": 1200,
+                    "height": 900
+                },
+                {
+                    "id": 8,
+                    "url": "https://images.unsplash.com/photo-1532517891316-72a08e5c03a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80",
+                    "caption": "Vibrant sunset",
+                    "width": 1600,
+                    "height": 1000
+                },
+                {
+                    "id": 9,
+                    "url": "https://images.unsplash.com/photo-1571497569639-7bd0fcd36c64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+                    "caption": "Serene beach",
+                    "width": 1800,
+                    "height": 1200
+                },
+                {
+                    "id": 10,
+                    "url": "https://images.unsplash.com/photo-1501696461415-6bd6660c6742?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+                    "caption": "Playful dolphins",
+                    "width": 1400,
+                    "height": 700
+                }
+            ]
+        },
+        {
+            "_id": "3",
+            "type": "Gallery",
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://images.unsplash.com/photo-1608915812295-417351ccf39b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d29tZW4lMjByYXNzaWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Beautiful sunset",
+                    "tags": [
+                        "nature",
+                        "sunset"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "url": "https://images.unsplash.com/photo-1528812969535-4bcefc071532?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdvbWVuJTIwcmFzc2lhbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Adorable kitten",
+                    "tags": [
+                        "animals",
+                        "cats"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "url": "https://images.unsplash.com/photo-1616769199269-2635ea2ece8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvbWVuJTIwcmFzc2lhbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "City skyline",
+                    "tags": [
+                        "city",
+                        "urban"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "url": "https://images.unsplash.com/photo-1589696709084-5d65d0343dd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdvbWVuJTIwcmFzc2lhbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Colorful flowers",
+                    "width": 1000,
+                    "height": 1200
+                },
+                {
+                    "id": 5,
+                    "url": "https://images.unsplash.com/photo-1570897234456-a6d0a709574f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdvbWVuJTIwcmFzc2lhbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "City skyline",
+                    "width": 2000,
+                    "height": 1000
+                },
+                {
+                    "id": 6,
+                    "url": "https://images.unsplash.com/photo-1528813131226-77072bca32f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Delicious food",
+                    "width": 1500,
+                    "height": 800
+                },
+                {
+                    "id": 7,
+                    "url": "https://images.unsplash.com/photo-1536700106091-24e6057a6fb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Cute kittens",
+                    "width": 1200,
+                    "height": 900
+                },
+                {
+                    "id": 8,
+                    "url": "https://images.unsplash.com/photo-1503315082045-a2bfb5e7f56e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Vibrant sunset",
+                    "width": 1600,
+                    "height": 1000
+                },
+                {
+                    "id": 9,
+                    "url": "https://images.unsplash.com/photo-1617475205181-ebee1e5d179d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Serene beach",
+                    "width": 1800,
+                    "height": 1200
+                },
+                {
+                    "id": 10,
+                    "url": "https://images.unsplash.com/photo-1589696709103-c76bf8b5fa7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Playful dolphins",
+                    "width": 1400,
+                    "height": 700
+                }
+            ]
+        },
+        {
+            "_id": "4",
+            "type": "FAQs",
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://images.unsplash.com/photo-1590070572368-74a1e6da0a34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Beautiful sunset",
+                    "tags": [
+                        "nature",
+                        "sunset"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "url": "https://images.unsplash.com/photo-1589696709085-58e1b5e18338?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Adorable kitten",
+                    "tags": [
+                        "animals",
+                        "cats"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "url": "https://images.unsplash.com/photo-1606902965551-dce093cda6e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8WUFXN1ZhNFJtOHd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "City skyline",
+                    "tags": [
+                        "city",
+                        "urban"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "url": "https://images.unsplash.com/photo-1562964568-192c14d85b6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Colorful flowers",
+                    "width": 1000,
+                    "height": 1200
+                },
+                {
+                    "id": 5,
+                    "url": "https://images.unsplash.com/photo-1548454433-4a1812514573?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "City skyline",
+                    "width": 2000,
+                    "height": 1000
+                },
+                {
+                    "id": 6,
+                    "url": "https://images.unsplash.com/photo-1542303472-cfd3fa4eb337?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Delicious food",
+                    "width": 1500,
+                    "height": 800
+                },
+                {
+                    "id": 7,
+                    "url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8WUFXN1ZhNFJtOHd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Cute kittens",
+                    "width": 1200,
+                    "height": 900
+                },
+                {
+                    "id": 8,
+                    "url": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+                    "caption": "Vibrant sunset",
+                    "width": 1600,
+                    "height": 1000
+                },
+                {
+                    "id": 9,
+                    "url": "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Serene beach",
+                    "width": 1800,
+                    "height": 1200
+                },
+                {
+                    "id": 10,
+                    "url": "https://images.unsplash.com/photo-1635397186950-96a4d88d6181?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Playful dolphins",
+                    "width": 1400,
+                    "height": 700
+                }
+            ]
+        },
+        {
+            "_id": "5",
+            "type": "Testimonials",
+            "images": [
+                {
+                    "id": 1,
+                    "url": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyMTMwNjEyNnx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Beautiful sunset",
+                    "tags": [
+                        "nature",
+                        "sunset"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "url": "https://images.unsplash.com/photo-1546483875-ad9014c88eba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wyMTMwNjEyNnx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Adorable kitten",
+                    "tags": [
+                        "animals",
+                        "cats"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "url": "https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwyMTMwNjEyNnx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+                    "caption": "City skyline",
+                    "tags": [
+                        "city",
+                        "urban"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "url": "https://images.unsplash.com/photo-1518310196561-83e486e8f9de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8MjEzMDYxMjZ8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Colorful flowers",
+                    "width": 1000,
+                    "height": 1200
+                },
+                {
+                    "id": 5,
+                    "url": "https://images.unsplash.com/photo-1518605360659-2aa9659ef66d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8MjEzMDYxMjZ8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "City skyline",
+                    "width": 2000,
+                    "height": 1000
+                },
+                {
+                    "id": 6,
+                    "url": "https://images.unsplash.com/photo-1518611701783-52034a7b646e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8MjEzMDYxMjZ8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Delicious food",
+                    "width": 1500,
+                    "height": 800
+                },
+                {
+                    "id": 7,
+                    "url": "https://images.unsplash.com/photo-1518644961665-ed172691aaa1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8MjEzMDYxMjZ8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Cute kittens",
+                    "width": 1200,
+                    "height": 900
+                },
+                {
+                    "id": 8,
+                    "url": "https://images.unsplash.com/photo-1629993471098-9cc8de61aece?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3xZQVc3VmE0Um04d3x8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+                    "caption": "Vibrant sunset",
+                    "width": 1600,
+                    "height": 1000
+                },
+                {
+                    "id": 9,
+                    "url": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80",
+                    "caption": "Serene beach",
+                    "width": 1800,
+                    "height": 1200
+                },
+                {
+                    "id": 10,
+                    "url": "https://images.unsplash.com/photo-1559786128-911f6e620dd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+                    "caption": "Playful dolphins",
+                    "width": 1400,
+                    "height": 700
+                }
+            ]
+        }
+    ]
+}

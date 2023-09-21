@@ -1,0 +1,1547 @@
+{
+    "data": [
+        {
+            "access_id": "5463819fce0473378c326776",
+            "query_name": "myorder",
+            "appearenceType": "default",
+            "containerWidth": "containerlg",
+            "customWidth": false,
+            "componentRender": "container",
+            "container_name": "My Orders",
+            "style": {
+                "desktop": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": "80",
+                    "display": "grid",
+                    "gridColumns": "1",
+                    "backgroundType": "color",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "tablet": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "backgroundType": "",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "mobile": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "backgroundType": "",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                }
+            },
+            "data": [
+                {
+                    "componentRender": "subContainer",
+                    "backgroundType": "image",
+                    "style": {
+                        "desktop": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "backgroundColor": "",
+                            "display": "grid",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "height": "min-height",
+                            "width": "100%",
+                            "background": "",
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        },
+                        "tablet": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "backgroundColor": "",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "width": "100%",
+                            "background": "",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        },
+                        "mobile": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "backgroundColor": "",
+                            "background": "",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "width": "100%",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        }
+                    },
+                    "data": [
+                        {
+                            "componentRender": "grid",
+                            "style": {
+                                "desktop": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "display": "grid",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "height": "min-height",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "tablet": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "backgroundColor": "",
+                                    "background": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "mobile": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    }
+                                },
+                                "backgroundImage": {
+                                    "url": "",
+                                    "backgroundPostion": "center",
+                                    "alt": "",
+                                    "backgroundSize": "cover"
+                                }
+                            },
+                            "data": [
+                                {
+                                    "type": "static",
+                                    "componentRender": "MyOrders",
+                                    "sectionType": "MyOrders",
+                                    "section_name": "myorder",
+                                    "gridConvertible": "false",
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "min-height",
+                                            "width": "100%",
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        }
+                                    },
+                                    "custom_section_editable": [
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MyOrdersContainer",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "flexDirection": "column",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "HeadingMyOrder",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "background": "var(--global-color-tertiary-lightShadeThin)",
+                                                    "width": "100%",
+                                                    "textAlign": "center",
+                                                    "padding": "36px 0",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h5",
+                                            "text": "My orders",
+                                            "show": true,
+                                            "name": "HeadingText",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontFamilyH5)",
+                                                    "fontSize": "var(--global-typography-fontSizeH5)",
+                                                    "lineHeight": "var(--global-typography-fontFamilyH5)",
+                                                    "color": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "fontStyle": "var(--global-typography-lineHeightH5)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "textAlign": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h5",
+                                            "text": "2 Order(s)",
+                                            "show": true,
+                                            "name": "OrderCountPara",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontSizeH5)",
+                                                    "fontSize": "var(--global-typography-fontSizeH5)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH5)",
+                                                    "color": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH5)",
+                                                    "margin": {
+                                                        "marginTop": "10px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MyOrdersMainContainer",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "background": "var(--global-color-penitentiary)",
+                                                    "borderRadius": "18px",
+                                                    "width": "90%",
+                                                    "maxWidth": "100%",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrderMainContainers",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "100%",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MyOrderDetailcontainer",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "justifyContent": "space-between",
+                                                    "marginTop": "24px",
+                                                    "marginBottom": "16px",
+                                                    "padding": "0 ",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h6",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrderIdText",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontSizeH6)",
+                                                    "fontSize": "var(--global-typography-fontSizeH6)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH6)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "table",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MyOrderContainer",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "marginTop": "6px",
+                                                    "borderCollapse": "collapse",
+                                                    "width": "100%",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "thead",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MyOrderTitle",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-primary)",
+                                                    "background": "var(--global-color-tertiary-lightShadeThin)",
+                                                    "borderRadius": "8px 8px 0px 0px",
+                                                    "borderBottom": "1px solid var(--global-color-primary-lightShadeThin)",
+                                                    "fontFamily": "'Gilroy-SemiBold',sans-serif",
+                                                    "fontSize": "18px",
+                                                    "lineHeight": "36px",
+                                                    "height": "40px",
+                                                    "textAlign": "left",
+                                                    "boxShadow": "var(--global-color-quaternary-lightShadeThin) 0px -1px 4px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "th",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "TitleProduct",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                                                    "fontSize": "var(--global-typography-fontSizeH6)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                                                    "fontStyle": "var(--global-typography-lineHeightH6)",
+                                                    "paddingLeft": "24px",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "th",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "TitleVarient",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                                                    "fontSize": "var(--global-typography-fontSizeH6)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                                                    "fontStyle": "var(--global-typography-lineHeightH6)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "th",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "TitleOrderDetails",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                                                    "fontSize": "var(--global-typography-fontSizeH6)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                                                    "fontStyle": "var(--global-typography-lineHeightH6)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "padding": "0px 10px",
+                                                    "whiteSpace": "nowrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "tbody",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MyOrderProductDetailBox",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "borderBottom": "1px solid #B3C2CD",
+                                                    "alignItems": "center",
+                                                    "gap": "25px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "tr",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrdersWrapper",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": "16px 0",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ProductWrap",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": "16px 0",
+                                                    "display": "flex",
+                                                    "gap": "20px",
+                                                    "alignItems": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MyOrderProductImgWrap",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "height": "108px",
+                                                    "width": "102px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "image",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MyOrderProductImg",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "100%",
+                                                    "height": "100%",
+                                                    "objectFit": "cover",
+                                                    "objectPosition": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MyOrderProductDetail",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "200px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "SKU",
+                                            "show": true,
+                                            "name": "SKUText",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ProductName",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "margin": {
+                                                        "marginTop": "8px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "td",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "VarientWrapper",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": "16px 0",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "VarientContainer",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "gap": "5px",
+                                                    "flexWrap": "wrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Frame :",
+                                            "show": true,
+                                            "name": "Varients",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWight)",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "span",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "VarientsType",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "td",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrderDetailsContainer",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": "16px 10px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrderDetailsWrap",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "gap": "5px",
+                                                    "flexWrap": "wrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Order ID:",
+                                            "show": true,
+                                            "name": "OrderIdPara",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrderID",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Order Date:",
+                                            "show": true,
+                                            "name": "OrderDatePara",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "span",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrderDate",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Items in this order : ",
+                                            "show": true,
+                                            "name": "OrderNumberPara",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "span",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrderNumber",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Status :",
+                                            "show": true,
+                                            "name": "StatusPara",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "span",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "Status",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px )",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-lineHeightP)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "color": "var(--global-color-tertiary)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "td",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ButtonsContainer",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": "16px 0",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ButtonsWrap",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "button",
+                                            "text": "View Order Details",
+                                            "show": true,
+                                            "name": "ViewOrderBtn",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "background": "var(--global-color-penitentiary)",
+                                                    "boxShadow": "0px 0px 5px 0px var(--global-color-quaternary-lightShadeThin)",
+                                                    "border": "none",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "whiteSpace": "nowrap",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontSize": "calc( var(--global-typography-fontSizeButton) - 2px )",
+                                                    "fontFamily": "var(--global-typography-fontFamilyButton)",
+                                                    "textTransform": "capitalize",
+                                                    "backgroundColor": "var(--global-color-penitentiary)",
+                                                    "textAlign": "center",
+                                                    "display": "block",
+                                                    "borderRadius": "4px",
+                                                    "borderWidth": "1px",
+                                                    "borderColor": "transparent",
+                                                    "borderStyle": "solid",
+                                                    "fontStyle": "var(--global-typography-fontStyleButton)",
+                                                    "lineHeight": "var(--global-typography-lineHeightButton)",
+                                                    "defaultBackgroundColor": "var(--global-color-penitentiary)",
+                                                    "defaultBorderColor": "transparent",
+                                                    "transition": "all .3s",
+                                                    "hover": {
+                                                        "backgroundColor": "var(--global-color-primary)",
+                                                        "color": "var(--global-color-penitentiary)"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "9px",
+                                                        "paddingRight": "25px",
+                                                        "paddingBottom": "9px",
+                                                        "paddingLeft": "25px"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "gap": ""
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "button",
+                                            "text": "Cancel Product",
+                                            "show": true,
+                                            "name": "CancleProductBtn",
+                                            "clasName": "someClass",
+                                            "style": {
+                                                "desktop": {
+                                                    "background": "var(--global-color-penitentiary)",
+                                                    "border": "none",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "whiteSpace": "nowrap",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontSize": "var(--global-typography-fontSizeButton)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyButton)",
+                                                    "textTransform": "capitalize",
+                                                    "backgroundColor": "var(--global-color-penitentiary)",
+                                                    "textAlign": "center",
+                                                    "display": "block",
+                                                    "borderRadius": "0px",
+                                                    "borderWidth": "1px",
+                                                    "borderColor": "transparent",
+                                                    "borderStyle": "solid",
+                                                    "fontStyle": "var(--global-typography-fontStyleButton)",
+                                                    "lineHeight": "var(--global-typography-lineHeightButton)",
+                                                    "defaultBackgroundColor": "var(--global-color-penitentiary)",
+                                                    "defaultBorderColor": "transparent",
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "14px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "hover": {
+                                                        "background": "var(--global-color-penitentiary)",
+                                                        "color": "var(--global-color-primary)"
+                                                    },
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "data": [
+                                        {
+                                            "data1": [
+                                                {
+                                                    "order_id": "#498773",
+                                                    "order_date": "24 July 2022",
+                                                    "date_text": "Order Date :",
+                                                    "orderId_text": "Order Date :"
+                                                },
+                                                {
+                                                    "order_id": "#498773",
+                                                    "order_date": "24 July 2022",
+                                                    "date_text": "Order Date :",
+                                                    "orderId_text": "Order Date :"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "data2": [
+                                                {
+                                                    "img": "https://bitbucket.org/hkchawla1/siteeditor/raw/5cb12f8fbe6785006b7e120ba4a1825090ab762d/src/Assets/SectionComponent/Images/MyProfile/Theme1/Product_img.png",
+                                                    "SKU": "#1000078",
+                                                    "product_name": "Morbius - Sleek steel wayfarer eyeglasses for Adults I Light weight",
+                                                    "frame": "Round Frame",
+                                                    "order_id": " #498773",
+                                                    "order_date": "24 July 2022",
+                                                    "items_in_order": "4",
+                                                    "status": "Processing"
+                                                },
+                                                {
+                                                    "img": "https://bitbucket.org/hkchawla1/siteeditor/raw/5cb12f8fbe6785006b7e120ba4a1825090ab762d/src/Assets/SectionComponent/Images/MyProfile/Theme1/Product_img.png",
+                                                    "SKU": "#1000078",
+                                                    "product_name": "Morbius - Sleek steel wayfarer eyeglasses for Adults I Light weight",
+                                                    "frame": "Round Frame",
+                                                    "order_id": " #498773",
+                                                    "order_date": "24 July 2022",
+                                                    "items_in_order": "4",
+                                                    "status": "Processing"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

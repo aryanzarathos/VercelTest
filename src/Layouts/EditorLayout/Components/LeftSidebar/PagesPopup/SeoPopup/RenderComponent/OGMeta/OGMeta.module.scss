@@ -1,0 +1,162 @@
+.OgMeta_Wrapper {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr auto;
+
+    .OGLeftPanel {
+        .OGLeftPanel_Wrap {
+            padding-right: 16px;
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            height: 424px;
+            overflow-y: auto;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+
+            /* Firefox */
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            .title {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #202020;
+                font-family: "Poppins", sans-serif;
+            }
+
+            .discription {
+                font-weight: 300;
+                font-size: 11px;
+                line-height: 20px;
+                letter-spacing: 0.1px;
+                color: rgba(32, 32, 32, 0.78);
+                font-family: "Poppins", sans-serif;
+                margin-bottom: 12px;
+            }
+
+            .FormField_Wrap {
+                margin-bottom: 16px;
+                position: relative;
+                .Close_button {
+                    background-color: transparent;
+                    border: none;
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+
+                    .closeIcon {
+                        width: 18px;
+                        height: 18px;
+                        cursor: pointer;
+                        display: block;
+                        background-color: #FFFFFF;
+                        -webkit-mask: url("../../../../../../../../Assets/SiteEditor/Icons/closeIcon.svg") no-repeat center;
+                        mask-image: url("../../../../../../../../Assets/SiteEditor/Icons/closeIcon.svg") no-repeat center;
+                    }
+                }
+                .OG_Image{
+                    border-radius: 8px;
+                }
+
+                .Upload_button {
+                    background: rgba(55, 88, 249, 0.05);
+                    border: 1px dashed #3758F9;
+                    border-radius: 6px;
+                    height: 216px;
+                    width: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .upload_Icon {
+                        width: 24px;
+                        height: 24px;
+                        cursor: pointer;
+                        display: block;
+                        background-color: #0F41F3;
+                        -webkit-mask: url("../../../../../../../../Assets/SiteEditor/Icons/Upload.svg");
+                        mask-image: url("../../../../../../../../Assets/SiteEditor/Icons/Upload.svg");
+                    }
+                }
+
+
+                .label {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+        }
+
+        .ButtonGroup {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding-right: 16px;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    .OGRightPanel {
+        .title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #202020;
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 12px;
+        }
+
+        .card {
+            background: #FFFFFF;
+            box-shadow: 2px 5px 10px rgba(32, 32, 32, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            width: 246px;
+            height: auto;
+
+            img {
+                width: 246px;
+                height: 135px !important;
+                object-fit: cover;
+            }
+
+            .Cardbody {
+                padding: 0 12px 12px;
+
+                .Link {
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 15px;
+                    color: rgba(32, 32, 32, 0.4);
+                    margin-bottom: 4px;
+                }
+
+                .title {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #0F41F3;
+                    font-family: "Poppins", sans-serif;
+                    margin-bottom: 6px;
+                }
+
+                .discription {
+                    font-weight: 300;
+                    font-size: 10px;
+                    line-height: 15px;
+                    color: #202020;
+                    font-family: "Poppins", sans-serif;
+                }
+            }
+        }
+
+    }
+}

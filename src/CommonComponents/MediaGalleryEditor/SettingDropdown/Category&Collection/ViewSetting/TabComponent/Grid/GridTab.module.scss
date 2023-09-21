@@ -1,0 +1,29 @@
+
+.GridTab_Wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+
+    .GridTab_Item{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom:16px;
+        &:not(:last-child){
+            border-bottom: 1px solid #EAEAEA;
+        }
+        p{
+            font-family:"Poppins", sans-serif;
+        }
+    }
+    
+}
+.GridTab_button_group{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    button{
+        width: 100%
+    }
+}

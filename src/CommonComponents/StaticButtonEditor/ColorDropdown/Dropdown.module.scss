@@ -1,0 +1,22 @@
+.BannerEditorDropdown{
+    background: #F2F7FF;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    .EditorBtns{
+        padding:4px 21px;
+        border: 4px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        background-color: transparent;
+        width: 100%;
+        cursor: pointer;
+        &.ActiveBtn{
+            background-color: #3758F9;
+            color:#fff;
+            border-radius: 4px;
+        }
+    }
+}

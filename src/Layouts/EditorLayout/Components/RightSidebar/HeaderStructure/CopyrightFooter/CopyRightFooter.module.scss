@@ -1,0 +1,61 @@
+.copyRightFooter {
+    .hideCopyRight {
+        display: flex;
+        width: 100%;
+        padding: 12px 16px;
+        background: rgba(244, 244, 244, 0.6);
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+
+
+    .CopyFooterColor_Wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 17px;
+
+        .backgroundCopyFooterColor {
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+    
+            p {
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                /* identical to box height */
+                color: #000000;
+            }
+        }
+    }
+
+    .rowengi_Hiriye {
+        padding: 12px 17px;
+
+        .label {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+}
+
+.ColorPicker_Popup{
+    position: absolute;
+    right: 285px;
+    top: 0;
+}

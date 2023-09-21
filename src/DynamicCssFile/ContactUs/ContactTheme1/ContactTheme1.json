@@ -1,0 +1,1674 @@
+{
+    "data": [
+        {
+            "_id": "6502b10dda5e7207a261b6c2",
+            "appearenceType": "ContactUs",
+            "containerWidth": "containerlg",
+            "customWidth": true,
+            "backgroundType": "image",
+            "componentRender": "container",
+            "container_name": "Contact Us",
+            "style": {
+                "desktop": {
+                    "backgroundType": "color",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "backgroundColor": "",
+                    "height": "",
+                    "background": "",
+                    "width": "",
+                    "display": "grid",
+                    "gridColumns": "1",
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "tablet": {
+                    "backgroundType": "",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "mobile": {
+                    "backgroundType": "",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                }
+            },
+            "owner": "6501471cf48ccc086a2ce80b",
+            "business": "65014735f48ccc086a2ce816",
+            "page_id": "6501473b3af29308b182356b",
+            "position": 0,
+            "template": "650147353af29308b182354d",
+            "data": [
+                {
+                    "_id": "6502b10dda5e7207a261b6c4",
+                    "componentRender": "subContainer",
+                    "backgroundType": "image",
+                    "style": {
+                        "desktop": {
+                            "padding": {
+                                "paddingTop": "",
+                                "paddingRight": "",
+                                "paddingBottom": "",
+                                "paddingLeft": ""
+                            },
+                            "borderRadius": {
+                                "borderTopLeftRadius": "",
+                                "borderTopRightRadius": "",
+                                "borderBottomLeftRadius": "",
+                                "borderBottomRightRadius": ""
+                            },
+                            "backgroundColor": "",
+                            "boxShadow": "",
+                            "display": "grid",
+                            "flexdirection": "column",
+                            "gridColumns": "2",
+                            "height": "min-height",
+                            "width": "100%",
+                            "rowGap": "24px",
+                            "columnGap": "60px",
+                            "background": "",
+                            "justifyContent": "center",
+                            "alignItems": "center",
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        },
+                        "tablet": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "backgroundColor": "",
+                            "flexdirection": "column",
+                            "gridColumns": "",
+                            "width": "100%",
+                            "background": "",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        },
+                        "mobile": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "backgroundColor": "",
+                            "background": "",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "width": "100%",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        }
+                    },
+                    "main_containers_ref": "6502b10dda5e7207a261b6c2",
+                    "owner": "6501471cf48ccc086a2ce80b",
+                    "business": "65014735f48ccc086a2ce816",
+                    "page_id": "6501473b3af29308b182356b",
+                    "position": 0,
+                    "template": "650147353af29308b182354d",
+                    "data": [
+                        {
+                            "_id": "6502b10dda5e7207a261b6c6",
+                            "componentRender": "grid",
+                            "style": {
+                                "desktop": {
+                                    "position": {
+                                        "position": "relative",
+                                        "positionTop": "0px",
+                                        "positionRight": "0px",
+                                        "positionBottom": "0px",
+                                        "positionLeft": "0px"
+                                    },
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "display": "grid",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "height": "100%",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "tablet": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "backgroundColor": "",
+                                    "background": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "mobile": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    }
+                                },
+                                "backgroundImage": {
+                                    "url": "",
+                                    "backgroundPostion": "center",
+                                    "alt": "",
+                                    "backgroundSize": "cover"
+                                }
+                            },
+                            "owner": "6501471cf48ccc086a2ce80b",
+                            "business": "65014735f48ccc086a2ce816",
+                            "page_id": "6501473b3af29308b182356b",
+                            "position": 0,
+                            "template": "650147353af29308b182354d",
+                            "containers_ref": "6502b10dda5e7207a261b6c4",
+                            "main_containers_ref": "6502b10dda5e7207a261b6c2",
+                            "data": [
+                                {
+                                    "_id": "6502b10dda5e7207a261b6c8",
+                                    "settings": [],
+                                    "type": "custom",
+                                    "custom_section_editable": [],
+                                    "data": [
+                                        {
+                                            "tagType": "image",
+                                            "src": "https://webneed-images-uat.s3.ap-south-1.amazonaws.com/main/contact1.png",
+                                            "alt": "about us image",
+                                            "name": "Image",
+                                            "show": true,
+                                            "videoSrc": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                                            "poster": "",
+                                            "mapSrc": "",
+                                            "videoSetting": {
+                                                "controls": true,
+                                                "muted": true,
+                                                "autoPlay": false,
+                                                "loop": true
+                                            },
+                                            "style": {
+                                                "desktop": {
+                                                    "maxWidth": "100%",
+                                                    "width": "100%",
+                                                    "display": "block",
+                                                    "maxHeight": "600px",
+                                                    "height": "100%",
+                                                    "objectFit": "cover",
+                                                    "objectPosition": "center",
+                                                    "position": "relative",
+                                                    "top": "0px",
+                                                    "bottom": "0px",
+                                                    "left": "0px",
+                                                    "right": "0px",
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0",
+                                                        "marginBottom": "0",
+                                                        "marginLeft": "0"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "position": "relative",
+                                                    "top": "0px",
+                                                    "bottom": "0px",
+                                                    "left": "0px",
+                                                    "right": "0px",
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "0px",
+                                                    "lineHeight": "0px",
+                                                    "position": "relative",
+                                                    "top": "0px",
+                                                    "bottom": "0px",
+                                                    "left": "0px",
+                                                    "right": "0px",
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "gridShow": true,
+                                    "componentRender": "customComponent",
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "min-height",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "backgroundColor": "",
+                                            "background": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "70%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            }
+                                        },
+                                        "backgroundImage": {
+                                            "url": "",
+                                            "backgroundPostion": "center",
+                                            "alt": "",
+                                            "backgroundSize": "cover"
+                                        }
+                                    },
+                                    "section_id": "6502b10dda5e7207a261b6c6",
+                                    "containers_ref": "6502b10dda5e7207a261b6c4",
+                                    "main_containers_ref": "6502b10dda5e7207a261b6c2",
+                                    "owner": "6501471cf48ccc086a2ce80b",
+                                    "business": "65014735f48ccc086a2ce816",
+                                    "page_id": "6501473b3af29308b182356b",
+                                    "position": 0,
+                                    "template": "650147353af29308b182354d"
+                                }
+                            ]
+                        },
+                        {
+                            "_id": "6502b10dda5e7207a261b6ca",
+                            "componentRender": "grid",
+                            "style": {
+                                "desktop": {
+                                    "position": {
+                                        "position": "relative",
+                                        "positionTop": "0px",
+                                        "positionRight": "0px",
+                                        "positionBottom": "0px",
+                                        "positionLeft": "0px"
+                                    },
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "display": "grid",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "height": "fit-content",
+                                    "width": "",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "tablet": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "backgroundColor": "",
+                                    "background": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "mobile": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    }
+                                },
+                                "backgroundImage": {
+                                    "url": "",
+                                    "backgroundPostion": "center",
+                                    "alt": "",
+                                    "backgroundSize": "cover"
+                                }
+                            },
+                            "owner": "6501471cf48ccc086a2ce80b",
+                            "business": "65014735f48ccc086a2ce816",
+                            "page_id": "6501473b3af29308b182356b",
+                            "position": 1,
+                            "template": "650147353af29308b182354d",
+                            "containers_ref": "6502b10dda5e7207a261b6c4",
+                            "main_containers_ref": "6502b10dda5e7207a261b6c2",
+                            "data": [
+                                {
+                                    "_id": "6502b10dda5e7207a261b6cc",
+                                    "settings": [],
+                                    "type": "custom",
+                                    "custom_section_editable": [],
+                                    "data": [
+                                        {
+                                            "tagType": "h4",
+                                            "text": "Contact us",
+                                            "show": true,
+                                            "clasName": "someClass",
+                                            "name": "Block heading",
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontSize": "var(--global-typography-fontSizeH4)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH4)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH4)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH4)",
+                                                    "textTransform": "capitalize",
+                                                    "backgroundColor": "transparent",
+                                                    "textAlign": "flex-start",
+                                                    "padding": {
+                                                        "paddingTop": "0",
+                                                        "paddingRight": "0",
+                                                        "paddingBottom": "0",
+                                                        "paddingLeft": "0"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "16px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "color": "",
+                                                    "fontSize": "",
+                                                    "fontWeight": "",
+                                                    "lineHeight": "",
+                                                    "backgroundColor": "",
+                                                    "textAlign": "center",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "16px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "color": "",
+                                                    "fontsize": "",
+                                                    "fontweight": "",
+                                                    "lineheight": "",
+                                                    "backgroundcolor": "",
+                                                    "textalign": "",
+                                                    "position": {
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "16px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                }
+                                            },
+                                            "data": [
+                                                {
+                                                    "type": "alignLeft",
+                                                    "children": [
+                                                        {
+                                                            "type": "h4",
+                                                            "children": [
+                                                                {
+                                                                    "fontSize": "24px",
+                                                                    "lineHeight": "31px",
+                                                                    "text": "Contact us"
+                                                                }
+                                                            ],
+                                                            "style": {
+                                                                "desktop": {
+                                                                    "color": "var(--global-color-primary)",
+                                                                    "fontSize": "var(--global-typography-fontSizeH4)",
+                                                                    "fontFamily": "var(--global-typography-fontFamilyH4)",
+                                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                                    "fontStyle": "var(--global-typography-fontStyleH4)",
+                                                                    "lineHeight": "0px",
+                                                                    "padding": {
+                                                                        "paddingTop": "0",
+                                                                        "paddingRight": "0",
+                                                                        "paddingBottom": "0",
+                                                                        "paddingLeft": "0"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "tablet": {
+                                                                    "color": "",
+                                                                    "fontSize": "",
+                                                                    "fontWeight": "",
+                                                                    "lineHeight": "",
+                                                                    "backgroundColor": "",
+                                                                    "textAlign": "center",
+                                                                    "position": {
+                                                                        "position": "relative",
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "mobile": {
+                                                                    "color": "",
+                                                                    "fontsize": "",
+                                                                    "fontweight": "",
+                                                                    "lineheight": "",
+                                                                    "backgroundcolor": "",
+                                                                    "textalign": "",
+                                                                    "position": {
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "30px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Contact us for a quote, help or to join the team",
+                                            "show": true,
+                                            "clasName": "someClass",
+                                            "backgroundColor": "",
+                                            "name": "Block Description",
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "textTransform": "capitalize",
+                                                    "backgroundColor": "transparent",
+                                                    "textAlign": "center",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "auto",
+                                                        "marginBottom": "30px",
+                                                        "marginLeft": "auto"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "auto",
+                                                        "marginBottom": "30px",
+                                                        "marginLeft": "auto"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "auto",
+                                                        "marginBottom": "30px",
+                                                        "marginLeft": "auto"
+                                                    }
+                                                }
+                                            },
+                                            "data": [
+                                                {
+                                                    "type": "alignLeft",
+                                                    "children": [
+                                                        {
+                                                            "type": "p",
+                                                            "children": [
+                                                                {
+                                                                    "fontSize": "16px",
+                                                                    "lineHeight": "25px",
+                                                                    "text": "Contact us for a quote, help or to join the team"
+                                                                }
+                                                            ],
+                                                            "style": {
+                                                                "desktop": {
+                                                                    "color": "var(--global-color-primary)",
+                                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                                    "lineHeight": "0px",
+                                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                                    "padding": {
+                                                                        "paddingTop": "0",
+                                                                        "paddingRight": "0",
+                                                                        "paddingBottom": "0",
+                                                                        "paddingLeft": "0"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "36px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "tablet": {
+                                                                    "color": "",
+                                                                    "fontSize": "",
+                                                                    "fontWeight": "",
+                                                                    "lineHeight": "",
+                                                                    "backgroundColor": "",
+                                                                    "textAlign": "center",
+                                                                    "position": {
+                                                                        "position": "relative",
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "mobile": {
+                                                                    "color": "",
+                                                                    "fontsize": "",
+                                                                    "fontweight": "",
+                                                                    "lineheight": "",
+                                                                    "backgroundcolor": "",
+                                                                    "textalign": "",
+                                                                    "position": {
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "30px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "gridShow": true,
+                                    "componentRender": "customComponent",
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "fit-content",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "backgroundColor": "",
+                                            "background": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            }
+                                        },
+                                        "backgroundImage": {
+                                            "url": "",
+                                            "backgroundPostion": "center",
+                                            "alt": "",
+                                            "backgroundSize": "cover"
+                                        }
+                                    },
+                                    "section_id": "6502b10dda5e7207a261b6ca",
+                                    "containers_ref": "6502b10dda5e7207a261b6c4",
+                                    "main_containers_ref": "6502b10dda5e7207a261b6c2",
+                                    "owner": "6501471cf48ccc086a2ce80b",
+                                    "business": "65014735f48ccc086a2ce816",
+                                    "page_id": "6501473b3af29308b182356b",
+                                    "position": 0,
+                                    "template": "650147353af29308b182354d"
+                                },
+                                {
+                                    "_id": "6502b10dda5e7207a261b6cf",
+                                    "settings": [],
+                                    "type": "static",
+                                    "custom_section_editable": [
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "SubmitSection1",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "",
+                                                    "justifyContent": "center",
+                                                    "width": "100%",
+                                                    "gap": "109px",
+                                                    "overflow": "hidden",
+                                                    "backgroundColor": "",
+                                                    "borderRadius": "",
+                                                    "padding": "",
+                                                    "boxShadow": "",
+                                                    "margin": ""
+                                                },
+                                                "tablet": {
+                                                    "height": "auto",
+                                                    "width": "auto",
+                                                    "gap": "20px"
+                                                },
+                                                "mobile": {
+                                                    "flexWrap": "wrap",
+                                                    "gap": "50px"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "figure",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "SubmitSection1LT",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "100%",
+                                                    "maxHeight": "680px"
+                                                },
+                                                "tablet": {
+                                                    "height": "auto",
+                                                    "width": "50%"
+                                                },
+                                                "mobile": {
+                                                    "width": "100%"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "image",
+                                            "className": "",
+                                            "name": "SubmitSection1LTImage",
+                                            "show": true,
+                                            "style": {
+                                                "desktop": {
+                                                    "maxWidth": "100%",
+                                                    "width": "100%",
+                                                    "maxHeight": "100%",
+                                                    "height": "100%",
+                                                    "display": "block",
+                                                    "objectFit": "cover",
+                                                    "objectPosition": "center"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "SubmitSection1RT",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "100%",
+                                                    "height": "100%",
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "gap": "20px"
+                                                },
+                                                "tablet": {
+                                                    "height": "auto",
+                                                    "width": "50%",
+                                                    "gap": "10px"
+                                                },
+                                                "mobile": {
+                                                    "width": "100%",
+                                                    "height": "auto"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h3",
+                                            "text": "Contact Us",
+                                            "show": true,
+                                            "name": "SubmitSection1RTH1",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-primary)",
+                                                    "maxWidth": "100%",
+                                                    "overflow": "hidden",
+                                                    "whiteSpace": "nowrap",
+                                                    "textOverflow": "ellipsis",
+                                                    "fontSize": "var(--global-typography-fontSizeH3)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH3)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH3)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH3)"
+                                                },
+                                                "mobile": {
+                                                    "order": "2"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Contact us for a quote,help or to join the team",
+                                            "show": true,
+                                            "name": "SubmitSection1RTP",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "maxWidth": "100%",
+                                                    "overflow": "hidden",
+                                                    "whiteSpace": "nowrap",
+                                                    "textOverflow": "ellipsis",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "margin": {
+                                                        "marginTop": "10px"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "SubmitSection1RTContent",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "position": "relative"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "FormContent",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "position": "relative"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "label",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "FormContentLabel",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "maxWidth": "100%",
+                                                    "overflow": "hidden",
+                                                    "whiteSpace": "nowrap",
+                                                    "textOverflow": "ellipsis",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)"
+                                                },
+                                                "tablet": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px)"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "input",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "FormContentInput",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "100%",
+                                                    "border": "1px solid rgba(32, 32, 32, 0.2)",
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px)",
+                                                    "padding": {
+                                                        "paddingTop": "10px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "9px",
+                                                        "paddingLeft": "16px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "5px"
+                                                    },
+                                                    "placeholder": {
+                                                        "fontSize": "calc(var(--global-typography-fontSizeP) - 2px)",
+                                                        "fontWeight": "var(--global-typography-fontWightLight)",
+                                                        "lineHeight": "var(--global-typography-lineHeightP)",
+                                                        "color": "rgba(32, 32, 32, 0.4)"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeP) - 2px)"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "FeedText",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": {
+                                                        "paddingTop": "",
+                                                        "paddingBottom": "40px"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "padding": {
+                                                        "paddingTop": "",
+                                                        "paddingBottom": "40px"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "button",
+                                            "text": "SUBMIT",
+                                            "show": true,
+                                            "name": "SubmitBtn",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeButton) + 2px)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "lineHeight": "var(--global-typography-lineHeightButton)",
+                                                    "width": "184px",
+                                                    "height": "48px",
+                                                    "backgroundColor": "var(--global-color-primary)",
+                                                    "color": "var(--global-color-penitentiary)",
+                                                    "border": "none",
+                                                    "transition": ".3s all",
+                                                    "hover": {
+                                                        "backgroundColor": "var(--global-color-primary)"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "width": "100%"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "+91 95606 25959",
+                                            "show": true,
+                                            "name": "PhoneDetail",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "color": "var(--global-color-primary-darkShadeBold)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "support@eblouissante.com",
+                                            "show": true,
+                                            "name": "EmailDetail",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "color": "var(--global-color-primary-darkShadeBold)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Address - 203, Tower C, Ithum Towers, Sector 62, Noida, Uttar Pradesh 201309",
+                                            "show": true,
+                                            "name": "AddressDetails",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "color": "var(--global-color-primary-darkShadeBold)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MidRightImg",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "marginTop": "21px",
+                                                    "width": "100%",
+                                                    "height": "190px",
+                                                    "maxWidth": "100%"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "iframe",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "IFrame",
+                                            "clasName": "",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "100%",
+                                                    "height": "100%"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "data": {
+                                        "_id": "65014735f48ccc086a2ce819",
+                                        "contact_form": [
+                                            {
+                                                "componentRender": "EditorFormInput",
+                                                "title": "EMAIL",
+                                                "placeholder": "Email",
+                                                "label": "Email",
+                                                "mandate": true,
+                                                "show": true,
+                                                "verify": true,
+                                                "verified": false,
+                                                "isEmail": true,
+                                                "isDefault": true,
+                                                "isValid": true,
+                                                "value": "loyolaschool@gmail.com"
+                                            },
+                                            {
+                                                "componentRender": "EditorDatePicker",
+                                                "title": "DATE",
+                                                "placeholder": "edit form",
+                                                "label": "edit form",
+                                                "mandate": true,
+                                                "show": true,
+                                                "value": "",
+                                                "isValid": false
+                                            },
+                                            {
+                                                "componentRender": "EditorPhoneInput",
+                                                "title": "Phone Number",
+                                                "placeholder": "Phone Number",
+                                                "label": "Phone Number",
+                                                "mandate": true,
+                                                "show": true,
+                                                "verify": false,
+                                                "verified": false,
+                                                "isPhoneNumber": true,
+                                                "isDefault": true,
+                                                "value": "9560629558",
+                                                "country_code": "91",
+                                                "isValid": true
+                                            },
+                                            {
+                                                "componentRender": "EditorSelectDropDown",
+                                                "title": "DROPDOWN",
+                                                "placeholder": "dsadasda",
+                                                "label": "asdas",
+                                                "mandate": true,
+                                                "show": true,
+                                                "value": "",
+                                                "OptionData": [
+                                                    "11",
+                                                    "1112",
+                                                    "23",
+                                                    "243"
+                                                ],
+                                                "isValid": false
+                                            },
+                                            {
+                                                "componentRender": "EditorTextArea",
+                                                "title": "MULTI-LINE-INPUT",
+                                                "placeholder": "multi line",
+                                                "label": "multi line",
+                                                "mandate": true,
+                                                "show": true,
+                                                "value": "",
+                                                "isValid": false
+                                            },
+                                            {
+                                                "componentRender": "EditorTimePicker",
+                                                "title": "TIME",
+                                                "placeholder": "asdasdadasdasdas",
+                                                "label": "dasasdas",
+                                                "mandate": true,
+                                                "show": true,
+                                                "value": "",
+                                                "isValid": false
+                                            },
+                                            {
+                                                "componentRender": "EditorFormInput",
+                                                "title": "",
+                                                "placeholder": "discription",
+                                                "label": "discription",
+                                                "mandate": true,
+                                                "show": true,
+                                                "value": "",
+                                                "isValid": false
+                                            },
+                                            {
+                                                "componentRender": "EditorFormInput",
+                                                "title": "",
+                                                "placeholder": "textssss",
+                                                "label": "textssss",
+                                                "mandate": true,
+                                                "show": true,
+                                                "value": "",
+                                                "isValid": false
+                                            }
+                                        ],
+                                        "heading": "Get in Touch",
+                                        "subheading": "We are here for you. How can we help?",
+                                        "buttonText": "Submit",
+                                        "isDeleted": false,
+                                        "form_name": "Form",
+                                        "owner": "6501471cf48ccc086a2ce80b",
+                                        "business": "65014735f48ccc086a2ce816",
+                                        "createdAt": "2023-09-13T05:23:01.035Z",
+                                        "updatedAt": "2023-09-14T08:00:23.985Z",
+                                        "__v": 0
+                                    },
+                                    "gridShow": true,
+                                    "componentRender": "contact_theme1",
+                                    "section_name": "contactus",
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "fit-content",
+                                            "width": "100%",
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        }
+                                    },
+                                    "section_id": "6502b10dda5e7207a261b6ca",
+                                    "containers_ref": "6502b10dda5e7207a261b6c4",
+                                    "main_containers_ref": "6502b10dda5e7207a261b6c2",
+                                    "owner": "6501471cf48ccc086a2ce80b",
+                                    "business": "65014735f48ccc086a2ce816",
+                                    "page_id": "6501473b3af29308b182356b",
+                                    "position": 1,
+                                    "template": "650147353af29308b182354d"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

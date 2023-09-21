@@ -1,0 +1,88 @@
+.HeaderStructureWrapper {
+    padding: 14px 17px;
+
+    .StructureCard {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 12px;
+
+        .card {
+            width: 71px;
+            height: 44px;
+            position: relative;
+            filter: drop-shadow(0px 0px 3px rgba(32, 32, 32, 0.15));
+            border-radius: 4px;
+            overflow: hidden;
+            cursor: pointer;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.2);
+                opacity: 0;
+            }
+
+            .Icon {
+                position: absolute;
+                bottom: 4px;
+                right: 4px;
+                display: none;
+                cursor: pointer;
+                width: 12px;
+                height: 12px;
+                background-color: #ffffff;
+                z-index: 1;
+                // -webkit-mask: url("../../../../../../../Assets/SiteEditor/Icons/check-Icon.svg") no-repeat center;
+                background: url("../../../../../../../Assets/SiteEditor/Icons/check-Icon.svg") no-repeat center;
+            }
+
+            .Header1,
+            .Header2,
+            .Header3,
+            .Header4,
+            .Header5,
+            .Header6 {
+                width: 71px;
+                height: 44px;
+                display: block;
+                cursor: pointer;
+                background: url('../../../../../../../Assets/SiteEditor/images/headerStructure/headerStructure1.png') no-repeat center;
+            }
+
+            .Header2 {
+                background: url('../../../../../../../Assets/SiteEditor/images/headerStructure/headerStructure2.png') no-repeat center;
+            }
+
+            .Header3 {
+                background: url('../../../../../../../Assets/SiteEditor/images/headerStructure/headerStructure3.png') no-repeat center;
+            }
+
+            .Header4 {
+                background: url('../../../../../../../Assets/SiteEditor/images/headerStructure/headerStructure4.png') no-repeat center;
+            }
+
+            .Header5 {
+                background: url('../../../../../../../Assets/SiteEditor/images/headerStructure/headerStructure5.png') no-repeat center;
+            }
+
+            .Header6 {
+                background: url('../../../../../../../Assets/SiteEditor/images/headerStructure/headerStructure6.png') no-repeat center;
+            }
+
+            &.active {
+                &::after {
+                    opacity: 1;
+                }
+
+                .Icon {
+                    display: block;
+                }
+            }
+        }
+    }
+}

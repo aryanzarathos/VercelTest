@@ -1,0 +1,49 @@
+@import "../../../../../styles/GloablStyle/theme";
+
+.modalBodyContent {
+    text-align: center;
+
+    .thankYoucontent {
+        font-family: "Poppins";
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 34px;
+        text-align: center;
+        color: rgba($base, 1);
+        margin-top: 82px;
+
+        span {
+            font-size: 34px;
+            line-height: 52.87px;
+            color: rgba($primary, 1);
+        }
+    }
+
+    .thankYoucontentP {
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba($base, 0.6);
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .closeBtn {
+        background: transparent;
+        color: rgba($base, 0.6);
+        font-family: "Poppins";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        outline: none;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-bottom: 16px;
+
+    }
+}

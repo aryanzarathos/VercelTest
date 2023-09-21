@@ -1,0 +1,49 @@
+@import '../../../../../../styles/GloablStyle/theme';
+
+.selectdropdownButtonContainer {
+  .selectDropDownButtonWrap {
+    background: #FCFCFC;
+    border: 1.5px solid #ececec;
+    border-radius: 6px;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 7px;
+    span{
+      font-family:"Poppins", sans-serif;
+    }
+    .formControl{
+      border: none;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #202020;
+      font-family: "Poppins", sans-serif;
+      width: 100%;
+    }
+  }
+
+  .btnOvalShape {
+    border-radius: 30px;
+  }
+
+
+
+  .iconDown {
+    -webkit-mask: url("../../../../../../Assets/SiteEditor/Icons/arrow-down.svg") no-repeat center;
+    mask-image: url("../../../../../../Assets/SiteEditor/Icons/arrow-down.svg") no-repeat center;
+    width: 10px;
+    height: 10px;
+    background-color: rgba($primary, 1);
+    display: block;
+    transform: rotate(0deg);
+    transition: all 0.4s linear;
+  }
+
+  .iconRotate {
+    transform: rotate(180deg);
+  }
+
+}

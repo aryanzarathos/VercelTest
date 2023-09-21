@@ -1,0 +1,1990 @@
+{
+    "data": [
+        {
+            "access_id": "5463819fce0473378c326777",
+            "query_name": "testimonial",
+            "appearenceType": "default",
+            "containerWidth": "containerlg",
+            "customWidth": false,
+            "componentRender": "container",
+            "container_name": "Testimonial",
+            "style": {
+                "desktop": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": "80",
+                    "display": "grid",
+                    "gridColumns": "1",
+                    "backgroundType": "color",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "tablet": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "backgroundType": "",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "mobile": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "backgroundType": "",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                }
+            },
+            "data": [
+                {
+                    "componentRender": "subContainer",
+                    "backgroundType": "image",
+                    "style": {
+                        "desktop": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "backgroundColor": "",
+                            "display": "grid",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "height": "min-height",
+                            "width": "100%",
+                            "background": "",
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        },
+                        "tablet": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "backgroundColor": "",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "width": "100%",
+                            "background": "",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        },
+                        "mobile": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "backgroundColor": "",
+                            "background": "",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "width": "100%",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        }
+                    },
+                    "data": [
+                        {
+                            "componentRender": "grid",
+                            "style": {
+                                "desktop": {
+                                    "zIndex": "2",
+                                    "position": {
+                                        "position": "relative",
+                                        "positionTop": "0px",
+                                        "positionRight": "0px",
+                                        "positionBottom": "0px",
+                                        "positionLeft": "0px"
+                                    },
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "display": "grid",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "height": "min-height",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "tablet": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "backgroundColor": "transparent",
+                                    "background": "transparent",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "mobile": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "background": "transparent",
+                                    "backgroundColor": "transparent",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    }
+                                },
+                                "backgroundImage": {
+                                    "url": "",
+                                    "backgroundPostion": "center",
+                                    "alt": "",
+                                    "backgroundSize": "cover"
+                                }
+                            },
+                            "data": [
+                                {
+                                    "type": "custom",
+                                    "custom": true,
+                                    "componentRender": "customComponent",
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "min-height",
+                                            "width": "100%",
+                                            "textAlign": "center",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "backgroundColor": "black",
+                                            "background": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            }
+                                        },
+                                        "backgroundImage": {
+                                            "url": "",
+                                            "backgroundPostion": "center",
+                                            "alt": "",
+                                            "backgroundSize": "cover"
+                                        }
+                                    },
+                                    "data": [
+                                        {
+                                            "tagType": "h4",
+                                            "text": "Our Testimonials",
+                                            "show": true,
+                                            "clasName": "someClass",
+                                            "name": "Block Heading",
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontSize": "var(--global-typography-fontSizeH4)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH4)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH4)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH4)",
+                                                    "textTransform": "capitalize",
+                                                    "backgroundColor": "transparent",
+                                                    "textAlign": "center",
+                                                    "padding": {
+                                                        "paddingTop": "0",
+                                                        "paddingRight": "0",
+                                                        "paddingBottom": "0",
+                                                        "paddingLeft": "0"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "16px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "color": "",
+                                                    "fontSize": "",
+                                                    "fontWeight": "",
+                                                    "lineHeight": "",
+                                                    "backgroundColor": "",
+                                                    "textAlign": "center",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "16px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "color": "",
+                                                    "fontsize": "",
+                                                    "fontweight": "",
+                                                    "lineheight": "",
+                                                    "backgroundcolor": "",
+                                                    "textalign": "",
+                                                    "position": {
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "16px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                }
+                                            },
+                                            "data": [
+                                                {
+                                                    "type": "alignCenter",
+                                                    "children": [
+                                                        {
+                                                            "type": "h4",
+                                                            "children": [
+                                                                {
+                                                                    "text": "Our Testimonials",
+                                                                    "fontSize": "24px",
+                                                                    "lineHeight": "31px"
+                                                                }
+                                                            ],
+                                                            "style": {
+                                                                "desktop": {
+                                                                    "color": "var(--global-color-primary)",
+                                                                    "fontSize": "var(--global-typography-fontSizeH4)",
+                                                                    "fontFamily": "var(--global-typography-fontFamilyH4)",
+                                                                    "fontWeight": "var(----global-typography-fontWightMedium)",
+                                                                    "fontStyle": "var(--global-typography-fontStyleH4)",
+                                                                    "lineHeight": "0px",
+                                                                    "padding": {
+                                                                        "paddingTop": "0",
+                                                                        "paddingRight": "0",
+                                                                        "paddingBottom": "0",
+                                                                        "paddingLeft": "0"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "tablet": {
+                                                                    "color": "",
+                                                                    "fontSize": "",
+                                                                    "fontWeight": "",
+                                                                    "lineHeight": "",
+                                                                    "backgroundColor": "",
+                                                                    "textAlign": "center",
+                                                                    "position": {
+                                                                        "position": "relative",
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "mobile": {
+                                                                    "color": "",
+                                                                    "fontsize": "",
+                                                                    "fontweight": "",
+                                                                    "lineheight": "",
+                                                                    "backgroundcolor": "",
+                                                                    "textalign": "",
+                                                                    "position": {
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "30px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Beatae, Laudantium.",
+                                            "show": true,
+                                            "clasName": "someClass",
+                                            "backgroundColor": "",
+                                            "name": "Block Description",
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "textTransform": "capitalize",
+                                                    "backgroundColor": "transparent",
+                                                    "textAlign": "center",
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "auto",
+                                                        "marginBottom": "30px",
+                                                        "marginLeft": "auto"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "auto",
+                                                        "marginBottom": "30px",
+                                                        "marginLeft": "auto"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "auto",
+                                                        "marginBottom": "30px",
+                                                        "marginLeft": "auto"
+                                                    }
+                                                }
+                                            },
+                                            "data": [
+                                                {
+                                                    "type": "alignCenter",
+                                                    "children": [
+                                                        {
+                                                            "type": "p",
+                                                            "children": [
+                                                                {
+                                                                    "text": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Beatae, Laudantium.",
+                                                                    "fontSize": "16px",
+                                                                    "lineHeight": "25px"
+                                                                }
+                                                            ],
+                                                            "style": {
+                                                                "desktop": {
+                                                                    "color": "var(--global-color-primary)",
+                                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                                    "lineHeight": "0px",
+                                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                                    "padding": {
+                                                                        "paddingTop": "0",
+                                                                        "paddingRight": "0",
+                                                                        "paddingBottom": "0",
+                                                                        "paddingLeft": "0"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "36px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "tablet": {
+                                                                    "color": "",
+                                                                    "fontSize": "",
+                                                                    "fontWeight": "",
+                                                                    "lineHeight": "",
+                                                                    "backgroundColor": "",
+                                                                    "textAlign": "center",
+                                                                    "position": {
+                                                                        "position": "relative",
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "16px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                },
+                                                                "mobile": {
+                                                                    "color": "",
+                                                                    "fontsize": "",
+                                                                    "fontweight": "",
+                                                                    "lineheight": "",
+                                                                    "backgroundcolor": "",
+                                                                    "textalign": "",
+                                                                    "position": {
+                                                                        "top": "0px",
+                                                                        "bottom": "0px",
+                                                                        "left": "0px",
+                                                                        "right": "0px"
+                                                                    },
+                                                                    "padding": {
+                                                                        "paddingTop": "0px",
+                                                                        "paddingRight": "0px",
+                                                                        "paddingBottom": "0px",
+                                                                        "paddingLeft": "0px"
+                                                                    },
+                                                                    "margin": {
+                                                                        "marginTop": "0px",
+                                                                        "marginRight": "0px",
+                                                                        "marginBottom": "30px",
+                                                                        "marginLeft": "0px"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "componentRender": "grid",
+                            "style": {
+                                "desktop": {
+                                    "position": {
+                                        "position": "relative",
+                                        "positionTop": "0px",
+                                        "positionRight": "0px",
+                                        "positionBottom": "0px",
+                                        "positionLeft": "0px"
+                                    },
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "display": "grid",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "height": "min-height",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "36px",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "tablet": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "backgroundColor": "",
+                                    "background": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "mobile": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    }
+                                },
+                                "backgroundImage": {
+                                    "url": "",
+                                    "backgroundPostion": "center",
+                                    "alt": "",
+                                    "backgroundSize": "cover"
+                                }
+                            },
+                            "data": [
+                                {
+                                    "type": "static",
+                                    "componentRender": "testimonial",
+                                    "sectionType": "testimonial",
+                                    "section_name": "testimonial",
+                                    "name": "Dynamic Section",
+                                    "gridConvertible": true,
+                                    "sliderSetting": {
+                                        "dots": true,
+                                        "spaceBetween": "30",
+                                        "className": "mySwipper",
+                                        "arrows": true,
+                                        "autoPlay": true,
+                                        "autoPlaySpeed": 5000,
+                                        "speed": 1200,
+                                        "pauseOnHover": true,
+                                        "loop": false,
+                                        "pagination": {
+                                            "clickable": true
+                                        },
+                                        "breakpoints": {
+                                            "mobile": {
+                                                "slidesPerView": 1
+                                            },
+                                            "tablet": {
+                                                "slidesPerView": 3
+                                            },
+                                            "desktop": {
+                                                "slidesPerView": 4
+                                            }
+                                        },
+                                        "arrowColor": "var(--global-color-quaternary-lightShadeThin)",
+                                        "dotsColor": "var(--global-color-primary)",
+                                        "customNavigation": {
+                                            "PrevBtn": {
+                                                "left": "-4%",
+                                                "right": "",
+                                                "background": "transparent",
+                                                "outline": "none",
+                                                "border": "none",
+                                                "fontSize": "24px"
+                                            },
+                                            "NextBtn": {
+                                                "left": "",
+                                                "right": "-4%",
+                                                "background": "transparent",
+                                                "outline": "none",
+                                                "border": "none",
+                                                "fontSize": "24px"
+                                            }
+                                        },
+                                        "padding": {
+                                            "paddingBottom": "50px"
+                                        }
+                                    },
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "objectView": "grid",
+                                            "gridCount": "4",
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "min-height",
+                                            "width": "",
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "objectView": "grid",
+                                            "gridCount": "3",
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "objectView": "grid",
+                                            "gridCount": "1",
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        }
+                                    },
+                                    "custom_section_editable": [
+                                        {
+                                            "tagType": "div",
+                                            "name": "ContainerMain",
+                                            "id": 1,
+                                            "className": "",
+                                            "show": true,
+                                            "editableField": [
+                                                {
+                                                    "title": "Background",
+                                                    "type": "color",
+                                                    "value": "var(--global-color-penitentiary)",
+                                                    "tab": "Grid",
+                                                    "propertyChange": "background",
+                                                    "propertyType": "string",
+                                                    "editId": "1"
+                                                },
+                                                {
+                                                    "title": "Padding",
+                                                    "type": "input",
+                                                    "value": "0",
+                                                    "tab": "Grid",
+                                                    "propertyChange": "paddingTop",
+                                                    "propertyType": "object",
+                                                    "updateItems": [
+                                                        "paddingTop"
+                                                    ],
+                                                    "objectKey": "padding",
+                                                    "editId": "2"
+                                                }
+                                            ],
+                                            "style": {
+                                                "desktop": {
+                                                    "background": "",
+                                                    "padding": {
+                                                        "paddingTop": "",
+                                                        "paddingBottom": "",
+                                                        "paddingLeft": "",
+                                                        "paddingRight": ""
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "name": "HeadingWrapper",
+                                            "className": "",
+                                            "id": 2,
+                                            "show": true,
+                                            "style": {
+                                                "desktop": {
+                                                    "background": "var(--global-color-penitentiary)",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h2",
+                                            "name": "HeadingWrapperH1",
+                                            "className": "",
+                                            "show": true,
+                                            "id": 3,
+                                            "text": "Our testimonials",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontFamily": "var(--global-typography-fontFamilyH2)",
+                                                    "fontSize": "var(--global-typography-fontSizeH2)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH2)",
+                                                    "textTransform": "capitalize",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH2)",
+                                                    "textAlign": "center",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {
+                                                    "fontSize": "calc(var(--global-typography-fontSizeH3) - 2px)"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "name": "CardWrapper",
+                                            "className": "",
+                                            "show": true,
+                                            "id": 4,
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "grid",
+                                                    "gridTemplateColumns": "1fr 1fr 1fr 1fr",
+                                                    "gap": "20px",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "gridTemplateColumns": "1fr 1fr 1fr",
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "gridTemplateColumns": "1fr",
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "image",
+                                            "name": "ImageWrapperImage",
+                                            "className": "",
+                                            "show": true,
+                                            "id": 5,
+                                            "style": {
+                                                "desktop": {
+                                                    "height": "100%",
+                                                    "width": "100%",
+                                                    "objectFit": "cover",
+                                                    "borderRadius": {
+                                                        "borderTopLeftRadius": "50%",
+                                                        "borderTopRightRadius": "50%",
+                                                        "borderBottomLeftRadius": "50%",
+                                                        "borderBottomRightRadius": "50%"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "name": "CardWrap",
+                                            "className": "",
+                                            "id": 6,
+                                            "show": true,
+                                            "editableField": [
+                                                {
+                                                    "title": "Grid Background",
+                                                    "type": "color",
+                                                    "value": "var(--global-color-penitentiary)",
+                                                    "tab": "Grid",
+                                                    "propertyChange": "background",
+                                                    "propertyType": "string",
+                                                    "editId": "3"
+                                                },
+                                                {
+                                                    "title": "Grid Padding",
+                                                    "type": "input",
+                                                    "value": "0",
+                                                    "tab": "Grid",
+                                                    "propertyChange": "paddingTop",
+                                                    "propertyType": "object",
+                                                    "objectKey": "padding",
+                                                    "editId": "4"
+                                                },
+                                                {
+                                                    "title": "Grid Border",
+                                                    "type": "color",
+                                                    "value": "var(--global-color-penitentiary)",
+                                                    "tab": "Grid",
+                                                    "propertyChange": "borderColor",
+                                                    "propertyType": "string",
+                                                    "editId": "5"
+                                                },
+                                                {
+                                                    "title": "Grid Border Width",
+                                                    "type": "input",
+                                                    "value": "0",
+                                                    "tab": "Grid",
+                                                    "propertyChange": "borderWidth",
+                                                    "propertyType": "string",
+                                                    "editId": "6"
+                                                }
+                                            ],
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "justifyContent": "center",
+                                                    "alignItems": "center",
+                                                    "background": "",
+                                                    "padding": {
+                                                        "paddingTop": "",
+                                                        "paddingBottom": "",
+                                                        "paddingLeft": "",
+                                                        "paddingRight": ""
+                                                    },
+                                                    "borderStyle": "solid",
+                                                    "borderWidth": "0px",
+                                                    "borderColor": "transparent",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "10px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "figure",
+                                            "name": "ImageWrapper",
+                                            "className": "",
+                                            "show": true,
+                                            "id": 7,
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "block",
+                                                    "width": "144px",
+                                                    "height": "144px",
+                                                    "borderRadius": "50%",
+                                                    "position": "relative",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "30px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "name": "AboutWraper",
+                                            "className": "",
+                                            "id": 8,
+                                            "show": true,
+                                            "style": {
+                                                "desktop": {
+                                                    "textAlign": "center",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h6",
+                                            "name": "AboutWraperH3",
+                                            "className": "",
+                                            "show": true,
+                                            "id": 9,
+                                            "editableField": [
+                                                {
+                                                    "title": "Client Name",
+                                                    "tab": "Text",
+                                                    "value": "var(--global-color-primary)",
+                                                    "type": "color",
+                                                    "propertyChange": "color",
+                                                    "propertyType": "string",
+                                                    "editId": "7"
+                                                }
+                                            ],
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeH6)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH6)",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "8px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "name": "AboutWraperP",
+                                            "className": "",
+                                            "show": true,
+                                            "id": 10,
+                                            "editableField": [
+                                                {
+                                                    "title": "Description",
+                                                    "tab": "Text",
+                                                    "value": "var(--global-color-quaternary)",
+                                                    "type": "color",
+                                                    "propertyChange": "color",
+                                                    "propertyType": "string",
+                                                    "editId": "8"
+                                                }
+                                            ],
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "textAlign": "center",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "18px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "name": "QuatationMarkContainer",
+                                            "className": "",
+                                            "id": 11,
+                                            "show": true,
+                                            "editableField": [
+                                                {
+                                                    "title": "quote Background",
+                                                    "type": "color",
+                                                    "value": "var(--global-color-quaternary)",
+                                                    "tab": "Icon",
+                                                    "propertyChange": "backgroundColor",
+                                                    "propertyType": "string",
+                                                    "editId": "9"
+                                                },
+                                                {
+                                                    "title": "quote Border",
+                                                    "type": "color",
+                                                    "value": "var(--global-color-penitentiary)",
+                                                    "tab": "Icon",
+                                                    "propertyChange": "outlineColor",
+                                                    "propertyType": "string",
+                                                    "editId": "10"
+                                                },
+                                                {
+                                                    "title": "quote Border Width",
+                                                    "type": "input",
+                                                    "value": "2px",
+                                                    "tab": "Icon",
+                                                    "propertyChange": "outlineWidth",
+                                                    "propertyType": "string",
+                                                    "editId": "11"
+                                                }
+                                            ],
+                                            "style": {
+                                                "desktop": {
+                                                    "position": "absolute",
+                                                    "top": "75%",
+                                                    "right": "0",
+                                                    "width": "36px",
+                                                    "height": "36px",
+                                                    "borderRadius": "50%",
+                                                    "backgroundColor": "var(--global-color-quaternary)",
+                                                    "outlineStyle": "solid",
+                                                    "outlineWidth": "2px",
+                                                    "outlineColor": "var(--global-color-penitentiary)",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "svg",
+                                            "name": "QuatationMarkContainerSvg",
+                                            "className": "",
+                                            "id": 12,
+                                            "show": true,
+                                            "editableField": [
+                                                {
+                                                    "title": "quote icon",
+                                                    "tab": "Icon",
+                                                    "value": "var(--global-color-penitentiary)",
+                                                    "type": "color",
+                                                    "propertyChange": "fill",
+                                                    "propertyType": "object",
+                                                    "objectKey": "svg",
+                                                    "svg": "var(--global-color-penitentiary)",
+                                                    "editId": "12"
+                                                }
+                                            ],
+                                            "style": {
+                                                "desktop": {
+                                                    "position": "absolute",
+                                                    "top": "50%",
+                                                    "left": "50%",
+                                                    "transform": "translate(-50%,-50%)",
+                                                    "width": "16px",
+                                                    "height": "12px",
+                                                    "fill": "var(--global-color-penitentiary)",
+                                                    "outlineStyle": "solid",
+                                                    "outlineWidth": "",
+                                                    "outlineColor": "",
+                                                    "svg": {
+                                                        "fill": "var(--global-color-penitentiary)"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h6",
+                                            "name": "postPara",
+                                            "className": "",
+                                            "show": true,
+                                            "id": 13,
+                                            "editableField": [
+                                                {
+                                                    "title": "Designation",
+                                                    "tab": "Text",
+                                                    "value": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "type": "color",
+                                                    "propertyChange": "color",
+                                                    "propertyType": "string",
+                                                    "editId": "13"
+                                                }
+                                            ],
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeH6)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH6)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                                                    "color": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "margin": {
+                                                        "marginTop": "0px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "0px",
+                                                        "paddingRight": "0px",
+                                                        "paddingBottom": "0px",
+                                                        "paddingLeft": "0px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {},
+                                                "mobile": {}
+                                            }
+                                        }
+                                    ],
+                                    "data": [
+                                        {
+                                            "id": "1",
+                                            "thumbnail": {
+                                                "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                                                "alt": "image1"
+                                            },
+                                            "name": "Client Name 1",
+                                            "message": "This is a testimonial. Editing your testimonial is easy. Simply highlight the text and replace it with your ow",
+                                            "post": "- CEO, Paypal"
+                                        },
+                                        {
+                                            "id": "2",
+                                            "thumbnail": {
+                                                "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                                                "alt": "image2"
+                                            },
+                                            "name": "Client Name 2",
+                                            "message": "This is a testimonial. Editing your testimonial is easy. Simply highlight the text and replace it with your ow",
+                                            "post": "- CEO, Paypal"
+                                        },
+                                        {
+                                            "id": "3",
+                                            "thumbnail": {
+                                                "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                                                "alt": "image3"
+                                            },
+                                            "name": "Client Name 3",
+                                            "message": "This is a testimonial. Editing your testimonial is easy. Simply highlight the text and replace it with your ow",
+                                            "post": "- CEO, Paypal"
+                                        },
+                                        {
+                                            "id": "4",
+                                            "thumbnail": {
+                                                "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                                                "alt": "image4"
+                                            },
+                                            "name": "Client Name 4",
+                                            "message": "This is a testimonial. Editing your testimonial is easy. Simply highlight the text and replace it with your ow",
+                                            "post": "- CEO, Paypal"
+                                        },
+                                        {
+                                            "id": "5",
+                                            "thumbnail": {
+                                                "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                                                "alt": "image4"
+                                            },
+                                            "name": "Client Name 5",
+                                            "message": "This is a testimonial. Editing your testimonial is easy. Simply highlight the text and replace it with your ow",
+                                            "post": "- CEO, Paypal"
+                                        },
+                                        {
+                                            "id": "6",
+                                            "thumbnail": {
+                                                "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                                                "alt": "image4"
+                                            },
+                                            "name": "Client Name 6",
+                                            "message": "This is a testimonial. Editing your testimonial is easy. Simply highlight the text and replace it with your ow",
+                                            "post": "- CEO, Paypal"
+                                        },
+                                        {
+                                            "id": "7",
+                                            "thumbnail": {
+                                                "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                                                "alt": "image4"
+                                            },
+                                            "name": "Client Name 7",
+                                            "message": "This is a testimonial. Editing your testimonial is easy. Simply highlight the text and replace it with your ow",
+                                            "post": "- CEO, Paypal"
+                                        },
+                                        {
+                                            "id": "8",
+                                            "thumbnail": {
+                                                "src": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                                                "alt": "image4"
+                                            },
+                                            "name": "Client Name 8",
+                                            "message": "This is a testimonial. Editing your testimonial is easy. Simply highlight the text and replace it with your ow",
+                                            "post": "- CEO, Paypal"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "componentRender": "grid",
+                            "style": {
+                                "desktop": {
+                                    "position": {
+                                        "position": "relative",
+                                        "positionTop": "0px",
+                                        "positionRight": "0px",
+                                        "positionBottom": "0px",
+                                        "positionLeft": "0px"
+                                    },
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "display": "grid",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "height": "min-height",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "tablet": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "backgroundColor": "",
+                                    "background": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "mobile": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    }
+                                },
+                                "backgroundImage": {
+                                    "url": "",
+                                    "backgroundPostion": "center",
+                                    "alt": "",
+                                    "backgroundSize": "cover"
+                                }
+                            },
+                            "data": [
+                                {
+                                    "type": "custom",
+                                    "custom": true,
+                                    "componentRender": "customComponent",
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "transparent",
+                                            "backgroundColor": "transparent",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "min-height",
+                                            "width": "100%",
+                                            "textAlign": "center",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "backgroundColor": "",
+                                            "background": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            }
+                                        },
+                                        "backgroundImage": {
+                                            "url": "",
+                                            "backgroundPostion": "center",
+                                            "alt": "",
+                                            "backgroundSize": "cover"
+                                        }
+                                    },
+                                    "data": [
+                                        {
+                                            "tagType": "button",
+                                            "text": "View all",
+                                            "show": true,
+                                            "clasName": "someClass",
+                                            "backgroundColor": "transparent",
+                                            "name": "Button",
+                                            "style": {
+                                                "desktop": {
+                                                    "color": "var(--global-color-penitentiary)",
+                                                    "fontSize": "var(--global-typography-fontSizeButton)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyButton)",
+                                                    "textTransform": "capitalize",
+                                                    "backgroundColor": "var(--global-color-primary)",
+                                                    "textAlign": "center",
+                                                    "display": "block",
+                                                    "borderRadius": "4px",
+                                                    "borderWidth": "1px",
+                                                    "borderColor": "var(--global-color-primary)",
+                                                    "borderStyle": "solid",
+                                                    "fontStyle": "var(--global-typography-fontStyleButton)",
+                                                    "lineHeight": "var(--global-typography-lineHeightButton)",
+                                                    "defaultBackgroundColor": "var(--global-color-primary)",
+                                                    "defaultBorderColor": "var(--global-color-primary)",
+                                                    "ButtonAlign": "center",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "hover": {
+                                                        "color": "var(--global-color-penitentiary)",
+                                                        "backgroundColor": "var(--global-color-primary)",
+                                                        "borderColor": "var(--global-color-primary)",
+                                                        "defaultBackgroundColor": "var(--global-color-primary)",
+                                                        "defaultBorderColor": "var(--global-color-primary)"
+                                                    },
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "8px",
+                                                        "paddingRight": "24px",
+                                                        "paddingBottom": "8px",
+                                                        "paddingLeft": "24px"
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "30px",
+                                                        "marginRight": "0px",
+                                                        "marginBottom": "0px",
+                                                        "marginLeft": "0px"
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "",
+                                                        "paddingRight": "",
+                                                        "paddingBottom": "",
+                                                        "paddingLeft": ""
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "30px",
+                                                        "marginRight": "auto",
+                                                        "marginBottom": "auto",
+                                                        "marginLeft": "auto"
+                                                    }
+                                                },
+                                                "mobile": {
+                                                    "position": {
+                                                        "position": "relative",
+                                                        "top": "0px",
+                                                        "bottom": "0px",
+                                                        "left": "0px",
+                                                        "right": "0px"
+                                                    },
+                                                    "padding": {
+                                                        "paddingTop": "",
+                                                        "paddingRight": "",
+                                                        "paddingBottom": "",
+                                                        "paddingLeft": ""
+                                                    },
+                                                    "margin": {
+                                                        "marginTop": "30px",
+                                                        "marginRight": "auto",
+                                                        "marginBottom": "auto",
+                                                        "marginLeft": "auto"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

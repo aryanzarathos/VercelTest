@@ -1,0 +1,17 @@
+.spinnerLoaderWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+background-color: #fff;
+   
+    p {
+        font-family: "Poppins";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        color: #797979;
+    }
+}

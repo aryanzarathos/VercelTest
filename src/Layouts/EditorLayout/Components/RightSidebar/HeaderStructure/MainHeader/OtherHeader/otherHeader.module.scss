@@ -1,0 +1,227 @@
+.mainOtherHeader {
+
+    .switchBtn {
+        border-bottom: 2px solid rgba(244, 244, 244, 0.6);
+        padding: 12px 12px 14px 16px;
+
+        .phoneNoUprCont {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+            }
+
+            &:not(:first-child) {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .backgroundColor {
+
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 12px;
+
+        &:not(:first-child) {
+            margin-top: 12px;
+        }
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+
+        button {
+            padding: 6px 8px;
+            display: flex;
+            gap: 9px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 20px;
+            letter-spacing: -0.4px;
+            color: #202020;
+            background: #FFFFFF;
+            border: 1px solid rgba(32, 32, 32, 0.4);
+            border-radius: 4px;
+
+            span:first-child {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 10px;
+                line-height: 20px;
+                letter-spacing: -0.4px;
+                color: rgba(32, 32, 32, 0.8);
+                border-right: 1px solid rgba(32, 32, 32, 0.2);
+                padding-right: 8px;
+            }
+
+            span:nth-child(2) {
+                background: #000000;
+                border: 1px solid rgba(0, 0, 0, 0.08);
+                border-radius: 2px;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    .colorPickerPopupWrap {
+        position: absolute;
+        right: 285px;
+        top: 0;
+    }
+
+    .bookAppointmentWrapper {
+        border-top: 2px solid rgba(244, 244, 244, 0.6);
+        margin-top: 12px;
+    }
+
+    .marginBg {
+        margin-top: 6px !important;
+
+        :global .form-group {
+            width: 100% !important;
+        }
+    }
+
+    .typography {
+        padding: 12px 17px 0;
+
+        // border-top: 2px solid rgba(244, 244, 244, 0.6);
+
+        &:last-child {
+            border-bottom: 0px;
+        }
+
+        h3 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-transform: capitalize;
+            color: #000000;
+            margin-bottom: 14px;
+        }
+
+        .typoHeading {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-transform: capitalize;
+            color: #000000;
+        }
+
+        .tabsWrapper {
+            background: #F2F7FF;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            margin-top: 8px;
+
+            .tabBtn {
+                background: transparent;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                text-transform: capitalize;
+                color: rgba(32, 32, 32, 0.6);
+                padding: 1px 14px;
+                border: none;
+                outline: none;
+                border-radius: 4px;
+                width: 50%;
+            }
+
+            .activeTabBtn {
+                background: #3758F9;
+                color: #fff;
+            }
+        }
+    }
+
+    .bookAppointmentColor {
+
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+
+        &:not(:first-child) {
+            margin-top: 12px;
+        }
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+
+        button {
+            padding: 6px 8px;
+            display: flex;
+            gap: 9px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 20px;
+            letter-spacing: -0.4px;
+            color: #202020;
+            background: #FFFFFF;
+            border: 1px solid rgba(32, 32, 32, 0.4);
+            border-radius: 4px;
+
+            span:first-child {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 10px;
+                line-height: 20px;
+                letter-spacing: -0.4px;
+                color: rgba(32, 32, 32, 0.8);
+                border-right: 1px solid rgba(32, 32, 32, 0.2);
+                padding-right: 8px;
+            }
+
+            span:nth-child(2) {
+                background: #000000;
+                border: 1px solid rgba(0, 0, 0, 0.08);
+                border-radius: 2px;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,161 @@
+@import "../../../../../styles/GloablStyle/theme";
+
+.modalContentWrapper {
+
+
+    .modalBodyContent {
+        padding: 36px;
+
+        @media screen and (max-width:768px) {
+            padding: 12px;
+        }
+
+        &__contentWrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 56px;
+
+            &__leftSide {
+                &__h4 {
+                    font-family: "Poppins";
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    color: rgba($base, 1);
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid rgba($base, 0.2);
+
+                    span {
+                        color: rgba($primary, 1);
+                    }
+                }
+
+                &__whatsUpText {
+                    display: flex;
+                    margin-top: 20px;
+                    gap: 8px;
+
+                    &__P {
+                        font-family: "Poppins";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: rgba($base, 1);
+
+                    }
+                }
+
+                &__H3 {
+                    font-family: "Poppins";
+                    font-size: 25px;
+                    font-weight: 600;
+                    line-height: 33px;
+                    color: rgba($primary, 1);
+                    margin-top: 9px;
+                }
+            }
+
+            &__rightSide {
+                &__formWrapper {
+                    .inputWrapper {
+                        position: relative;
+
+                        .tooltipError {
+                            position: absolute;
+                            width: fit-content;
+                            top: 19px;
+                            right: 7px;
+                        }
+
+                        .tooltipErrorPhone {
+                            position: absolute;
+                            width: fit-content;
+                            top: 7px;
+                            right: 7px;
+                        }
+
+                        .changePosition {
+                            bottom: 170% !important;
+                            right: -20% !important;
+                        }
+
+                        .toolTipDownClass {
+                            transform: rotate(45deg) !important;
+                            right: 20% !important;
+                        }
+                    }
+
+                    .inputForm {
+                        height: auto;
+                        padding: 8px 12px;
+                        font-family: "Poppins";
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        border: 1.5px solid rgba($lgray, 1);
+                        margin-bottom: 12px;
+                        margin-top: 12px;
+
+                        &::placeholder {
+                            color: rgba($lgray, 1);
+                        }
+
+                        &.errorActive {
+                            border: 1px solid #ea0000;
+                        }
+                    }
+
+
+
+                    .phoneInput {
+                        width: 100%;
+                        margin-bottom: 12px;
+                        margin-top: 12px;
+
+                        :global .flag-dropdown {
+                            border-radius: 4px 0px 0px 4px !important;
+                        }
+
+                        &.errorActive {
+                            input {
+                                width: 100% !important;
+                                border: 1.5px solid #ea0000 !important;
+                            }
+                        }
+
+                        input {
+                            width: 100% !important;
+                            border: 1.5px solid #a1a1a1 !important;
+                        }
+                    }
+
+                    .submitBtn {
+                        background: rgba($primary, 1);
+                        width: 100%;
+                        border-radius: 36px;
+                        font-family: "Poppins";
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 21px;
+                        color: rgba($white, 1);
+                        transition: all .3s;
+                        border: 1px solid rgba($primary, 1);
+                        padding-top: 8px;
+                        padding-bottom: 7px;
+                        cursor: pointer;
+                        margin-top: 9px;
+
+                        &:hover {
+                            background: transparent;
+                            color: rgba($primary, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wrap {
+    min-width: 661px !important;
+}

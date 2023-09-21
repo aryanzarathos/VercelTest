@@ -1,0 +1,97 @@
+@import '../../../../../styles/GloablStyle/theme';
+
+.websiteLogoImageContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+
+  .websiteLogoImageWrap {
+    padding: 15px;
+    position: relative;
+    background: rgba(32, 32, 32, 0.1);
+    border-radius: 4px;
+
+    .imageWrap {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+
+    }
+
+    .iconCrossCircle {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: rgba($base, 0.4);
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      cursor: pointer;
+
+      i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+    }
+
+    &.noLogo {
+      background: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='12' ry='12' stroke='rgba(55, 88, 249, 1)' stroke-width='1' stroke-dasharray='12%2c 8' stroke-dashoffset='3' stroke-linecap='round'/%3e%3c/svg%3e");
+      border-radius: 12px;
+
+      .uploadeIconWrap {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .uploadeIcon {
+          display: block;
+          -webkit-mask-image: url(../../../../../Assets/images/Icons/Upload.svg);
+          mask-image: url(../../../../../Assets/images/Icons/Upload.svg);
+          // -webkit-mask-size: 70%;
+          // mask-size: 70%;
+          -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+          background-color: $primary;
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+
+  }
+
+  .iconCross {
+    -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/icon-cross.svg") no-repeat center;
+    mask-image: url("../../../../../Assets/SiteEditor/Icons/icon-cross.svg") no-repeat center;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #FFFFFF;
+  }
+
+  .iconPencial {
+    -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/Icon-pencil.svg") no-repeat center;
+    mask-image: url("../../../../../Assets/SiteEditor/Icons/Icon-pencil.svg") no-repeat center;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: rgba($base, 0.6);
+    cursor: pointer;
+  }
+}

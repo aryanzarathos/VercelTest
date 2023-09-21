@@ -1,0 +1,99 @@
+.RichText_Wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 6px;
+    background: #FFFFFF;
+    border: 0.777778px solid rgba(32, 32, 32, 0.2);
+    border-radius: 6.22222px;
+    gap: 12px;
+
+    .buttonWrap {
+        padding: 5px 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #F2F7FF;
+        border-radius: 4px;
+        border: none;
+        transition: all .3s linear;
+        cursor: pointer;
+
+        &:hover,
+        &.Active {
+            background-color: #3758F9;
+
+            .RichText_Icon1,
+            .RichText_Icon2,
+            .RichText_Icon3,
+            .contactus_Icon1,
+            .contactus_Icon2,
+            .aboutus_Icon1,
+            .aboutus_Icon2,
+            .callToAction_Icon1,
+        .callToAction_Icon2 {
+                background-color: #ffffff;
+            }
+        }
+
+        .RichText_Icon1,
+        .RichText_Icon2,
+        .RichText_Icon3,
+        .RichText_Icon4,
+        .contactus_Icon1,
+        .contactus_Icon2,
+        .aboutus_Icon1,
+        .aboutus_Icon2,
+        .callToAction_Icon1,
+        .callToAction_Icon2 {
+            display: block;
+            cursor: pointer;
+            width: 50px;
+            height: 24px;
+            background-color: #A5A5A5;
+            transition: all .3s linear;
+            -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/rich-icon1.svg") no-repeat center;
+            mask-image: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/rich-icon1.svg") no-repeat center;
+        }
+
+        .RichText_Icon2 {
+            -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/rich-icon2.svg") no-repeat center;
+            mask-image: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/rich-icon2.svg") no-repeat center;
+        }
+
+        .RichText_Icon3 {
+            -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/rich-icon3.svg") no-repeat center;
+            mask-image: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/rich-icon3.svg") no-repeat center;
+
+        }
+
+        .RichText_Icon4 {
+            -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/rich-icon4.svg") no-repeat center;
+            mask-image: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/rich-icon4.svg") no-repeat center;
+
+        }
+
+        .contactus_Icon1,
+        .aboutus_Icon1 {
+            -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/contactus_Icon1.svg") no-repeat center;
+            mask-image: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/contactus_Icon1.svg") no-repeat center;
+
+        }
+
+        .contactus_Icon2,
+        .aboutus_Icon2 {
+            -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/contactus_Icon2.svg") no-repeat center;
+            mask-image: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/contactus_Icon2.svg") no-repeat center;
+
+        }
+        .callToAction_Icon1{
+            -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/callToAction_Icon1.svg") no-repeat center;
+            mask-image: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/callToAction_Icon1.svg") no-repeat center;
+        }
+        .callToAction_Icon2 {
+            -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/callToAction_Icon2.svg") no-repeat center;
+            mask-image: url("../../../../../Assets/SiteEditor/Icons/SwitchLayoutIcon/callToAction_Icon2.svg") no-repeat center;
+        }
+    }
+
+
+}

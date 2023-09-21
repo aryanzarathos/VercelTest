@@ -1,0 +1,67 @@
+// @import '../../../../../styles/GloablStyle/style.scss';
+@import '../../../../../styles/GloablStyle/theme';
+
+
+.externalPagesTabContainer {
+    margin-top: 16px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .externalPagesWrap {
+        padding: 20px;
+        background-color: rgba($primary, 0.1);
+        border-radius: 4px;
+
+        .fromWrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 64px;
+            @media (max-width:768px) {
+                flex-direction: column;
+                 gap: 0px;
+            }
+
+            .linkFormWrap {
+                width: 100%;
+            }
+
+            .pageNameWrap {
+                width: 100%;
+            }
+        }
+    }
+
+    .checkboxWrapper {
+
+        .checkBoxWrap {
+            font-size: 16px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+            .checkboxClass {
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+        .checkboxLableClass {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 5px;
+
+            span {
+                font-size: 12px;
+                font-weight: 500;
+                color: $base;
+            }
+        }
+    }
+
+    .addPageBtnWrapper {}
+}

@@ -1,0 +1,2398 @@
+{
+    "data": [
+        {
+            "access_id": "5463819fce0473378c326775",
+            "query_name": "servicepaymentmethod",
+            "appearenceType":"default",
+            "containerWidth": "containerlg",
+            "customWidth": false,
+            "componentRender": "container",
+            "container_name": "Payment Method",
+            "style": {
+                "desktop": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": "80",
+                    "display": "grid",
+                    "gridColumns": "1",
+                    "backgroundType": "color",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "tablet": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "backgroundType": "",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                },
+                "mobile": {
+                    "backgroundColor": "",
+                    "height": "auto",
+                    "background": "",
+                    "width": 80,
+                    "gridColumns": "1",
+                    "backgroundType": "",
+                    "overlayColor": "0,0,0",
+                    "overlayOpacity": 0,
+                    "zIndex": "0",
+                    "position": {
+                        "position": "relative",
+                        "top": "0px",
+                        "bottom": "0px",
+                        "left": "0px",
+                        "right": "0px"
+                    },
+                    "backgroundImage": {
+                        "url": "",
+                        "backgroundPostion": "center",
+                        "alt": "",
+                        "backgroundSize": "cover"
+                    },
+                    "video": {
+                        "url": "",
+                        "autoPlay": "true",
+                        "mute": "false",
+                        "loop": "true",
+                        "objectFit": "cover",
+                        "objectPosition": "center"
+                    }
+                }
+            },
+            "data": [
+                {
+                    "componentRender": "subContainer",
+                    "backgroundType": "image",
+                    "style": {
+                        "desktop": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "backgroundColor": "",
+                            "display": "grid",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "height": "min-height",
+                            "width": "100%",
+                            "background": "",
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        },
+                        "tablet": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "backgroundColor": "",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "width": "100%",
+                            "background": "",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        },
+                        "mobile": {
+                            "padding": {
+                                "paddingTop": "0px",
+                                "paddingRight": "0px",
+                                "paddingBottom": "0px",
+                                "paddingLeft": "0px"
+                            },
+                            "position": {
+                                "position": "relative",
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "backgroundColor": "",
+                            "background": "",
+                            "flexdirection": "column",
+                            "gridColumns": "1",
+                            "width": "100%",
+                            "margin": {
+                                "marginTop": "",
+                                "marginRight": "",
+                                "marginBottom": "",
+                                "marginLeft": ""
+                            },
+                            "backgroundImage": {
+                                "url": "",
+                                "backgroundPostion": "center",
+                                "alt": "",
+                                "backgroundSize": "cover"
+                            }
+                        }
+                    },
+                    "data": [
+                        {
+                            "componentRender": "grid",
+                            "style": {
+                                "desktop": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "display": "grid",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "height": "min-height",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "tablet": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "backgroundColor": "",
+                                    "background": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "backgroundImage": {
+                                        "url": "",
+                                        "backgroundPostion": "center",
+                                        "alt": "",
+                                        "backgroundSize": "cover"
+                                    }
+                                },
+                                "mobile": {
+                                    "padding": {
+                                        "paddingTop": "0px",
+                                        "paddingRight": "0px",
+                                        "paddingBottom": "0px",
+                                        "paddingLeft": "0px"
+                                    },
+                                    "position": {
+                                        "position": "relative",
+                                        "top": "0px",
+                                        "bottom": "0px",
+                                        "left": "0px",
+                                        "right": "0px"
+                                    },
+                                    "background": "",
+                                    "backgroundColor": "",
+                                    "flexdirection": "column",
+                                    "gridColumns": "1",
+                                    "width": "100%",
+                                    "margin": {
+                                        "marginTop": "",
+                                        "marginRight": "",
+                                        "marginBottom": "",
+                                        "marginLeft": ""
+                                    }
+                                },
+                                "backgroundImage": {
+                                    "url": "",
+                                    "backgroundPostion": "center",
+                                    "alt": "",
+                                    "backgroundSize": "cover"
+                                }
+                            },
+                            "data": [
+                                {
+                                    "type": "static",
+                                    "componentRender": "serivesPayment",
+                                    "sectionType": "cart",
+                                    "section_name": "bookingpaymentmethod",
+                                    "style": {
+                                        "desktop": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "trasparent",
+                                            "backgroundColor": "",
+                                            "display": "grid",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "height": "min-height",
+                                            "width": "100%",
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "tablet": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        },
+                                        "mobile": {
+                                            "padding": {
+                                                "paddingTop": "0px",
+                                                "paddingRight": "0px",
+                                                "paddingBottom": "0px",
+                                                "paddingLeft": "0px"
+                                            },
+                                            "background": "",
+                                            "backgroundColor": "",
+                                            "flexdirection": "column",
+                                            "gridColumns": "1",
+                                            "width": "100%",
+                                            "position": {
+                                                "position": "relative",
+                                                "top": "0px",
+                                                "bottom": "0px",
+                                                "left": "0px",
+                                                "right": "0px"
+                                            },
+                                            "margin": {
+                                                "marginTop": "",
+                                                "marginRight": "",
+                                                "marginBottom": "",
+                                                "marginLeft": ""
+                                            },
+                                            "backgroundImage": {
+                                                "url": "",
+                                                "backgroundPostion": "center",
+                                                "alt": "",
+                                                "backgroundSize": "cover"
+                                            }
+                                        }
+                                    },
+                                    "custom_section_editable": [
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "MobileArrow",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "none",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "display": "flex",
+                                                    "justifyContent": "space-between",
+                                                    "alignItems": "center",
+                                                    "padding": "22px 0 12px 0",
+                                                    "borderBottom": "var(--global-color-secondary-lightShadeThin)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "BtnContain",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "gap": "12px",
+                                                    "alignItems": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "svg",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "backBtn",
+                                            "style": {
+                                                "desktop": {
+                                                    "fill": "var(--global-color-primary)",
+                                                    "width": "7",
+                                                    "height": "12",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Shopping Cart",
+                                            "show": true,
+                                            "name": "backBtnText",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "2 products",
+                                            "show": true,
+                                            "name": "product name",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ProgressContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "marginBottom": "84px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "marginBottom": "22px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ProgressWrapper",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "paddingTop": "50px",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "paddingTop": "22px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ProgressSection",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "100%",
+                                                    "display": "grid",
+                                                    "gridTemplateColumns": "1fr 1fr auto",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "main",
+                                            "style": {
+                                                "desktop": {
+                                                    "position": "relative",
+                                                    "display": "flex",
+                                                    "justifyContent": "flex-start",
+                                                    "color": "var(--global-color-primary)",
+                                                    "color2": "var(--global-color-penitentiary)",
+                                                    "backgroundColor": "var(--global-color-primary)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ProcessStep",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "gap": "12px",
+                                                    "backgroundColor": "var(--global-color-penitentiary)",
+                                                    "padding": "0 10px 0 10px",
+                                                    "after": {
+                                                        "border": "1px dashed var(--global-color-primary-lightShadeThin)",
+                                                        "width": "100%",
+                                                        "zIndex": "-1",
+                                                        "position": "absolute",
+                                                        "left": "0"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "gap": "6px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h6",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "Number",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "24px",
+                                                    "height": "24px",
+                                                    "borderRadius": "50%",
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "fontSize": "15px",
+                                                    "lineHeight": "24px",
+                                                    "border": "1px solid var(--global-color-primary-lightShadeThin)",
+                                                    "color": "var(--global-color-primary-lightShadeThin)",
+                                                    "hover": {
+                                                        "cursor": "pointer"
+                                                    },
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "width": "20px",
+                                                    "height": "20px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "text",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-primary-lightShadeThin)",
+                                                    "position": "relative",
+                                                    "whiteSpace": "nowrap",
+                                                    "hover": {
+                                                        "cursor": "pointer"
+                                                    },
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "12px",
+                                                    "lineHeight": "16px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "Row",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "marginBottom": "50px",
+                                                    "gap": "36px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "flexWrap": "wrap",
+                                                    "gap": "50px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "Line",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "none",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "display": "block",
+                                                    "width": "100%",
+                                                    "border": "1px solid var(--global-color-primary-lightShadeThin)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "LayoutSectionLt",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "70%",
+                                                    "hover": {},
+                                                    "active": {
+                                                        "border": "1px solid  var(--global-color-primary) "
+                                                    }
+                                                },
+                                                "tablet": {
+                                                    "width": "100%",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "paymentText",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "justifyContent": "flex-start",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "display": "block",
+                                                    "width": "100%",
+                                                    "border": "1px solid var(--global-color-primary-lightShadeThin)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h5",
+                                            "text": "Select Payment Method",
+                                            "show": true,
+                                            "name": "PaymentText",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeH5)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH5)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH5)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH5)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "codContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "gap": "26.67px",
+                                                    "width": "100%",
+                                                    "border": "1px solid var(--global-color-quaternary-lightShadeThin)",
+                                                    "borderRadius": "8px",
+                                                    "padding": "26px 30px 22px 30px",
+                                                    "marginBottom": "24px",
+                                                    "hover": {
+                                                        "cursor": "pointer"
+                                                    },
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "display": "block",
+                                                    "width": "100%",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "input",
+                                            "text": "",
+                                            "type": "radio",
+                                            "show": true,
+                                            "name": "InputRadio",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "16px",
+                                                    "height": "16px",
+                                                    "accentColor": "var(--global-color-primary)",
+                                                    "hover": {
+                                                        "cursor": "pointer"
+                                                    },
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "CodMethod",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h6",
+                                            "text": "Cash on Delivery",
+                                            "show": true,
+                                            "name": "CodText",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeH6)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH6)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "margin": {
+                                                        "marginBottom": "2px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Pay on delivery",
+                                            "show": true,
+                                            "name": "Pod text",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc( var(--global-typography-fontSizeP) - 2px )",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "margin": {
+                                                        "marginBottom": "2px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OnlinePayContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "gap": "26.67px",
+                                                    "width": "100%",
+                                                    "border": "1px solid var(--global-color-quaternary-lightShadeThin)",
+                                                    "borderRadius": "8px",
+                                                    "padding": "26px 30px 22px 30px",
+                                                    "hover": {
+                                                        "cursor": "pointer"
+                                                    },
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "PodMethod",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ImgItem",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "105px",
+                                                    "height": "22px",
+                                                    "marginBottom": "2px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "image",
+                                            "altText": "",
+                                            "show": true,
+                                            "name": "image",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "100%",
+                                                    "height": "100%",
+                                                    "objectFit": "contain",
+                                                    "objectPosition": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "LayoutSectionRt",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "30%",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "width": "100%",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrderSummaryContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": "12px 18px 18px 18px",
+                                                    "border": "1px solid var(--global-color-quaternary-lightShadeThin)",
+                                                    "borderRadius": "8px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "OrderSumaryText",
+                                            "style": {
+                                                "desktop": {
+                                                    "borderBottom": "1px solid  var(--global-color-quaternary-lightShadeThin)",
+                                                    "paddingBottom": "10px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h5",
+                                            "text": "Order Summary",
+                                            "show": true,
+                                            "name": "orderSummary",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeH5)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH5)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH5)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH5)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "whiteSpace": "nowrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "Subtotal",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": "14px 0 14px 0",
+                                                    "display": "flex",
+                                                    "justifyContent": "space-between",
+                                                    "borderBottom": "1px dashed  var(--global-color-quaternary-lightShadeThin)",
+                                                    "alignItems": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h5",
+                                            "text": "Subtotal :",
+                                            "show": true,
+                                            "name": "SubtotalHeading",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeH5)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH5)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH5)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH5)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "whiteSpace": "nowrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Rs. 980 .00",
+                                            "show": true,
+                                            "name": "SubtotalPara",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "whiteSpace": "nowrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "Shipping",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": "14px 0 14px 0",
+                                                    "display": "flex",
+                                                    "justifyContent": "space-between",
+                                                    "borderBottom": "1px dashed  var(--global-color-quaternary-lightShadeThin)",
+                                                    "alignItems": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h5",
+                                            "text": "Shipping",
+                                            "show": true,
+                                            "name": "ShippingHeading",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeH5)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH5)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH5)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH5)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "whiteSpace": "nowrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Rs. 0",
+                                            "show": true,
+                                            "name": "shippingPara",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "whiteSpace": "nowrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "totalAmmount",
+                                            "style": {
+                                                "desktop": {
+                                                    "padding": "14px 0 14px 0",
+                                                    "display": "flex",
+                                                    "justifyContent": "space-between",
+                                                    "borderBottom": "2px dashed  var(--global-color-primary-lightShadeRegular)",
+                                                    "alignItems": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "h5",
+                                            "text": "Total :",
+                                            "show": true,
+                                            "name": "totalHeading",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeH5)",
+                                                    "lineHeight": "var(--global-typography-lineHeightH5)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyH5)",
+                                                    "fontStyle": "var(--global-typography-fontStyleH5)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "whiteSpace": "nowrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Rs. 980 .00",
+                                            "show": true,
+                                            "name": "totalPara",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-primary)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "whiteSpace": "nowrap",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "fontSize": "",
+                                                    "lineHeight": "",
+                                                    "color": "",
+                                                    "fontFamily": "",
+                                                    "fontStyle": "",
+                                                    "fontWeight": "",
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "button",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "Continue",
+                                            "style": {
+                                                "desktop": {
+                                                    "width": "100%",
+                                                    "height": "42px",
+                                                    "backgroundColor": "var(--global-color-primary)",
+                                                    "color": "var(--global-color-penitentiary)",
+                                                    "display": "flex",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center",
+                                                    "gap": "11.77px",
+                                                    "fontSize": "20px",
+                                                    "lineHeight": "36px",
+                                                    "borderRadius": "8px",
+                                                    "border": "transparent",
+                                                    "padding": {
+                                                        "paddingTop": "5px",
+                                                        "paddingBottom": "5px",
+                                                        "paddingLeft": "8px",
+                                                        "paddingRight": "8px"
+                                                    },
+                                                    "hover": {
+                                                        "backgroundColor": "var(--global-color-primary)",
+                                                        "color": "var(--global-color-penitentiary)"
+                                                    },
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "cartIconMain",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "position": "relative",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "svg",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "heartIcon",
+                                            "style": {
+                                                "desktop": {
+                                                    "fill": "var(--global-color-penitentiary)",
+                                                    "width": "20px",
+                                                    "height": "20px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Site: www.razorpay.com",
+                                            "show": true,
+                                            "name": "LinkRazer",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc( var(--global-typography-fontSizeP) - 2px )",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP)",
+                                                    "color": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "CheckWrap",
+                                            "style": {
+                                                "desktop": {
+                                                    "background": "var(--global-color-primary)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "svg",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "CheckSvg",
+                                            "style": {
+                                                "desktop": {
+                                                    "stroke": "var(--global-color-penitentiary)",
+                                                    "height": "8",
+                                                    "width": "12",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "CuponMainContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "marginBottom": "28px",
+                                                    "cursor": "pointer",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "span",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "HorizontalLine",
+                                            "style": {
+                                                "desktop": {
+                                                    "background": "var(--global-color-quaternary-lightShadeThin)",
+                                                    "width": "100%",
+                                                    "height": "1px",
+                                                    "display": "block",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "CuponsubContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "margin": "16px 0px",
+                                                    "display": "flex",
+                                                    "justifyContent": "space-between",
+                                                    "alignItems": "center",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "SubLeftContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "justifyContent": "flex-start",
+                                                    "alignItems": "center",
+                                                    "gap": "16px",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "CouponsPara",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP)",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "margin": {
+                                                        "marginBottom": "6px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "span",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ApplyCouponPara",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc( var(--global-typography-fontSizeP) - 2px )",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                                                    "fontStyle": "var(--global-typography-fontStyleP)",
+                                                    "fontWeight": "var(--global-typography-fontWightLight)",
+                                                    "color": "#4A9E42",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "svg",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "PromoCode",
+                                            "style": {
+                                                "desktop": {
+                                                    "height": "24",
+                                                    "width": "24",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "SubRightContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "margin": {},
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "button",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "removeEditBtn",
+                                            "style": {
+                                                "desktop": {
+                                                    "backgroundColor": "transparent",
+                                                    "border": "none",
+                                                    "fontFamily": "var(--global-typography-fontFamilyButton)",
+                                                    "fontStyle": "var(--global-typography-fontStyleButton)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "fontSize": "var(--global-typography-fontSizeButton)",
+                                                    "lineHeight": "var(--global-typography-lineHeightButton)",
+                                                    "color": "var(--global-color-tertiary)",
+                                                    "margin": {},
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "svg",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ArrowSvg",
+                                            "style": {
+                                                "desktop": {
+                                                    "hegiht": "12",
+                                                    "width": "8",
+                                                    "fill": "var(--global-color-quaternary)",
+                                                    "margin": {},
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "headingPara",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP) !important",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                                                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                                                    "color": "var(--global-color-quaternary) !important",
+                                                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                                                    "margin": {},
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "button",
+                                            "text": "Apply",
+                                            "show": true,
+                                            "name": "HeadingContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "backgroundColor": "transparent",
+                                                    "border": "none",
+                                                    "fontFamily": "var(--global-typography-fontFamilyButton)",
+                                                    "fontStyle": "var(--global-typography-fontStyleButton)",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                                                    "fontSize": "calc( var(--global-typography-fontSizeButton) + 2px)",
+                                                    "lineHeight": "var(--global-typography-lineHeightButton)",
+                                                    "color": "var(--global-color-tertiary)",
+                                                    "position": "absolute",
+                                                    "top": "10px",
+                                                    "right": "16px",
+                                                    "margin": {},
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "TopContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "marginTop": "16px",
+                                                    "position": "relative",
+                                                    "margin": {},
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Available coupons",
+                                            "show": true,
+                                            "name": "AvailableCoupons",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc( var(--global-typography-fontSizeP) - 2px ) !important",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                                                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                                                    "color": "var(--global-color-quaternary) !important",
+                                                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                                                    "margin": {
+                                                        "marginTop": "24px",
+                                                        "marginRight": "",
+                                                        "marginBottom": "16px",
+                                                        "marginLeft": ""
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "BottomContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "maxHeight": "43vh",
+                                                    "overflowY": "auto",
+                                                    "padding": "0 10px 10px 0",
+                                                    "margin": {
+                                                        "marginTop": "",
+                                                        "marginRight": "",
+                                                        "marginBottom": "",
+                                                        "marginLeft": ""
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "BottomCuponCards",
+                                            "style": {
+                                                "desktop": {
+                                                    "border": "1px solid var(--global-color-quaternary-lightShadeThin)",
+                                                    "borderRadius": "8px",
+                                                    "padding": "16px 14px",
+                                                    "margin": {
+                                                        "marginTop": "",
+                                                        "marginRight": "",
+                                                        "marginBottom": "16px",
+                                                        "marginLeft": ""
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "CardsTopContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "justifyContent": "space-between",
+                                                    "alignItems": "center",
+                                                    "margin": {
+                                                        "marginTop": "",
+                                                        "marginRight": "",
+                                                        "marginBottom": "",
+                                                        "marginLeft": ""
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "TopLeftContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "background": "linear-gradient(90deg, var(--global-color-tertiary-lightShadeThin) -160%, var(--global-color-penitentiary) 160%)",
+                                                    "borderRadius": "15px",
+                                                    "padding": "3px 16px",
+                                                    "margin": {
+                                                        "marginTop": "",
+                                                        "marginRight": "",
+                                                        "marginBottom": "",
+                                                        "marginLeft": ""
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "discountCode",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "var(--global-typography-fontSizeP) !important",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                                                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                                                    "color": "var(--global-color-tertiary) !important",
+                                                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                                                    "margin": {},
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "button",
+                                            "text": "Apply",
+                                            "show": true,
+                                            "name": "AppyBtn2",
+                                            "style": {
+                                                "desktop": {
+                                                    "backgroundColor": "transparent",
+                                                    "border": "none",
+                                                    "fontFamily": "var(--global-typography-fontFamilyButton)",
+                                                    "fontStyle": "var(--global-typography-fontStyleButton)",
+                                                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                                                    "fontSize": "calc( var(--global-typography-fontSizeButton) )",
+                                                    "lineHeight": "var(--global-typography-lineHeightButton)",
+                                                    "color": "var(--global-color-tertiary)",
+                                                    "textTransform": "Uppercase",
+                                                    "margin": {},
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "CardsSubContainer",
+                                            "style": {
+                                                "desktop": {
+                                                    "margin": {
+                                                        "marginTop": "16px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "discountName",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc( var(--global-typography-fontSizeP) - 4px ) !important",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                                                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                                                    "color": "#4A9E42 !important",
+                                                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                                                    "margin": {
+                                                        "marginTop": "8px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "detail",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc( var(--global-typography-fontSizeP) - 4px ) !important",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                                                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                                                    "fontWeight": "var(--global-typography-fontWightLight !important)",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                                                    "margin": {
+                                                        "marginTop": "8px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "div",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "DetailsWrap",
+                                            "style": {
+                                                "desktop": {
+                                                    "display": "flex",
+                                                    "gap": "8px",
+                                                    "alignItems": "center",
+                                                    "marginTop": "12px",
+                                                    "border": "none",
+                                                    "backgroundColor": "transparent",
+                                                    "margin": {
+                                                        "marginTop": "8px"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "p",
+                                            "text": "Details",
+                                            "show": true,
+                                            "name": "Details",
+                                            "style": {
+                                                "desktop": {
+                                                    "fontSize": "calc( var(--global-typography-fontSizeP) - 2px ) !important",
+                                                    "fontFamily": "var(--global-typography-fontFamilyP) !important",
+                                                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                                                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                                                    "color": "var(--global-color-quaternary)",
+                                                    "lineHeight": "var(--global-typography-lineHeightP) !important",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "svg",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "ArrowSvg",
+                                            "style": {
+                                                "desktop": {
+                                                    "height": "5",
+                                                    "width": "8",
+                                                    "fill": "var(--global-color-quaternary)",
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "tagType": "input",
+                                            "text": "",
+                                            "show": true,
+                                            "name": "topContainerInput",
+                                            "style": {
+                                                "desktop": {
+                                                    "placeHolder": {
+                                                        "fontFamily": "var(--global-typography-fontFamilyP) ",
+                                                        "fontSize": "var(--global-typography-fontSizeP)",
+                                                        "fontStyle": "var(--global-typography-fontStyleP)",
+                                                        "fontWeight": "var(--global-typography-fontWightMedium) ",
+                                                        "lineHeight": "var(--global-typography-lineHeightP)",
+                                                        "color": "var(--global-color-quaternary-lightShadeThin)"
+                                                    },
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "tablet": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                },
+                                                "mobile": {
+                                                    "hover": {},
+                                                    "active": {}
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "data": [
+                                        {
+                                            "id": 1,
+                                            "categoryImage": "https://bitbucket.org/hkchawla1/siteeditor/src/e619f4b68e1cf8a547a3cec05acf3b8fc0bc22d4/src/Assets/SectionComponent/Images/PaymentMethod/razerpay.png?at=dyamic_css_eblo",
+                                            "title": "Razor pay "
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

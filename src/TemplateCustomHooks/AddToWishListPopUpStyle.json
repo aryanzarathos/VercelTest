@@ -1,0 +1,1255 @@
+{
+    "custom_section_editable": [
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "Theme1Container",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "WishlistTheme",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                    "textAlign": "center",
+                    "alignItems": "center",
+                    "padding": "46px 0 36px 0",
+                    "gap": "8px",
+                    "background": "var(--global-color-tertiary-lightShadeThin)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "h3",
+            "text": "My wishlist",
+            "show": true,
+            "name": "MyWislistHeader",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "fontSize": "var(--global-typography-fontSizeH3)",
+                    "lineHeight": "var(--global-typography-lineHeightH3)",
+                    "color": "var(--global-color-primary)",
+                    "fontFamily": "var(--global-typography-fontFamilyH3)",
+                    "fontStyle": "var(--global-typography-fontStyleH3)",
+                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "fontSize": "var(--global-typography-fontSizeH4)",
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "p",
+            "text": "12 Item(s)",
+            "show": true,
+            "name": "ItemText",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "fontSize": "var(--global-typography-fontSizeP)",
+                    "lineHeight": "var(--global-typography-lineHeightP)",
+                    "color": "var(--global-color-quaternary-lightShadeThin)",
+                    "fontFamily": "'Gilroy-Medium',sans-serif",
+                    "fontStyle": "var(--global-typography-fontStyleH6)",
+                    "fontWeight": "var(--global-typography-fontWightLight)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "GridContainer",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "padding": "48px 0 120px 0",
+                    "display": "grid",
+                    "gridTemplateColumns": "auto auto auto auto",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "gridTemplateColumns": "auto auto auto",
+                    "gap": "20px",
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "gridTemplateColumns": "auto",
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "ImageSection",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "textAlign": "center",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "marginBottom": "20px",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "ImgMain",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "position": "relative",
+                    "height": "216px",
+                    "width": "245px",
+                    "marginBottom": "12px",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "CrossImg",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "position": "absolute",
+                    "top": "14px",
+                    "right": "13px",
+                    "display": "flex",
+                    "height": "24px",
+                    "width": "24px",
+                    "background": "var(--global-color-quaternary-lightShadeThin)",
+                    "borderRadius": "50%",
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "hover": {
+                        "cursor": "pointer"
+                    },
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "svg",
+            "text": "",
+            "show": true,
+            "name": "CrossIcon",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "width": "10px",
+                    "height": "10px",
+                    "fill": "var(--global-color-quaternary-lightShadeRegular)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "Discount",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "display": "flex",
+                    "gap": "6px",
+                    "marginBottom": "46px",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "h6",
+            "text": "",
+            "show": true,
+            "name": "PorductName",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "fontSize": "var(--global-typography-fontSizeH6)",
+                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                    "color": "var(--global-color-primary)",
+                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                    "fontWeight": "var(--global-typography-fontWightBold)",
+                    "fontStyle": "var(--global-typography-fontStyleH6)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "p",
+            "text": "",
+            "show": true,
+            "name": "PorductPrice",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "fontSize": "var(--global-typography-fontSizeP)",
+                    "lineHeight": "var(--global-typography-lineHeightP)",
+                    "color": "var(--global-color-primary)",
+                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                    "fontStyle": "var(--global-typography-fontStyleP)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "p",
+            "text": "",
+            "show": true,
+            "name": "DiscountPrice",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "fontSize": "var(--global-typography-fontSizeP)",
+                    "lineHeight": "var(--global-typography-lineHeightP)",
+                    "color": "var(--global-color-penitentiary-darkShadeBold)",
+                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                    "fontWeight": "var(--global-typography-fontWightBold)",
+                    "fontStyle": "var(--global-typography-fontStyleP)",
+                    "textDecoration": "line-through",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "p",
+            "text": "",
+            "show": true,
+            "name": "OffPrice",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "fontSize": "var(--global-typography-fontSizeP)",
+                    "lineHeight": "var(--global-typography-lineHeightP)",
+                    "color": "var(--global-color-tertiary)",
+                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                    "fontWeight": "var(--global-typography-fontWightBold)",
+                    "fontStyle": "var(--global-typography-fontStyleP)",
+                    "textDecoration": "line-through",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "button",
+            "text": "Move to Bag",
+            "show": true,
+            "name": "MoveBtn",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "padding": {
+                        "paddingTop": "10px",
+                        "paddingBottom": "10px",
+                        "paddingLeft": "44px",
+                        "paddingRight": "44px"
+                    },
+                    "border": "none",
+                    "backgroundColor": "var(--global-color-primary)",
+                    "borderRadius": "8px",
+                    "color": "var(--global-color-penitentiary)",
+                    "fontSize": "var(--global-typography-fontSizeH5)",
+                    "lineHeight": "var(--global-typography-lineHeightH5)",
+                    "fontFamily": "--global-typography-fontFamilyH5",
+                    "hover": {
+                        "backgroundColor": "var(--global-color-secondary-darkShadeMedium)",
+                        "cursor": "pointer",
+                        "transition": "all 1.5s"
+                    },
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "image",
+            "text": "",
+            "show": true,
+            "name": "ProductImage",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "maxWidth": "100%",
+                    "display": "block",
+                    "objectFit": "cover",
+                    "objectPosition": "center",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "WishlistPopUpContainer",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "height": "100%",
+                    "width": "100%",
+                    "display": "flex",
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "background": "transparent",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "MainContainer",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "borderRadius": "4px",
+                    "display": "flex",
+                    "position": "relative",
+                    "width": "100%",
+                    "padding": "36px 56px",
+                    "gap": "50px",
+                    "backgroundColor": "var(--global-color-penitentiary)",
+                    "minWidth": "1px",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "flexWrap": "wrap",
+                    "padding": "36px 10px 36px 10px",
+                    "gap": "50px",
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "width": "100%",
+                    "height": "100vh",
+                    "overflowY": "auto",
+                    "padding": "50px 10px 36px 10px",
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "ContainerMainRight",
+            "clasName": "someClass",
+            "style": {
+                "desktop": {
+                    "width": "100%",
+                    "paddingRight": "0"
+                },
+                "hover": {},
+                "active": {}
+            },
+            "tablet": {
+                "hover": {},
+                "active": {}
+            },
+            "mobile": {
+                "hover": {},
+                "active": {}
+            }
+        },
+        {
+            "tagType": "p",
+            "text": "SKU #1000078",
+            "show": true,
+            "name": "ProductCode",
+            "clasName": "someClass",
+            "style": {
+                "desktop": {
+                    "fontSize": "var(--global-typography-fontSizeP)",
+                    "lineHeight": "var(--global-typography-lineHeightP)",
+                    "color": "var(--global-color-quaternary-lightShadeThin) !important",
+                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                    "fontStyle": "var(--global-typography-fontStyleP) !important",
+                    "padding": {
+                        "paddingTop": "0px !important",
+                        "paddingRight": "0px !important",
+                        "paddingBottom": "0px !important",
+                        "paddignLeft": "0p !importantx"
+                    },
+                    "margin": {
+                        "marginTop": "0px !important",
+                        "marginRight": "0px !important",
+                        "marginBottom": "12px !important",
+                        "marginLeft": "0p !importantx"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "h4",
+            "text": "Morbius - Sleek steel wayfarer eyeglasses for Adults  I  Light weight",
+            "show": true,
+            "name": "ProductHeading",
+            "clasName": "someClass",
+            "style": {
+                "desktop": {
+                    "fontSize": "var(--global-typography-fontSizeH4)",
+                    "lineHeight": "var(--global-typography-lineHeightH4)",
+                    "color": "var(--global-color-primary)",
+                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                    "fontFamily": "var(--global-typography-fontFamilyH4)",
+                    "fontStyle": "var(--global-typography-fontStyleH4)",
+                    "padding": {
+                        "paddingTop": "0px",
+                        "paddingRight": "0px",
+                        "paddingBottom": "0px",
+                        "paddignLeft": "0px"
+                    },
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "fontSize": "var(--global-typography-fontSizeH5)",
+                    "fontFamily": "var(--global-typography-fontFamilyH5)",
+                    "lineHeight": "var(--global-typography-lineHeightH5)",
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "show": true,
+            "name": "PriceDetail",
+            "className": "dynamicClass",
+            "style": {
+                "desktop": {
+                    "display": "flex",
+                    "gap": "12px",
+                    "flexWrap": "wrap",
+                    "marginBottom": "12px"
+                },
+                "hover": {},
+                "active": {}
+            },
+            "tablet": {},
+            "mobile": {
+                "fontSize": "var(--global-typography-fontSizeP)",
+                "lineHeight": "var(--global-typography-lineHeightAnchor)"
+            }
+        },
+        {
+            "tagType": "h5",
+            "text": "Rs. 490 .00",
+            "name": "Price",
+            "className": "dynamicClass",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyH5) !important",
+                    "fontSize": "var(--global-typography-fontSizeH5) !important",
+                    "lineHeight": "var(--global-typography-lineHeightH5) !important",
+                    "color": "var(--global-color-primary) !important",
+                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                    "fontStyle": "var(--global-typography-fontStyleH5) !important",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "h5",
+            "text": "Rs. 520.00",
+            "name": "OldPrice",
+            "className": "dynamicClass",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyH5) !important",
+                    "fontSize": "var(--global-typography-fontSizeH5) !important",
+                    "lineHeight": "var(--global-typography-lineHeightH5) !important",
+                    "color": "var(--global-color-quaternary-lightShadeThin) !important",
+                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                    "fontStyle": "var(--global-typography-fontStyleh5) !important",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {
+                    "fontSize": "var(--global-typography-fontSizeP)"
+                }
+            }
+        },
+        {
+            "tagType": "h5",
+            "text": "(20% off)",
+            "name": "Offer",
+            "className": "dynamicClass",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyH5) !important",
+                    "fontSize": "var(--global-typography-fontSizeH5) !important",
+                    "lineHeight": "var(--global-typography-lineHeighth5) !important",
+                    "color": "var(--global-color-secondary)  !important",
+                    "fontWeight": "var(--global-typography-fontWightMedium) !important",
+                    "fontStyle": "var(--global-typography-fontStyleH5) !important",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {
+                    "fontSize": "var(--global-typography-fontSizeP)"
+                }
+            }
+        },
+        {
+            "tagType": "hr",
+            "text": "",
+            "name": "hrLine",
+            "className": "dynamicClass",
+            "style": {
+                "desktop": {
+                    "border": {
+                        "borderTop": "2px solid rgba(0,52,89,0.3)",
+                        "borderRight": "",
+                        "borderBottom": "",
+                        "borderLeft": "",
+                        "borderWidth": "",
+                        "borderStyle": "",
+                        "borderColor": ""
+                    },
+                    "margin": {
+                        "marginTop": "16px",
+                        "marginRight": "",
+                        "marginBottom": "16px",
+                        "marginLeft": ""
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "name": "ProductCategoryListWrappper",
+            "className": "dynamicClass",
+            "style": {
+                "desktop": {
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "h6",
+            "text": "Select frame",
+            "name": "ProductCategoryboldText",
+            "className": "dynamicClass",
+            "style": {
+                "desktop": {
+                    "fontWeight": "var(--global-typography-fontWightBold)",
+                    "fontSize": "var(--global-typography-fontSizeH6)",
+                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                    "color": "var(--global-color-primary)",
+                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                    "fontStyle": "var(--global-typography-fontStyleH6)",
+                    "margin": {
+                        "marginBottom": "8px"
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "ul",
+            "name": "ProductCategoryList",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "display": "flex",
+                    "gap": "8px",
+                    "flexWrap": "wrap",
+                    "padding": {
+                        "paddingTop": "10px",
+                        "paddingRight": "18px",
+                        "paddingBottom": "10px",
+                        "paddingLeft": "15px"
+                    },
+                    "margin": {
+                        "marginTop": "8px",
+                        "marginRight": "",
+                        "marginBottom": "20px",
+                        "marginLeft": ""
+                    },
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "li",
+            "name": "ProductCategoryListItem",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "padding": {
+                        "paddingTop": "6px",
+                        "paddingRight": "8px",
+                        "paddingBottom": "6px",
+                        "paddingLeft": "8px"
+                    },
+                    "fontSize": "var(--global-typography-fontSizeAnchor)",
+                    "lineHeight": "var(--global-typography-lineHeightAnchor)",
+                    "color": "var(--global-color-primary)",
+                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                    "fontStyle": "var(--global-typography-fontStyleP)",
+                    "fontWeight": "var(--global-typography-fontWightLight)",
+                    "border": {
+                        "borderWidth": "1px",
+                        "borderStyle": "solid",
+                        "borderColor": "var(--global-color-primary)",
+                        "borderRadius": "4px"
+                    },
+                    "cursor": "pointer",
+                    "transition": "all 0.5s",
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    },
+                    "hover": {
+                        "background": "var(--global-color-primary)",
+                        "color": "var(--global-color-penitentiary)"
+                    },
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {
+                    "padding": {
+                        "paddingTop": "4px",
+                        "paddingRight": "8px",
+                        "paddingBottom": "4px",
+                        "paddingLeft": "4px"
+                    }
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "name": "ButtonAddToCart",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "width": "100%",
+                    "height": "40px",
+                    "padding": "10px 20px 8px 20px",
+                    "backgroundColor": "var(--global-color-primary)",
+                    "display": "flex",
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                    "gap": "11.77px",
+                    "borderRadius": "8px",
+                    "border": "transparent",
+                    "whiteSpace": "nowrap",
+                    "fontSize": "var(--global-typography-fontSizeAnchor)",
+                    "lineHeight": "var(--global-typography-lineHeightAnchor)",
+                    "color": "var(--global-color-penitentiary)",
+                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                    "fontStyle": "var(--global-typography-fontStyleP)",
+                    "fontWeight": "var(--global-typography-fontWightLight)",
+                    "cursor": "pointer",
+                    "transition": "all 0.5s",
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    },
+                    "hover": {
+                        "backgroundColor": "var(--global-color-secondary-darkShadeMedium)"
+                    },
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "div",
+            "name": "ButtonAddToCart",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "height": "14px",
+                    "width": "12px",
+                    "fill": "var(--global-color-penitentiary)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "div",
+            "name": "QuantityItem",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "display": "flex",
+                    "alignItems": "center",
+                    "gap": "30px",
+                    "marginBottom": "23px",
+                    "position": "relative",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "h6",
+            "text": "Quantity :",
+            "name": "QuantityText",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "fontSize": "var(--global-typography-fontSizeH6)",
+                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                    "color": "var(--global-color-primary)",
+                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                    "fontStyle": "var(--global-typography-fontStyleH6)",
+                    "fontWeight": "var(--global-typography-fontWightBold)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "name": "ProductList",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "display": "grid",
+                    "gridTemplateColumns": "1fr 1fr 1fr 1fr 1fr",
+                    "justifyContent": "space-between",
+                    "alignItems": "center",
+                    "gap": "8px",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "gap": "30px"
+                },
+                "mobile": {
+                    "gap": "20px"
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "name": "ProductListImg",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "cursor": "pointer",
+                    "height": "55px",
+                    "width": "100%",
+                    "border": "1px solid var(--global-color-secondary)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "Iamge",
+            "text": "",
+            "name": "ProductSmallImgStyle",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "display": "block",
+                    "objectFit": "cover",
+                    "objectPosition": "center",
+                    "width": "100%",
+                    "height": "100%",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "name": "ContainerMainLeft",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "width": "50%",
+                    "paddingRight": "0",
+                    "paddingLeft": "0",
+                    "position": "relative",
+                    "textAlign": "center",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "width": "100%",
+                    "padding": "0"
+                },
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "name": "ImageContainer",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "display": "block",
+                    "height": "auto",
+                    "marginBottom": "22px",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {
+                    "height": "auto"
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "ImgWraper",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "width": "100%",
+                    "maxWidth": "100%",
+                    "height": "305px",
+                    "maxHeight": "305px",
+                    "margin": "0",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "image",
+            "text": "",
+            "show": true,
+            "name": "DataImgsStyle",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "objectFit": "cover",
+                    "width": "100%",
+                    "objectPosition": "center",
+                    "height": "100%",
+                    "maxHeight": "100%",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "hover": {},
+                    "active": {}
+                },
+                "mobile": {
+                    "hover": {},
+                    "active": {}
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "name": "ProductList",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "display": "grid",
+                    "gridTemplateColumns": "1fr 1fr 1fr 1fr 1fr",
+                    "justifyContent": "space-between",
+                    "alignItems": "center",
+                    "gap": "8px",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {
+                    "gap": "30px"
+                },
+                "mobile": {
+                    "gap": "20px"
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "name": "ProductListImg",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "cursor": "pointer",
+                    "height": "55px",
+                    "width": "100%",
+                    "border": "1px solid var(--global-color-secondary)",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "image",
+            "text": "",
+            "name": "DataImgsStyleMain",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "objectFit": "cover",
+                    "width": "100%",
+                    "maxWidth": "100%",
+                    "objectPosition": "center",
+                    "height": "100%",
+                    "maxHeight": "100%",
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "name": "mySwiper2",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "hover": {},
+                    "active": {}
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "button",
+            "text": "",
+            "name": "swiperButton",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "height": "20px",
+                    "width": "20px",
+                    "hover": {},
+                    "active": {},
+                    "after": {
+                        "fontSize": "var(--global-typography-fontSizeH5)",
+                        "color": "var(--global-color-tertiary)"
+                    }
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "name": "swiperPagination",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "display": "flex",
+                    "justifyContent": "space-around",
+                    "top": "0",
+                    "height": "min-content",
+                    "hover": {},
+                    "active": {},
+                    "after": {
+                        "fontSize": "var(--global-typography-fontSizeH5)",
+                        "color": "var(--global-color-tertiary)"
+                    }
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        },
+        {
+            "tagType": "span",
+            "text": "",
+            "name": "swiperPaginationBullet",
+            "className": "",
+            "show": true,
+            "style": {
+                "desktop": {
+                    "width": "15%",
+                    "borderRadius": "0",
+                    "height": "3px",
+                    "background": "var(--global-color-tertiary)",
+                    "hover": {},
+                    "active": {},
+                    "after": {
+                        "fontSize": "var(--global-typography-fontSizeH5)",
+                        "color": "var(--global-color-tertiary)"
+                    }
+                },
+                "tablet": {},
+                "mobile": {}
+            }
+        }
+    ],
+    "settings": [
+        {
+            "spaceBetween": 10,
+            "navigation": true,
+            "pagination": true,
+            "thumbs": "{ swiper: thumbsSwiper }",
+            "modules": "[FreeMode, Navigation, Thumbs, Pagination]",
+            "className": "mySwiper2"
+        },
+        {
+            "spaceBetween": 25,
+            "slidesPerView": 4,
+            "freeMode": true,
+            "watchSlidesProgress": true,
+            "modules": "[FreeMode, Thumbs]",
+            "className": "mySwiper"
+        }
+    ]
+}

@@ -1,0 +1,1954 @@
+{"dialCode":
+[{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8639"
+  },
+  "ISOCode": "AED",
+  "__v": 0,
+  "country": "United Arab Emirates",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753558"
+    }
+  },
+  "currency": "United Arab Emirates Dirham",
+  "symbol": "Dh",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637794"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.044979
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e863b"
+  },
+  "ISOCode": "ALL",
+  "__v": 0,
+  "country": "Albania",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753575"
+    }
+  },
+  "currency": "Albanian lek",
+  "symbol": "Lek",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637811"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.398245
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e863d"
+  },
+  "ISOCode": "AMD",
+  "__v": 0,
+  "country": "Armenia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753576"
+    }
+  },
+  "currency": "Armenian dram",
+  "symbol": "֏",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637813"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 4.830936
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e863f"
+  },
+  "ISOCode": "ARS",
+  "__v": 0,
+  "country": "Argentina",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753577"
+    }
+  },
+  "currency": "Argentine peso",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637818"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.998228
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8641"
+  },
+  "ISOCode": "AUD",
+  "__v": 0,
+  "country": "Australia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753579"
+    }
+  },
+  "currency": "Australian dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637819"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.018443
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8643"
+  },
+  "ISOCode": "AWG",
+  "__v": 0,
+  "country": "Aruba",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753580"
+    }
+  },
+  "currency": "Aruban florin",
+  "symbol": "ƒ",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637821"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.022073
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8645"
+  },
+  "ISOCode": "BBD",
+  "__v": 0,
+  "country": "Barbados",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753581"
+    }
+  },
+  "currency": "Barbadian dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637825"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.024663
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8647"
+  },
+  "ISOCode": "BDT",
+  "__v": 0,
+  "country": "Bangladesh",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753582"
+    }
+  },
+  "currency": "Bangladeshi taka",
+  "symbol": "৳",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637827"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.258463
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8649"
+  },
+  "ISOCode": "BMD",
+  "__v": 0,
+  "country": "Bermuda",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753584"
+    }
+  },
+  "currency": "Bermudian dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637832"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.012246
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e864c"
+  },
+  "ISOCode": "BND",
+  "__v": 0,
+  "country": "Brunei",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753585"
+    }
+  },
+  "currency": "Brunei dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637837"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.016891
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e864e"
+  },
+  "ISOCode": "BOB",
+  "__v": 0,
+  "country": "Bolivia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753586"
+    }
+  },
+  "currency": "Bolivian boliviano",
+  "symbol": "Bs",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637840"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.084402
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8650"
+  },
+  "ISOCode": "BSD",
+  "__v": 0,
+  "country": "Commonwealth of The Bahamas",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753587"
+    }
+  },
+  "currency": "Bahamian dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637845"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.012215
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8652"
+  },
+  "ISOCode": "BWP",
+  "__v": 0,
+  "country": "Botswana",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753589"
+    }
+  },
+  "currency": "Botswana pula",
+  "symbol": "P",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637851"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.15925
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8654"
+  },
+  "ISOCode": "BZD",
+  "__v": 0,
+  "country": "Belize",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753590"
+    }
+  },
+  "currency": "Belize dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637856"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.024621
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8656"
+  },
+  "ISOCode": "CAD",
+  "__v": 0,
+  "country": "Canada",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753592"
+    }
+  },
+  "currency": "Canadian dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637857"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.016405
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8658"
+  },
+  "ISOCode": "CHF",
+  "__v": 0,
+  "country": "Switzerland",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753593"
+    }
+  },
+  "currency": "Swiss franc",
+  "symbol": "Fr",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637860"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.011696
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e865a"
+  },
+  "ISOCode": "CNY",
+  "__v": 0,
+  "country": "China",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753594"
+    }
+  },
+  "currency": "Chinese yuan renminbi",
+  "symbol": "¥",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637864"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.087405
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e865c"
+  },
+  "ISOCode": "COP",
+  "__v": 0,
+  "country": "Colombia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753595"
+    }
+  },
+  "currency": "Colombian peso",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637866"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 60.591922
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e865e"
+  },
+  "ISOCode": "CRC",
+  "__v": 0,
+  "country": "Costa Rica",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753596"
+    }
+  },
+  "currency": "Costa Rican colon",
+  "symbol": "₡",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637867"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 7.418029
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8660"
+  },
+  "ISOCode": "CUP",
+  "__v": 0,
+  "country": "Cuba",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753597"
+    }
+  },
+  "currency": "Cuban peso",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637871"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.324512
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8662"
+  },
+  "ISOCode": "CZK",
+  "__v": 0,
+  "country": "Czech Republic",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753598"
+    }
+  },
+  "currency": "Czech koruna",
+  "symbol": "Kč",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637873"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.290542
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8664"
+  },
+  "ISOCode": "DKK",
+  "__v": 0,
+  "country": "Denmark",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753599"
+    }
+  },
+  "currency": "Danish krone",
+  "symbol": "kr",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637876"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.088737
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8666"
+  },
+  "ISOCode": "DOP",
+  "__v": 0,
+  "country": "Dominican Republic",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753600"
+    }
+  },
+  "currency": "Dominican peso",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637877"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.668544
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8668"
+  },
+  "ISOCode": "DZD",
+  "__v": 0,
+  "country": "Algeria",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753602"
+    }
+  },
+  "currency": "Algerian dinar",
+  "symbol": "DA",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637880"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.704266
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e866a"
+  },
+  "ISOCode": "EGP",
+  "__v": 0,
+  "country": "Egypt",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753603"
+    }
+  },
+  "currency": "Egyptian pound",
+  "symbol": "LE",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637881"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.300263
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e866c"
+  },
+  "ISOCode": "ETB",
+  "__v": 0,
+  "country": "Ethiopia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753604"
+    }
+  },
+  "currency": "Ethiopian birr",
+  "symbol": "Br",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637883"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.652524
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e866e"
+  },
+  "ISOCode": "EUR",
+  "__v": 0,
+  "country": "Europe",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753605"
+    }
+  },
+  "currency": "European euro",
+  "symbol": "€",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637885"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.011931
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8670"
+  },
+  "ISOCode": "FJD",
+  "__v": 0,
+  "country": "Fiji",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753606"
+    }
+  },
+  "currency": "Fijian dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637886"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.027372
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8672"
+  },
+  "ISOCode": "GBP",
+  "__v": 0,
+  "country": "United Kingdom",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753607"
+    }
+  },
+  "currency": "Pound sterling",
+  "symbol": "£",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637889"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.010314
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8674"
+  },
+  "ISOCode": "GHS",
+  "__v": 0,
+  "country": "Ghana",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753608"
+    }
+  },
+  "currency": "Ghanian Cedi",
+  "symbol": "₵",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637893"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.177108
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8676"
+  },
+  "ISOCode": "GIP",
+  "__v": 0,
+  "country": "Gibraltar",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753609"
+    }
+  },
+  "currency": "Gibraltar pound",
+  "symbol": "£",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637894"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.010394
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8678"
+  },
+  "ISOCode": "GMD",
+  "__v": 0,
+  "country": "Gambia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753610"
+    }
+  },
+  "currency": "Gambian dalasi",
+  "symbol": "D",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637897"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.753969
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e867a"
+  },
+  "ISOCode": "GTQ",
+  "__v": 0,
+  "country": "Guatemala",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753611"
+    }
+  },
+  "currency": "Guatemalan quetzal",
+  "symbol": "Q",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637900"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.095275
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e867c"
+  },
+  "ISOCode": "GYD",
+  "__v": 0,
+  "country": "Guyana",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753613"
+    }
+  },
+  "currency": "Guyanese dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637901"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 2.555388
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e867e"
+  },
+  "ISOCode": "HKD",
+  "__v": 0,
+  "country": "Hong Kong",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753614"
+    }
+  },
+  "currency": "Hong Kong dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637903"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.09571
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8680"
+  },
+  "ISOCode": "HNL",
+  "__v": 0,
+  "country": "Honduras",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753615"
+    }
+  },
+  "currency": "Honduran lempira",
+  "symbol": "L",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637904"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.301869
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8682"
+  },
+  "ISOCode": "HRK",
+  "__v": 0,
+  "country": "Croatia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753616"
+    }
+  },
+  "currency": "Croatian kuna",
+  "symbol": "kn",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637906"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.089993
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8684"
+  },
+  "ISOCode": "HTG",
+  "__v": 0,
+  "country": "Haiti",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753617"
+    }
+  },
+  "currency": "Haitian gourde",
+  "symbol": "G",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637907"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.67934
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8686"
+  },
+  "ISOCode": "HUF",
+  "__v": 0,
+  "country": "Hungary",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753618"
+    }
+  },
+  "currency": "Hungarian forint",
+  "symbol": "Ft",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637909"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 4.871366
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8688"
+  },
+  "ISOCode": "IDR",
+  "__v": 0,
+  "country": "Indonesia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753620"
+    }
+  },
+  "currency": "Indonesian rupiah",
+  "symbol": "Rp",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637913"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 191.854623
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e868a"
+  },
+  "ISOCode": "ILS",
+  "__v": 0,
+  "country": "Israel",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753621"
+    }
+  },
+  "currency": "Israeli new shekel",
+  "symbol": "₪",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637915"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.042686
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e868c"
+  },
+  "ISOCode": "INR",
+  "__v": 0,
+  "country": "India",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753622"
+    }
+  },
+  "currency": "Indian rupee",
+  "symbol": "₹",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637918"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e868e"
+  },
+  "ISOCode": "JMD",
+  "__v": 0,
+  "country": "Jamaica",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753623"
+    }
+  },
+  "currency": "Jamaican dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637925"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.879955
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8690"
+  },
+  "ISOCode": "KES",
+  "__v": 0,
+  "country": "Kenya",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753624"
+    }
+  },
+  "currency": "Kenyan shilling",
+  "symbol": "Sh",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637929"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.497044
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8692"
+  },
+  "ISOCode": "KGS",
+  "__v": 0,
+  "country": "Kyrgyzstan",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753625"
+    }
+  },
+  "currency": "Kyrgyzstani som",
+  "symbol": "som",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637930"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.033925
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8694"
+  },
+  "ISOCode": "KHR",
+  "__v": 0,
+  "country": "Cambodia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753626"
+    }
+  },
+  "currency": "Cambodian riel",
+  "symbol": "CR",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637932"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 50.686351
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8696"
+  },
+  "ISOCode": "KYD",
+  "__v": 0,
+  "country": "Cayman Islands",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753627"
+    }
+  },
+  "currency": "Cayman Islands dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637938"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.010178
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e8698"
+  },
+  "ISOCode": "KZT",
+  "__v": 0,
+  "country": "Kazakhstan",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753628"
+    }
+  },
+  "currency": "Kazakhstani tenge",
+  "symbol": "₸",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637940"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 5.662144
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e869a"
+  },
+  "ISOCode": "LAK",
+  "__v": 0,
+  "country": "Laos",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753629"
+    }
+  },
+  "currency": "Lao kip",
+  "symbol": "₭",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637941"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 211.210942
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e869c"
+  },
+  "ISOCode": "LBP",
+  "__v": 0,
+  "country": "Lebanon",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753631"
+    }
+  },
+  "currency": "Lebanese pound",
+  "symbol": "LL",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637943"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 18.468891
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e869e"
+  },
+  "ISOCode": "LKR",
+  "__v": 0,
+  "country": "Sri Lanka",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753632"
+    }
+  },
+  "currency": "Sri Lankan rupee",
+  "symbol": "Rs",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637945"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 4.488776
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86a0"
+  },
+  "ISOCode": "LRD",
+  "__v": 0,
+  "country": "Liberia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753633"
+    }
+  },
+  "currency": "Liberian dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637946"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.885842
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86a2"
+  },
+  "ISOCode": "LSL",
+  "__v": 0,
+  "country": "Lesotho",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753634"
+    }
+  },
+  "currency": "Lesotho loti",
+  "symbol": "M",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637947"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.212213
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86a4"
+  },
+  "ISOCode": "MAD",
+  "__v": 0,
+  "country": "Morocco",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753635"
+    }
+  },
+  "currency": "Moroccan dirham",
+  "symbol": "DH",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637953"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.131702
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86a6"
+  },
+  "ISOCode": "MDL",
+  "__v": 0,
+  "country": "Moldova",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753636"
+    }
+  },
+  "currency": "Moldovan leu",
+  "symbol": "Lei",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637954"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.234577
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86a8"
+  },
+  "ISOCode": "MKD",
+  "__v": 0,
+  "country": "Macedonia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753637"
+    }
+  },
+  "currency": "Macedonian denar",
+  "symbol": "DEN",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637958"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.735347
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86aa"
+  },
+  "ISOCode": "MMK",
+  "__v": 0,
+  "country": "Myanmar",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753638"
+    }
+  },
+  "currency": "Myanmar kyat",
+  "symbol": "Ks",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637959"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 25.650393
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86ac"
+  },
+  "ISOCode": "MNT",
+  "__v": 0,
+  "country": "Mongolia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753640"
+    }
+  },
+  "currency": "Mongolian tugrik",
+  "symbol": "₮",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637961"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 41.827861
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86ae"
+  },
+  "ISOCode": "MOP",
+  "__v": 0,
+  "country": "Macau",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753641"
+    }
+  },
+  "currency": "Macanese pataca",
+  "symbol": "MOP$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637962"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.098232
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86b0"
+  },
+  "ISOCode": "MUR",
+  "__v": 0,
+  "country": "Mauritius",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753642"
+    }
+  },
+  "currency": "Mauritian rupee",
+  "symbol": "Rs",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637965"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.541203
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86b2"
+  },
+  "ISOCode": "MVR",
+  "__v": 0,
+  "country": "Maldives",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753643"
+    }
+  },
+  "currency": "Maldivian rufiyaa",
+  "symbol": "Rf",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637967"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.188586
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86b4"
+  },
+  "ISOCode": "MWK",
+  "__v": 0,
+  "country": "Malawi",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753644"
+    }
+  },
+  "currency": "Malawian kwacha",
+  "symbol": "K",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637969"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 12.545606
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86b6"
+  },
+  "ISOCode": "MXN",
+  "__v": 0,
+  "country": "Mexico",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753646"
+    }
+  },
+  "currency": "Mexican peso",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637971"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.239245
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86b8"
+  },
+  "ISOCode": "MYR",
+  "__v": 0,
+  "country": "Malaysia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753647"
+    }
+  },
+  "currency": "Malaysian ringgit",
+  "symbol": "RM",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637972"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.056092
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86ba"
+  },
+  "ISOCode": "NAD",
+  "__v": 0,
+  "country": "Namibia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753648"
+    }
+  },
+  "currency": "Namibian dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637976"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.212221
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86bc"
+  },
+  "ISOCode": "NGN",
+  "__v": 0,
+  "country": "Nigeria",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753649"
+    }
+  },
+  "currency": "Nigerian naira",
+  "symbol": "₦",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637978"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 5.431091
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86be"
+  },
+  "ISOCode": "NIO",
+  "__v": 0,
+  "country": "Nicaragua",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753650"
+    }
+  },
+  "currency": "Nicaraguan cordoba",
+  "symbol": "C$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637979"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.439685
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86c0"
+  },
+  "ISOCode": "NOK",
+  "__v": 0,
+  "country": "Norway",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753651"
+    }
+  },
+  "currency": "Norwegian krone",
+  "symbol": "kr",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637981"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.124665
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86c2"
+  },
+  "ISOCode": "NPR",
+  "__v": 0,
+  "country": "Nepal",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753652"
+    }
+  },
+  "currency": "Nepalese rupee",
+  "symbol": "Rs",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637983"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 1.598256
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86c4"
+  },
+  "ISOCode": "NZD",
+  "__v": 0,
+  "country": "New Zealand",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753653"
+    }
+  },
+  "currency": "New Zealand dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637984"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.019915
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86c6"
+  },
+  "ISOCode": "PEN",
+  "__v": 0,
+  "country": "Peru",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753654"
+    }
+  },
+  "currency": "Peruvian sol",
+  "symbol": "S/",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637988"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.046813
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86c8"
+  },
+  "ISOCode": "PGK",
+  "__v": 0,
+  "country": "Papua New Guinea",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753655"
+    }
+  },
+  "currency": "Papua New Guinean kina",
+  "symbol": "K",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637990"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.043043
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86ca"
+  },
+  "ISOCode": "PHP",
+  "__v": 0,
+  "country": "Philippines",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753657"
+    }
+  },
+  "currency": "Philippine peso",
+  "symbol": "₱",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637991"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.701962
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86cc"
+  },
+  "ISOCode": "PKR",
+  "__v": 0,
+  "country": "Pakistan",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753658"
+    }
+  },
+  "currency": "Pakistani rupee",
+  "symbol": "Rs",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637993"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 2.739387
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86ce"
+  },
+  "ISOCode": "QAR",
+  "__v": 0,
+  "country": "Qatar",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753659"
+    }
+  },
+  "currency": "Qatari riyal",
+  "symbol": "QR",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118637996"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.044581
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86d0"
+  },
+  "ISOCode": "RUB",
+  "__v": 0,
+  "country": "Russia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753660"
+    }
+  },
+  "currency": "Russian ruble",
+  "symbol": "₽",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638000"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.742888
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86d2"
+  },
+  "ISOCode": "SAR",
+  "__v": 0,
+  "country": "Saudi Arabia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753661"
+    }
+  },
+  "currency": "Saudi Arabian riyal",
+  "symbol": "Rls",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638003"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.046021
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86d4"
+  },
+  "ISOCode": "SCR",
+  "__v": 0,
+  "country": "Seychelles",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753663"
+    }
+  },
+  "currency": "Seychellois rupee",
+  "symbol": "Rs",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638006"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.159378
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86d6"
+  },
+  "ISOCode": "SEK",
+  "__v": 0,
+  "country": "Sweden",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753664"
+    }
+  },
+  "currency": "Swedish krona",
+  "symbol": "kr",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638009"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.130737
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86d8"
+  },
+  "ISOCode": "SGD",
+  "__v": 0,
+  "country": "Singapore",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753665"
+    }
+  },
+  "currency": "Singapore dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638010"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.016889
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86da"
+  },
+  "ISOCode": "SLL",
+  "__v": 0,
+  "country": "Sierra Leone",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753666"
+    }
+  },
+  "currency": "Sierra Leonean leone",
+  "symbol": "Le",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638015"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 222.627557
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86dc"
+  },
+  "ISOCode": "SOS",
+  "__v": 0,
+  "country": "Somalia",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753667"
+    }
+  },
+  "currency": "Somali shilling",
+  "symbol": "Shs",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638018"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 6.961683
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86de"
+  },
+  "ISOCode": "SSP",
+  "__v": 0,
+  "country": "South Sudan",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753668"
+    }
+  },
+  "currency": "South Sudanese pound",
+  "symbol": "",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667367753668"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86e0"
+  },
+  "ISOCode": "SVC",
+  "__v": 0,
+  "country": "El Salvador",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753669"
+    }
+  },
+  "currency": "Salvadoran colón",
+  "symbol": "₡‎",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638022"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.106872
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86e2"
+  },
+  "ISOCode": "SZL",
+  "__v": 0,
+  "country": "Eswatini",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753670"
+    }
+  },
+  "currency": "Swazi lilangeni",
+  "symbol": "E",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638025"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.212563
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86e4"
+  },
+  "ISOCode": "THB",
+  "__v": 0,
+  "country": "Thailand",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753672"
+    }
+  },
+  "currency": "Thai baht",
+  "symbol": "฿",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638027"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.442314
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86e6"
+  },
+  "ISOCode": "TTD",
+  "__v": 0,
+  "country": "Trinidad and Tobago",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753673"
+    }
+  },
+  "currency": "Trinidad and Tobago dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638037"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.082906
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86e8"
+  },
+  "ISOCode": "TZS",
+  "__v": 0,
+  "country": "Tanzania",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753674"
+    }
+  },
+  "currency": "Tanzanian shilling",
+  "symbol": "Shs",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638040"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 28.557069
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86ea"
+  },
+  "ISOCode": "USD",
+  "__v": 0,
+  "country": "United States",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753675"
+    }
+  },
+  "currency": "United States dollar",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638046"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.012246
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86ec"
+  },
+  "ISOCode": "UYU",
+  "__v": 0,
+  "country": "Uruguay",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753676"
+    }
+  },
+  "currency": "Uruguayan peso",
+  "symbol": "$",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638047"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.490235
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86ee"
+  },
+  "ISOCode": "UZS",
+  "__v": 0,
+  "country": "Uzbekistan",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753678"
+    }
+  },
+  "currency": "Uzbekistani soum",
+  "symbol": "soum",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638049"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 136.833427
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86f0"
+  },
+  "ISOCode": "YER",
+  "__v": 0,
+  "country": "Yemen",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753679"
+    }
+  },
+  "currency": "Yemeni rial",
+  "symbol": "Rls",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638064"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 3.063275
+},{
+  "_id": {
+    "$oid": "63620349dd3a74bf485e86f2"
+  },
+  "ISOCode": "ZAR",
+  "__v": 0,
+  "country": "South Africa",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667367753680"
+    }
+  },
+  "currency": "South African rand",
+  "symbol": "R",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1669118638066"
+    }
+  },
+  "baseCurrencyISOCode": "INR",
+  "rate": 0.211392
+}]
+}

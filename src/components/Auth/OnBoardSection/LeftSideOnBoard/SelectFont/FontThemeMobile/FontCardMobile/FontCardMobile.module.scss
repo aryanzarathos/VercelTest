@@ -1,0 +1,81 @@
+@import "../../../../../../../styles/GloablStyle/theme";
+.mainThemeFontCard {
+  display: flex;
+  gap: 12px;
+  padding: 12px 10px;
+  background: #ffffff;
+  border: 2px solid rgba($base, 0.1);
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  &:not(:first-child) {
+    margin-top: 0px;
+  }
+  &__image {
+    width: 16px;
+  }
+  &__Content {
+    width: 100%;
+    @media screen and (max-width: 400px) {
+      max-width: 167px;
+    }
+    &__heading {
+      font-size: 16px;
+      line-height: 19px;
+      color: $base;
+      @media screen and (max-width: 576px) {
+        font-size: 12.2956px;
+        line-height: 14px;
+      }
+    }
+    &__para {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: rgba($base, 0.4);
+      margin-top: 3px;
+      @media screen and (max-width: 576px) {
+        font-size: 9.22167px;
+        line-height: 12px;
+      }
+    }
+  }
+  &__font {
+    &__ist {
+      border-radius: 67px;
+      background: #f6f6f6;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.004em;
+      text-transform: capitalize;
+      color: #000000;
+      padding: 4px 10px;
+      text-align: center;
+      width: fit-content;
+      @media screen and (max-width: 576px) {
+        font-size: 9.22167px;
+        line-height: 11px;
+      }
+    }
+    &__iind {
+      border-radius: 67px;
+      width: fit-content;
+      background: #f6f6f6;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.004em;
+      text-transform: capitalize;
+      color: $black;
+      margin-top: 7px;
+      padding: 4px 10px;
+      text-align: center;
+      @media screen and (max-width: 576px) {
+        font-size: 9.22167px;
+        line-height: 11px;
+      }
+    }
+  }
+}
+.active {
+  border: 1px solid #3758f9;
+}

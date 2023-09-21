@@ -1,0 +1,393 @@
+@import "../../styles/GloablStyle/theme";
+@import "../../styles/GloablStyle/typo";
+
+.EdneedModals {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  // overflow-y: auto;
+  // overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 999999;
+  box-sizing: border-box;
+
+
+  &.modalsFade {
+    animation: fade-in 1s 1 linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  @keyframes fade-in {
+    0% {
+      animation-timing-function: cubic-bezier(0.2242, 0.7499, 0.3142, 0.8148);
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .ModalsOverlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1080;
+  }
+
+  .ModalsClose {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    color: $white;
+    cursor: pointer;
+
+    .modalsCancelIcon {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      transform: scale(var(5, 1));
+      width: 22px;
+      height: 22px;
+      background-color: transparent;
+      border-radius: 50%;
+
+      &::after,
+      &::before {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position: absolute;
+        width: 18px;
+        height: 2px;
+        background: $white;
+        transform: rotate(45deg);
+        border-radius: 5px;
+        top: 10px;
+        left: 5px
+      }
+
+      &::after {
+        transform: rotate(-45deg)
+      }
+    }
+
+
+  }
+
+  .ModalsWrapper {
+    position: relative;
+    border-radius: 8px 0 0 8px;
+    width: auto;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    // z-index: 1080;
+    margin-left: auto;
+    margin-right: auto;
+
+    .ModalsContent {
+      color: #c3c0c0;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.125);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 1085;
+
+      &.slideleft {
+        animation: 1.5s slideleft;
+      }
+
+      @keyframes slideleft {
+        from {
+          margin-right: -100%;
+        }
+
+        to {
+          margin-left: auto;
+        }
+      }
+
+      &.slidetop {
+        animation: 1.5s slidetop;
+      }
+
+      @keyframes slidetop {
+        from {
+          margin-top: -100%;
+        }
+
+        to {
+          margin-bottom: auto;
+        }
+      }
+
+
+
+    }
+
+    &.modalFull {
+      width: 100%;
+    }
+
+    &.modalXXL {
+      width: 90%;
+
+      @media screen and (max-width:768px) {
+        width: 100%;
+      }
+    }
+
+    &.modalXL {
+      width: 80%;
+
+      @media screen and (max-width:768px) {
+        width: 100%;
+      }
+    }
+
+    &.modalL {
+      width: 60%;
+
+      @media screen and (max-width:768px) {
+        width: 100%;
+      }
+    }
+
+    &.modalM {
+      width: 50%;
+
+      @media screen and (max-width:768px) {
+        width: 100%;
+      }
+
+    }
+
+    &.modalS {
+      width: 40%;
+
+      @media screen and (max-width:768px) {
+        width: 100%;
+      }
+    }
+
+    &.modalXS {
+      width: 30%;
+
+      @media screen and (max-width:768px) {
+        width: 100%;
+      }
+    }
+
+  }
+
+  .ModalsBody {
+    padding: 16px 24px;
+  }
+
+  .ModalsFooter {
+    padding: 16px 24px;
+    min-height: 10vh;
+    max-height: 10vh;
+    border-bottom-left-radius: 8px;
+  }
+
+  .ModalsHead {
+    padding: 16px 48px 16px 24px;
+    background-color: $primary;
+    color: $base;
+    border-top-left-radius: 8px;
+    border-bottom: 1px solid #D9D9D9;
+
+    h2 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: $white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    h3 {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 18px;
+      color: $white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    &.transparent {
+      background: transparent;
+    }
+  }
+
+
+  &.center {
+
+    .ModalsContent {
+
+      border-radius: 8px;
+
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+    }
+
+    .ModalsBody {
+      min-height: 20vh;
+      // max-height: 100%;
+    }
+
+    .ModalsHead {
+      min-height: auto;
+      // max-height: 100%;
+      background: $primary;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    .ModalsFooter {
+      min-height: auto;
+      // max-height: 100%;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+  }
+
+  &.top {
+
+    // padding-top: 48px;
+    // padding: 48px 0;
+    // height: 100%;
+    // overflow: hidden;
+    // overflow-y: auto;
+    .ModalsWrapper {
+      align-items: flex-start;
+    }
+
+    .ModalsContent {
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 8px;
+
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
+    }
+
+    .ModalsBody {
+      min-height: 20vh;
+      // max-height: 100%;
+    }
+
+    .ModalsHead {
+      min-height: auto;
+      // max-height: 100%;
+      background-color: #3758F9;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    .ModalsFooter {
+      min-height: auto;
+      // max-height: 100%;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+  }
+}
+
+
+// .ModalsWrapper {
+//   position: relative;
+//   border-radius: 8px 0 0 8px;
+//   width: auto;
+//   padding: 24px 0;
+//   display: flex;
+//   align-items: center;
+//   min-height: 100%;
+//   // z-index: 1080;
+//   margin-left: auto;
+//   margin-right: auto;
+
+//   .ModalsContent {
+//     color: #c3c0c0;
+//     width: 100%;
+//     background-color: #fff;
+//     box-shadow: 0 0 8px rgba(0, 0, 0, 0.125);
+//     display: flex;
+//     flex-direction: column;
+//     position: relative;
+//     z-index: 1085;
+
+//     &.slideleft {
+//       animation: 1.5s slideleft;
+//     }
+
+//     @keyframes slideleft {
+//       from {
+//         margin-right: -100%;
+//       }
+
+//       to {
+//         margin-left: auto;
+//       }
+//     }
+
+//     &.slidetop {
+//       animation: 1.5s slidetop;
+//     }
+
+//     @keyframes slidetop {
+//       from {
+//         margin-top: -100%;
+//       }
+
+//       to {
+//         margin-bottom: auto;
+//       }
+//     }
+
+
+
+//   }
+
+//   &.modalFull {
+//     width: 100%;
+//   }
+
+//   &.modalXXL {
+//     width: 90%;
+//   }
+
+//   &.modalXL {
+//     width: 80%;
+//   }
+
+//   &.modalL {
+//     width: 60%;
+//   }
+
+//   &.modalM {
+//     width: 50%;
+//   }
+
+//   &.modalS {
+//     width: 40%;
+//   }
+
+//   &.modalXS {
+//     width: 30%;
+//   }
+
+// }

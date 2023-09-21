@@ -1,0 +1,185 @@
+@import "./theme";
+@import "./typo";
+
+@media screen and (max-width: 992px) {
+    .pageInCenter {
+      width: 90%;
+    }
+    .popup {
+      &.removePopup {
+        width: auto;
+        padding: 11px;
+      }
+    }
+    .Popup {
+      &.RemovePopup {
+        width: auto;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .popup {
+      &.removePopup {
+        width: auto;
+      }
+    }
+    .Popup {
+      &.RemovePopup {
+        width: auto;
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .popup {
+      &.removePopup {
+        width: auto;
+      }
+    }
+    .Popup {
+      &.RemovePopup {
+        width: auto;
+      }
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .popup {
+      &.removePopup {
+        width: auto;
+      }
+    }
+    .Popup {
+      &.RemovePopup {
+        width: auto;
+      }
+    }
+    .tooltip-cst {
+      .tooltip-content-cst {
+        right: 50%;
+        left: auto;
+      }
+    }
+    /****social share popup****/
+    .sharePopup {
+      .socialShare-icon {
+        .socialShare-iconItem {
+          padding: 0 5px;
+        }
+      }
+    }
+    /****Close social share popup****/
+  
+    .InputOverlayRightAlign {
+      &.ResendOTPBtn {
+        position: relative;
+        padding-top: 0;
+        top: -8px;
+      }
+    }
+    .logoCustom {
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+
+
+  
+
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .capitalize {
+    text-transform: capitalize;
+  }
+  
+  // h1 {
+  //   letter-spacing: 0;
+  // }
+  
+  $width: (
+    0: "0",
+    25: "25%",
+    50: "50%",
+    75: "75%",
+    100: "100%",
+  );
+  
+  @each $key,
+  $val in $width {
+    .w-#{$key} {
+      width: #{$val};
+    }
+  }
+  
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  
+  
+  .pageFullCenter {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .pageInCenter {
+    width: 100%;
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: .75rem;
+    padding-left: .75rem;
+  
+    @media screen and (max-width: 1440px) {
+      max-width: 90%;
+    }
+  
+    @media screen and (max-width: 1200px) {
+      max-width: 90%;
+    }
+  
+    @media screen and (max-width: 992px) {
+      max-width: 90%;
+    }
+  
+    @media screen and (max-width: 768px) {
+      max-width: 90%;
+  
+    }
+  
+    @media screen and (max-width: 576px) {
+      max-width: 90%;
+  
+    }
+  }
+  
+  .border-0 {
+    border: none;
+  }
+  
+  .Dropdown_divider {
+    border-bottom: 1px solid $lgray;
+  }
+  
+  

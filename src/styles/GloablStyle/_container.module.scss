@@ -1,0 +1,46 @@
+.container {
+  width: 80%;
+  max-width: 1366px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+
+  @media screen and (max-width: 1440px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 992px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 90%;
+  }
+
+  .container-sm {
+    width: 90%;
+    max-width: px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+}
+
+.container_fluid {
+  width: 100%;
+  max-width: 1920px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}

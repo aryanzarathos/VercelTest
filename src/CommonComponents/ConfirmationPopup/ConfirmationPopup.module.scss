@@ -1,0 +1,58 @@
+
+.DeletePopupBody {
+    min-height: auto !important;
+
+    h5 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #202020;
+        text-align: center;
+        margin-bottom: 16px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #747779;
+        margin-bottom: 24px;
+    }
+
+    .button_group {
+        border-top: 1px solid #EAEEFE;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+        button {
+            padding: 12px 20px 0 20px;
+            background-color: #ffffff;
+            color: #747779;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            font-family: "Poppins", sans-serif;
+            border: none;
+            cursor: pointer;
+
+            &:first-child {
+                border-right: 1px solid #EAEEFE;
+
+                &:hover {
+                    color: #202020;
+                }
+            }
+
+            &:last-child {
+                color: #D1332E;
+
+                &:hover {
+                    color: #D1332E;
+                }
+            }
+        }
+    }
+}

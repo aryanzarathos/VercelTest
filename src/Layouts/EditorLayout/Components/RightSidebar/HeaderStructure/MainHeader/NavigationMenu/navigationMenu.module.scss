@@ -1,0 +1,100 @@
+.mainNavigationMenu {
+    .HideTop {
+        display: flex;
+        width: 100%;
+        padding: 12px 16px;
+        background: rgba(244, 244, 244, 0.6);
+        justify-content: space-between;
+        align-items: center;
+
+        & p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+    }
+
+    .choseLayout {
+        padding: 14px 17px;
+        border-bottom: 2px solid rgba(244, 244, 244, 0.6);
+
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+            margin-bottom: 6px;
+            display: inline-block;
+        }
+    }
+
+    .typography {
+        padding: 14px 17px;
+
+        border-bottom: 2px solid rgba(244, 244, 244, 0.6);
+
+        &:last-child {
+            border-bottom: 0px;
+        }
+
+        h3 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-transform: capitalize;
+            color: #000000;
+            margin-bottom: 14px;
+        }
+
+        .typoHeading {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-transform: capitalize;
+            color: #000000;
+        }
+
+        .tabsWrapper {
+            background: #F2F7FF;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            margin-top: 8px;
+
+            .tabBtn {
+                background: transparent;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                text-transform: capitalize;
+                color: rgba(32, 32, 32, 0.6);
+                padding: 1px 14px;
+                border: none;
+                outline: none;
+                border-radius: 4px;
+            }
+
+            .activeTabBtn {
+                background: #3758F9;
+                color: #fff;
+            }
+        }
+    }
+    
+}

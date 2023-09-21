@@ -1,0 +1,124 @@
+// @import "../../CommonComponent/commonCss/base.scss";
+
+.currencySelectorContainer {
+  position: relative;
+
+  .currentSelectButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+
+    .flagImg {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .dropdownContentWrap {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 5px;
+
+      @media (max-width: 400px) {
+        gap: 2px;
+      }
+
+      .dropDownContentText {
+        white-space: nowrap;
+        // overflow: hidden;
+        color: var(--global-color-primary);
+
+        @media (max-width: 400px) {
+          white-space: nowrap;
+          // width: 50px;
+          overflow: hidden;
+          color: #202020;
+        }
+      }
+    }
+  }
+
+  .showDropdownContainer {
+    padding: 12px;
+    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    background-color: var(--global-color-penitentiary);
+    position: absolute;
+    top: 120%;
+    right: 0;
+    width: 192px;
+    z-index: 999;
+
+
+
+    .lanuage-wrap {
+      margin-top: 8px;
+
+      #google_translate_element {
+        .skiptranslate {
+          &.goog-te-gadget {
+            .goog-te-combo {
+              width: 100%;
+              border: 1px solid rgba(32, 32, 32, 0.2);
+              padding: 6px 10px;
+              display: inline-flex;
+              align-items: center;
+              height: 32px;
+              border-radius: 4px;
+              cursor: pointer;
+              background-color: transparent;
+              color: #202020;
+              font-weight: 400;
+              text-transform: capitalize;
+              z-index: 1;
+              text-align: left;
+              font-size: 12px;
+              justify-content: space-between;
+            }
+          }
+        }
+      }
+    }
+
+    .btnWrap {
+      margin-top: 12px;
+
+      .btnApply {
+        /* height: 32px; */
+        background: var(--global-color-primary);
+        color: var(--global-color-penitentiary);
+        border-color: transparent;
+        width: 100%;
+        padding: 3px 20px;
+        border: none;
+        border-radius: 6px;
+      }
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px !important;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888 !important;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555 !important;
+  }
+}

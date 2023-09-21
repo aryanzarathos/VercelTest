@@ -1,0 +1,33 @@
+
+
+.messageToastContainer {
+    transition: all 0.3s linear;
+    position: fixed;
+    z-index: 9999999;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .toastWrap {
+        background-color: var(--global-color-primary);
+        width: fit-content;
+        max-width: 40vw;
+        padding: 12px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 8px rgba(var(--global-color-penitentiary), 0.1);
+
+
+        @media(max-width:768px) {
+            max-width: 70vw;
+        }
+
+        @media(max-width:600px) {
+            max-width: 90vw;
+        }
+
+        .toastParaText {
+            color: var(--global-color-penitentiary);
+            line-height: 1.4em;
+        }
+    }
+}

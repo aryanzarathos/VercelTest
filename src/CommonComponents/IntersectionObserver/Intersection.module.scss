@@ -1,0 +1,50 @@
+    .visible {
+        order: 0;
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    .inVisible {
+        order: 100;
+        visibility: hidden;
+        pointer-events: none;
+        height: 0px;
+        width: 0;
+        // display: inline;s
+    }
+
+
+    .toolbarWrapper {
+        display: flex;
+        // overflow: hidden,
+        // padding: 0 20px;
+        flex-grow: 1;
+        width: calc(100% - 856px);
+    }
+
+
+    .overflowStyle {
+        order: 99;
+        position: sticky;
+        right: 0;
+        background-color: white;
+    }
+
+    .inOverflowMenu {
+        &:hover {
+            background-color: "transparent"
+        }
+    }
+
+    .submenu {
+        position: absolute;
+        top: 32px;
+        left: 0;
+        background: red;
+        color: white;
+    }
+
+    .morePart {
+        position: relative;
+    }

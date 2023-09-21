@@ -1,0 +1,48 @@
+@import '../../../../../../../styles/GloablStyle/theme';
+.SocialMediaFooter {
+    padding-bottom: 12px;
+    &:not(:first-child) {
+        margin-top: 15px;
+    }
+
+    .phoneNoUprCont {
+        padding: 12px 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(244, 244, 244, 0.6);
+        .hidetxt{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: $base;
+        }
+
+    }
+
+    .follow {
+        margin-top: 8px;
+    }
+    .socialWrap{
+        padding: 0px 17px;
+        .checkBox {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            margin-top: 8px;
+            margin-bottom: 6px;
+            accent-color: $primary;
+
+            span {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: #000000;
+            }
+        }
+    }
+}

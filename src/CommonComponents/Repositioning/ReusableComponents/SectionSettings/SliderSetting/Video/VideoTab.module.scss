@@ -1,0 +1,32 @@
+.VideoSetting_Wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+    gap: 16px;
+
+    .VideoSetting_Item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+
+        .title {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            font-family: "Poppins", sans-serif;
+            color: #202020;
+        }
+    }
+
+    .button_group {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+
+        button {
+            width: 100%;
+        }
+    }
+}

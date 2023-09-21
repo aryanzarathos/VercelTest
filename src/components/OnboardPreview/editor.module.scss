@@ -1,0 +1,74 @@
+.goToDashBoardWrapper {
+    padding: 20px 30px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    @media screen and (max-width:600x) {
+        justify-content: center;
+    }
+
+    .goToDashBoardBtn {
+        background: transparent;
+        border: 1px solid rgba(32, 32, 32, 1);
+        outline: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 8px 16px;
+        border-radius: 55px;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+    }
+
+    .goToDashBoardRightContent {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        flex-wrap: wrap;
+
+        @media screen and (max-width:600x) {
+            justify-content: center;
+        }
+
+
+        .goToDashBoardPublish {
+            color: rgba(55, 88, 249, 1);
+            font-family: "Poppins";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            background: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+        .goToDashBoardEditBtn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-radius: 55px;
+            font-family: "Poppins";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.01em;
+            padding: 8px 16px;
+            background: rgba(55, 88, 249, 1);
+            border: 1px solid rgba(55, 88, 249, 1);
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}

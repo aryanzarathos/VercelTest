@@ -1,0 +1,97 @@
+// @import "../../../styles/GloablStyle/theme";
+@import '../../../styles/GloablStyle/theme';
+.mainOnboardLogin {
+  min-height: 100vh;
+  // height: 100vh;
+  width: 100%;
+  padding: 50px 48px 50px 56px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: $white;
+  @media screen and (max-width: 480px) {
+    padding: 26px 24px 8px;
+  }
+  &__uprside {
+    display: flex;
+    justify-content: space-between;
+    &__backBtn {
+      background: transparent;
+      border: none;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      color: $base;
+      position: relative;
+      padding-left: 13px;
+      cursor: pointer;
+      &::before {
+        height: 7px;
+        width: 7px;
+        border: 2px solid $base;
+        border-right: none;
+        border-top: none;
+        top: 49%;
+        transform: translateY(-50%) rotate(45deg);
+      }
+    }
+    &__loginBtn {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      color: rgba($base, 0.6);
+      background: transparent;
+      outline: none;
+      border: none;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+      position: relative;
+    }
+  }
+  // &__content {
+  //   max-height: calc(100% - 21px);
+  //   height: 100%;
+  // }
+  &__downSide {
+    max-width: 360px;
+    margin: auto auto 0;
+
+    &__terms {
+      margin-top: auto;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: center;
+      color: rgba($base, 0.6);
+      @media screen and (max-width: 480px) {
+        font-size: 10px;
+        line-height: 15px;
+      }
+    }
+    &__list {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      list-style-type: none;
+      margin-top: 17px;
+      margin-bottom: 18px;
+      &__listing {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* identical to box height */
+        a {
+          color: rgba($base, 0.4);
+        }
+
+        &:nth-child(2) {
+          height: 18px;
+          width: 1px;
+          background: rgba($base, 0.4);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+@import "../../../../../styles/GloablStyle/theme";
+
+.modalWrapper {
+    .modalHead {
+        padding: 16px 24px;
+        background: $black !important;
+
+        .congContent {
+            font-family: "Poppins";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: center;
+            margin-top: 24px;
+            color: $white;
+            margin-bottom: 16px;
+        }
+
+        .urlWrapper {
+            max-width: 468px;
+            width: 100%;
+            background: rgba($lgray, 1);
+            border-radius: 4px;
+            padding: 4px 4px 4px 16px;
+            margin: 0 auto;
+            gap: 15px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .dots {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+
+                .dotsItem {
+                    height: 10px;
+                    width: 10px;
+                    background: $white;
+                    border-radius: 50%;
+                }
+            }
+
+            .urlName {
+                flex-grow: 1;
+                background: $white;
+                border-radius: 4px;
+                display: flex;
+                justify-content: space-between;
+                padding: 5px 12px;
+                align-items: center;
+
+                .urlContent {
+                    font-family: "Poppins";
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    color: rgba($base, 0.4);
+
+                    span {
+                        background: rgba($primary, 0.2);
+                        color: $black;
+                    }
+
+                    .viewSite {
+                        font-family: "Poppins";
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 18px;
+                        color: rgba($primary, 1);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .mainContent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 14px 23px 16px 48px;
+        gap: 61px;
+
+        .leftContent {
+            .nextStep {
+                font-family: "Poppins";
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 18px;
+                color: rgba($primary, 1);
+                margin-bottom: 8px;
+            }
+
+            .connectText {
+                font-family: "Poppins";
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px;
+                margin-bottom: 12px;
+                color: rgba($base, 1);
+            }
+
+            .makeIt {
+                font-family: "Poppins";
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 22px;
+                color: rgba($base, 0.6);
+                margin-bottom: 16px;
+            }
+
+            .contactBtn {
+                font-family: "Poppins";
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21px;
+                color: $white;
+                padding: 6px 20px;
+                background: rgba($primary, 1);
+                border: 1px solid rgba($primary, 1);
+                transition: all .3s;
+                border-radius: 50px;
+                cursor: pointer;
+
+                &:hover {
+                    background: transparent;
+                    color: rgba($primary, 1);
+                }
+            }
+        }
+
+        .rightContent {
+            width: 100%;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}

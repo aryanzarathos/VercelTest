@@ -1,0 +1,260 @@
+// .AltTextPopupBody {
+//     // min-height: auto !important;
+//     overflow-y: auto;
+//     height: 380px;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 16px;
+
+//     .Discription_Wrapper {
+//         background: #F2F7FF;
+//         border-radius: 7px;
+//         padding: 10px 16px;
+
+//         .Discription_title {
+//             font-weight: 400;
+//             font-size: 16px;
+//             line-height: 24px;
+//             color: rgba(32, 32, 32, 0.8);
+//             font-family: "Poppins", sans-serif;
+//         }
+//     }
+
+//     .card {
+//         border: 1px solid rgba(0, 0, 0, 0.1);
+//         border-radius: 7px;
+//         padding: 13px 8px 12px 12px;
+
+//         .cardBody {
+//             display: flex;
+//             align-items: flex-start;
+//             gap: 13px;
+//             // flex-direction: column;
+
+//             .Grid_Wrap {
+//                 display: flex;
+//                 align-items: flex-start;
+//                 gap: 44px;
+//                 width: 100%;
+
+//                 .Image_Wrap {
+//                     line-height: 0;
+
+//                     img {
+//                         border-radius: 6px;
+//                         object-fit: cover;
+//                         object-position: center;
+//                     }
+//                 }
+
+//                 .FormInputFiels {
+//                     display: flex;
+//                     flex-direction: column;
+//                     gap: 12px;
+//                     width: 100%;
+
+//                     .form-group {
+//                         line-height: 0;
+//                     }
+
+//                     .label {
+//                         font-weight: 400;
+//                         font-size: 12px;
+//                         line-height: 14px;
+//                         color: #202020;
+//                         font-family: "Poppins", sans-serif;
+//                     }
+
+//                     .InputFields {
+//                         border-radius: 6px;
+//                         height: 29px;
+//                         margin-top: 4px;
+//                         background: #FCFCFC;
+//                         border: 1.5px solid #ECECEC;
+//                         // color: rgba(32, 32, 32, 0.4);
+//                     }
+//                 }
+//             }
+
+//             .AreaFormInputFields {
+//                 width: 100%;
+
+//                 .form-group {
+//                     line-height: 0;
+//                 }
+
+//                 .Arealabel {
+//                     font-weight: 400;
+//                     font-size: 12px;
+//                     line-height: 14px;
+//                     color: #202020;
+//                     font-family: "Poppins", sans-serif;
+//                 }
+
+//                 .AreaInputFields {
+//                     border-radius: 6px;
+//                     margin-top: 4px;
+//                     background: #FCFCFC;
+//                     border: 1.5px solid #ECECEC;
+//                     color: rgba(32, 32, 32, 0.4);
+//                 }
+//             }
+//         }
+//     }
+
+// }
+
+// .modalWrapper {
+//     // padding: 20px;
+// }
+
+// .headerstyle {
+//     // margin-bottom: 8px;
+//     // font-weight: 500;
+//     // color: #202020;
+
+// }
+
+// .button_group {
+//     display: flex;
+//     justify-content: flex-end;
+//     gap: 15px;
+// }
+
+
+
+
+.AltTextPopupBody {
+    // min-height: auto !important;
+    overflow-y: auto;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .Discription_Wrapper {
+        background: #F2F7FF;
+        border-radius: 7px;
+        padding: 10px 16px;
+
+        .Discription_title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(32, 32, 32, 0.8);
+            font-family: "Poppins", sans-serif;
+        }
+    }
+
+    .card {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 7px;
+        padding: 13px 8px 12px 12px;
+
+        .cardBody {
+            display: flex;
+            align-items: flex-start;
+            gap: 13px;
+
+            .Grid_Wrap {
+                display: flex;
+                align-items: flex-start;
+                gap: 12px;
+                width: 100%;
+
+                .Image_Wrap {
+                    border: 1px solid rgba(32, 32, 32, 0.15);
+                    border-radius: 8px;
+                    overflow: hidden;
+                    min-height: 103px;
+                    min-width: 103px;
+                    max-width: 103px;
+                    max-height: 103px;
+                    height: 103px;
+                    width: 103px;
+
+                    .Item_image {
+                        max-height: 100%;
+                        max-width: 100%;
+                        min-height: 100%;
+                        min-width: 100%;
+                        height: 100%;
+                        width: 100%;
+                        display: block;
+                        object-fit: cover;
+                        object-position: center;
+
+                    }
+
+                    video {
+                        min-height: 103px;
+                        min-width: 103px;
+                        max-width: 103px;
+                        max-height: 103px;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+
+                .FormInputFiels {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 9px;
+                    width: 100%;
+
+                    .form-group {
+                        line-height: 0;
+                    }
+
+                    .label {
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        color: #202020;
+                        font-family: "Poppins", sans-serif;
+                    }
+
+                    .InputFields {
+                        border-radius: 6px;
+                        height: 29px;
+                        margin-top: 4px;
+                        background: #FCFCFC;
+                        border: 1.5px solid #ECECEC;
+                        // color: rgba(32, 32, 32, 0.4);
+                    }
+                }
+            }
+
+            .AreaFormInputFields {
+                width: 100%;
+
+                .form-group {
+                    line-height: 0;
+                }
+
+                .Arealabel {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #202020;
+                    font-family: "Poppins", sans-serif;
+                }
+
+                .AreaInputFields {
+                    border-radius: 6px;
+                    margin-top: 4px;
+                    background: #FCFCFC;
+                    border: 1.5px solid #ECECEC;
+                    color: rgba(32, 32, 32, 0.4);
+                }
+            }
+        }
+    }
+
+}
+
+.button_group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "menuName": "Home",
+        "menuLink": "/home"
+    },
+    {
+        "menuName": "Shop",
+        "menuLink": "/shop"
+    },
+    {
+        "menuName": "OrdersPage",
+        "menuLink": "/ordersPage"
+    },
+    {
+        "menuName": "myordersPage",
+        "menuLink": "/myordersPage"
+    },
+    {
+        "menuName": "orderDetailsPage",
+        "menuLink": "/orderDetailsPage"
+    },
+    {
+        "menuName": "Home",
+        "menuLink": "/home"
+    },
+    {
+        "menuName": "Shop",
+        "menuLink": "/shop"
+    },
+    {
+        "menuName": "Category",
+        "menuLink": "/"
+    },
+    {
+        "menuName": "Collection",
+        "menuLink": "/"
+    },
+    {
+        "menuName": "Sale",
+        "menuLink": "/"
+    },
+    {
+        "menuName": "Home",
+        "menuLink": "/home"
+    },
+    {
+        "menuName": "Shop",
+        "menuLink": "/shop"
+    },
+    {
+        "menuName": "Category",
+        "menuLink": "/"
+    },
+    {
+        "menuName": "Collection",
+        "menuLink": "/"
+    },
+    {
+        "menuName": "Sale",
+        "menuLink": "/"
+    },
+    {
+        "menuName": "Home",
+        "menuLink": "/home"
+    },
+    {
+        "menuName": "Shop",
+        "menuLink": "/shop"
+    },
+    {
+        "menuName": "Category",
+        "menuLink": "/"
+    },
+    {
+        "menuName": "Collection",
+        "menuLink": "/"
+    },
+    {
+        "menuName": "Sale",
+        "menuLink": "/"
+    }
+]

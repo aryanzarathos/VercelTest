@@ -1,0 +1,100 @@
+@import '../../../../../styles/GloablStyle/theme';
+
+.nameAndLogoContainer {
+  .websiteNameWrapper {
+
+    .FontStylesLable{
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  .label-logo {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #202020;
+    margin-bottom: 16px;
+  }
+
+  .websiteLogoWrap {
+    // margin-top: 24px;
+    .labelLogo{
+      
+    }
+  }
+
+  .websiteFavicon {
+    // margin-top: 24px;
+
+    .websiteFaviconWrap {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 18px;
+
+      .faviconTitleBarContainer {
+
+        .favicontitleBarWrap {
+          position: relative;
+
+          img {
+            width: 100px;
+          }
+
+
+
+          .faviconImageWrap {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            position: absolute;
+            top: 44%;
+            transform: translateY(-50%);
+            left: 5px;
+
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 50%;
+            }
+          }
+
+          .faviconTitleWrap {
+            position: absolute;
+            top: 43%;
+            transform: translateY(-50%);
+            left: 27px;
+          }
+
+          .faviconTitleCross {
+            position: absolute;
+            top: 42%;
+            transform: translateY(-50%);
+            right: 8px;
+          }
+
+        }
+
+        .faviconTextInfo {
+          color: rgba($base, 0.4);
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+
+  .iconcross {
+    -webkit-mask: url("../../../../../Assets/SiteEditor/Icons/icon-cross.svg") no-repeat center;
+    mask-image: url("../../../../../Assets/SiteEditor/Icons/icon-cross.svg") no-repeat center;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+  }
+
+
+}

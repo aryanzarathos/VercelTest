@@ -1,0 +1,70 @@
+@import "../../../../../../src/styles/GloablStyle/theme";
+
+.mainWebsiteCreation {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 41px;
+  max-height: calc(100% - 90px);
+  @media screen and (max-width: 768px) {
+    // max-height: 100%;
+  }
+
+  &__Heading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: $black;
+    font-family: $font;
+    @media screen and (max-width: 1100px) {
+      text-align: center;
+    }
+    @media screen and (max-width: 768px) {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 42px;
+      text-align: center;
+    }
+  }
+  &__types {
+    margin-top: 32px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    &__data {
+      margin-bottom: 10px;
+      @media screen and (min-width: 769px) and (max-width: 1100px) {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-rows: repeat(2, auto);
+        gap: 18px;
+      }
+      // @media screen and (max-width: 991px) {
+      //   display: grid;
+      //   grid-template-columns: repeat(2, 1fr);
+      //   gap: 18px;
+      //   justify-content: center;
+      // }
+    }
+
+    &__continueBtn {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      width: 100%;
+      margin: 0;
+      margin-top: auto;
+      min-height: 39px;
+      margin-bottom: 10px;
+      @media screen and (min-width: 769px) and (max-width: 1100px) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      @media screen and (max-width: 340px) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

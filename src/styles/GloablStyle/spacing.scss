@@ -1,0 +1,137 @@
+//Start Margin Spacing//
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $marginTop: $fbase * $i;
+
+  .mt-#{$marginTop} {
+    margin-top: ($marginTop + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $marginBottom: $fbase * $i;
+
+  .mb-#{$marginBottom} {
+    margin-bottom: ($marginBottom + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $marginLeft: $fbase * $i;
+
+  .ml-#{$marginLeft} {
+    margin-left: ($marginLeft + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $marginRight: $fbase * $i;
+
+  .mr-#{$marginRight} {
+    margin-right: ($marginRight + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $marginX: $fbase * $i;
+
+  .mx-#{$marginX} {
+    margin-left: ($marginX + 0)+px;
+    margin-Right: ($marginX + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $marginY: $fbase * $i;
+
+  .my-#{$marginY} {
+    margin-top: ($marginY + 0)+px;
+    margin-Bottom: ($marginY + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $marginXY: $fbase * $i;
+
+  .m-#{$marginXY} {
+    margin: ($marginXY + 0)+px;
+  }
+}
+
+//Close Margin Spacing//
+
+//Start Padding Spacing//
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $paddingTop: $fbase * $i;
+
+  .pt-#{$paddingTop} {
+    padding-top: ($paddingTop + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $paddingBottom: $fbase * $i;
+
+  .pb-#{$paddingBottom} {
+    padding-bottom: ($paddingBottom + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $paddingLeft: $fbase * $i;
+
+  .pl-#{$paddingLeft} {
+    padding-left: ($paddingLeft + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $paddingRight: $fbase * $i;
+
+  .pr-#{$paddingRight} {
+    padding-right: ($paddingRight + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $paddingX: $fbase * $i;
+
+  .px-#{$paddingX} {
+    padding-left: ($paddingX + 0)+px;
+    padding-Right: ($paddingX + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $paddingY: $fbase * $i;
+
+  .py-#{$paddingY} {
+    padding-top: ($paddingY + 0)+px;
+    padding-Bottom: ($paddingY + 0)+px;
+  }
+}
+
+@for $i from 1 through 1000 {
+  $fbase: 1;
+  $paddingXY: $fbase * $i;
+
+  .p-#{$paddingXY} {
+    padding: ($paddingXY + 0)+px;
+  }
+}
+
+//Close Padding Spacing//

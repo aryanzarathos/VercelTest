@@ -1,0 +1,92 @@
+// @import "../../../../styles/GloablStyle/style.scss";
+@import '../../../../styles/GloablStyle/theme';
+
+.renamePageModals,
+.seoSettingPageModals {
+    .ModalsHead {
+        background-color: #3758F9;
+        color: $white;
+
+        h2,
+        &.heading {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 20px;
+            color: $white;
+        }
+    }
+}
+
+.seoSettingPageModals {
+
+    // .seoSettingHeader {
+    //     background-color: $primary;
+    //     color: $white;
+    // }
+    .ModalBodyWrap {
+        padding: 0 !important;
+
+        .bodyContent {
+            h4 {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                color: $base;
+                // margin-bottom: 4px;
+            }
+
+            .seoLinkText {
+                color: #146D25;
+            }
+
+            .btnWrapper {
+                margin-top: 5px;
+                display: flex;
+                align-items: center;
+
+                .btnSeo {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-left: 0;
+                    border-top: 1px solid rgba($base, 0.2);
+                    border-radius: 0;
+                    height: 50px;
+                    background-color: transparent;
+                }
+
+                .btnSeoLeft {
+                    border-right: 1px solid rgba($base, 0.2);
+                }
+            }
+
+            .seoSettingTextWrap {
+                padding: 16px 24px 0 24px;
+            }
+
+            .inputFormContainer {
+                margin-top: 24px;
+                // padding: ;
+                padding: 0 24px;
+            }
+
+        }
+    }
+}
+
+.renamePageModals {
+    .ModalBody {
+        .bodyContent {
+            padding-right: 64px;
+        }
+
+        .bodyAction {
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 16px;
+        }
+    }
+}
+
+

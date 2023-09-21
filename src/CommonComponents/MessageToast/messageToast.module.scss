@@ -1,0 +1,120 @@
+// @import "../../styles/GloablStyle/style.scss";
+@import '../../styles/GloablStyle/theme';
+
+
+
+.messageToastContainer {
+    // width: 100vw;
+    // height: 100vh;
+    position: fixed;
+    z-index: 9999999;
+    top: 10%;
+    left: 40%;
+    box-shadow: 1px 1px 8px rgba($base, 0.1);
+    // display: flex;
+    // align-items: flex-start;
+    // justify-content: center;
+    transition: all 0.3s linear;
+
+    @media(max-width:992px) {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .toastWrap {
+        background-color: $white;
+        width: fit-content;
+        max-width: 40vw;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 12px;
+        border-radius: 4px 4px 0 0;
+        position: relative;
+        padding-right: 70px;
+
+        @media(max-width:768px) {
+            max-width: 70vw;
+        }
+
+        @media(max-width:600px) {
+            max-width: 90vw;
+        }
+
+
+        .toastIcon {
+            margin-top: 3px;
+        }
+
+        .toastParaWrap {
+            .toast-para-text {
+                color: rgba($base, 0.6);
+                line-height: 1.4em;
+            }
+        }
+
+        .crossSpan {
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .successBorder {
+        border-bottom: 5px solid #1EBB1B;
+    }
+
+    .errorBorder {
+        border-bottom: 5px solid #C23934;
+    }
+
+    .warningBorder {
+        border-bottom: 5px solid #F2A544;
+    }
+
+    .iconSuccess {
+        -webkit-mask: url("../../Assets/Icons/toastSuccessIcon.svg") no-repeat center;
+        mask-image: url("../../Assets//Icons//toastSuccessIcon.svg") no-repeat center;
+        display: block;
+        width: 12px;
+        height: 12px;
+        background: #1EBB1B;
+    }
+
+    .iconError {
+        -webkit-mask: url("../../Assets/Icons/toastErrorIcon.svg") no-repeat center;
+        mask-image: url("../../Assets/Icons/toastErrorIcon.svg") no-repeat center;
+        display: block;
+        width: 12px;
+        height: 12px;
+        background: #C23934;
+    }
+
+    .iconWarning {
+        -webkit-mask: url("../../Assets/Icons/toastWarningIcon.svg") no-repeat center;
+        mask-image: url("../../Assets/Icons/toastWarningIcon.svg") no-repeat center;
+        display: block;
+        width: 12px;
+        height: 12px;
+        background: #F2A544;
+    }
+
+    .iconCross {
+        -webkit-mask: url("../../Assets/Icons/cross.svg") no-repeat center;
+        mask-image: url("../../Assets/Icons/cross.svg") no-repeat center;
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: #20202066;
+    }
+}
+
+.active {
+    .messageToastContainer {
+        transform: translateX(-50%);
+    }
+
+}

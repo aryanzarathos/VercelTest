@@ -1,0 +1,119 @@
+@import '../../../../../styles/GloablStyle/theme';
+
+
+.generalpagesContainer {
+    margin-top: 16px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+
+    .generalpagesWrap {
+        padding: 20px;
+        background-color: rgba($primary, 0.1);
+        border-radius: 4px;
+
+        .headingTextWrapper {
+            margin-bottom: 9px;
+
+            .headingPara {
+                color: $black;
+                line-height: 21px;
+            }
+
+            .headingDesc {
+                color: $black;
+                line-height: 21px;
+            }
+        }
+
+        .templateWrapper {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            align-items: center;
+            justify-content: space-between;
+            gap: 28px;
+            width: 100%;
+            height: calc(70vh - 88px);
+            overflow-y: scroll;
+            overflow-x: hidden;
+
+            &::-webkit-scrollbar {
+                width: 6px;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background: #0184FF !important;
+                border-radius: 4px;
+            }
+
+            padding-right: 8px;
+
+            @media screen and (max-width:1023px) {
+                grid-template-columns: auto auto;
+            }
+
+            .templateWrap {
+                .imgWrap {
+                    height: 351px;
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    &:hover .active {
+                        opacity: 1 !important;
+                    }
+                }
+
+                .templateDesc {
+                    font-family: 'Poppins';
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    color: #202020;
+                    margin-top: 8px;
+                }
+            }
+
+            .overlay {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                background: rgba(32, 32, 32, 0.6);
+                border-radius: 4px;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                transition: all 0.5s;
+                opacity: 0;
+
+                button {
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 18px;
+                    padding: 9px 25px;
+                    border-radius: 18px;
+                    border: none;
+
+                    &.previewBtn {
+                        color: #202020;
+                    }
+
+                    &.addBtn {
+                        color: #FFFFFF;
+                        background: #0184FF;
+                    }
+                }
+            }
+        }
+    }
+}

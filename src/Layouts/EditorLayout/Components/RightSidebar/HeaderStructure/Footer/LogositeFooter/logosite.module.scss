@@ -1,0 +1,204 @@
+.mainLogoSiteFooter {
+    padding: 12px 12px 12px 16px;
+
+    .websiteLogo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 13px;
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+
+    .phoneNoUprCont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12px;
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+
+    .rangeInput {
+        margin-top: 12px;
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+
+    .textDropDown {
+        // margin-top: 12px;
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+        }
+
+        .FamilyAndWeightWrap {
+            display: flex;
+            gap: 8px;
+            justify-content: space-between;
+
+            .FontFamilyWrap {
+                width: 100%;
+
+                .selectedContent {
+                    :first-child {
+                        display: -webkit-box;
+                        -webkit-line-clamp: 1;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        word-break: break-all;
+                    }
+                }
+            }
+
+            .FontWeightWrap {
+                position: relative;
+
+                .FontWeightSelector {
+                    padding-left: 34px;
+                }
+
+                .FontWeightSvg {
+                    position: absolute;
+                    padding-left: 8px;
+                    border-right: 0.5px solid #ECECEC;
+                    padding-right: 8px;
+                    z-index: 1;
+                    transform: translateY(-50%);
+                    top: 50%;
+
+                    svg {
+                        min-width: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .fontColor {
+        display: flex;
+        gap: 8px;
+        margin-top: 8px;
+
+
+        .colorBtn {
+            padding: 6px 8px;
+            display: flex;
+            gap: 9px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 20px;
+            letter-spacing: -0.4px;
+            color: #202020;
+            background: #FFFFFF;
+            border: 1px solid rgba(32, 32, 32, 0.4);
+            border-radius: 4px;
+
+            span:first-child {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 10px;
+                line-height: 20px;
+                letter-spacing: -0.4px;
+                color: rgba(32, 32, 32, 0.8);
+                border-right: 1px solid rgba(32, 32, 32, 0.2);
+                padding-right: 8px;
+            }
+
+            span:nth-child(2) {
+                background: #FFF;
+                border: 1px solid rgba(0, 0, 0, 0.08);
+                border-radius: 2px;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .fontSize {
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: auto;
+            background: #FCFCFC;
+            border: 1.5px solid #ECECEC;
+            border-radius: 6px;
+
+            input {
+                border: none;
+                margin-top: 0px;
+                background: #FCFCFC;
+            }
+
+            span:first-child {
+                padding-left: 8px;
+                border-right: 0.5px solid #ECECEC;
+                padding-right: 8px;
+                background: #FCFCFC;
+
+                svg {
+                    min-width: 13px;
+                }
+            }
+
+
+            span:last-child {
+                position: absolute;
+                left: auto;
+                right: 24px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 15px;
+                color: #202020;
+                display: inline-block;
+                // background: #FCFCFC;
+                padding: 0 3px;
+                text-align: center;
+            }
+        }
+
+        & :global .color-palette-hf {
+            width: 100% !important;
+        }
+    }
+
+
+    .colorPickerPopupWrap {
+        position: absolute;
+        right: 285px;
+        top: 0;
+    }
+
+}

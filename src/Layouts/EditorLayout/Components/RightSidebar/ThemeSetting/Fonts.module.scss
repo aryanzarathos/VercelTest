@@ -1,0 +1,152 @@
+@import '../../../../../styles/GloablStyle/theme';
+
+.fontsContainer {
+    .Active {
+        border: 2px solid $primary !important;
+    }
+
+    .VariantHead {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: $lgray;
+        padding: 12px 16px;
+        background: #F3F3F3;
+    }
+
+    .dropdownMain {
+        padding: 16px;
+    }
+
+    .customcontainer,
+    .defaultcONTAINER {
+        .StyleVariantSection {
+            padding: 16px;
+
+            .PresetTypoItem {
+                background: $white;
+                border: 2px solid rgba(32, 32, 32, 0.1);
+                border-radius: 8px;
+                padding: 12px;
+                margin-bottom: 16px;
+                cursor: pointer;
+                transition: .7s;
+
+                &:hover {
+                    border: 2px solid $primary;
+                    transition: .7s;
+                }
+
+                .selectwrap {
+                    .HeadFontItem {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 10px;
+
+                        .TitleWrapper {
+                            display: grid;
+                            gap: 6px;
+                            align-items: center;
+                            grid-template-columns: 1fr auto;
+
+                            .uncheck {
+                                display: block;
+                                height: 16px;
+                                width: 16px;
+                                border-radius: 50%;
+                                border: 2px solid rgba(32, 32, 32, 0.1);
+                                background: #FFFFFF;
+                            }
+
+                            .check {
+                                display: block;
+                                cursor: pointer;
+                                width: 16px;
+                                height: 16px;
+                                background: url('../../../../../Assets/SiteEditor/Icons/colorCheck.svg');
+                            }
+
+                            .PresetFontFamily {
+                                font-family: 'Poppins', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 13px;
+                                line-height: 20px;
+                                color: $base;
+                            }
+                        }
+
+                        .IconWrapper {
+                            display: flex;
+                            align-items: center;
+                            gap: 4px;
+
+                            button {
+                                background: transparent;
+                                border: none;
+
+                                .EditIcon,
+                                .DeleteIcon {
+                                    display: block;
+                                    cursor: pointer;
+                                    width: 16px;
+                                    height: 16px;
+                                    background-color: #202020;
+                                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/delete-icon.svg') no-repeat center;
+                                    mask-image: url('../../../../../Assets/SiteEditor/Icons/delete-icon.svg') no-repeat center;
+                                }
+
+                                .EditIcon {
+                                    -webkit-mask: url('../../../../../Assets/SiteEditor/Icons/edit-icon.svg') no-repeat center;
+                                    mask-image: url('../../../../../Assets/SiteEditor/Icons/edit-icon.svg') no-repeat center;
+                                }
+                            }
+                        }
+                    }
+
+
+
+                }
+
+                .headingtxt {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin-bottom: 6px;
+                }
+
+                .paratxt {
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 17px;
+                    color: rgba(32, 32, 32, 0.4);
+                }
+            }
+        }
+    }
+
+    .FooterPalette {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 9.5px 16px;
+        background: #FFFFFF;
+        box-shadow: 0px -3px 13px rgba(32, 32, 32, 0.15);
+
+        .btn_disable {
+            cursor: default;
+        }
+
+        button {
+            width: 100%;
+        }
+    }
+}

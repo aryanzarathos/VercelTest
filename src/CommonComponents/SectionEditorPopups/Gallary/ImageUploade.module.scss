@@ -1,0 +1,29 @@
+@import '../.../../../../styles/GloablStyle/theme';
+
+.ImageUploadWrap_gallery {
+
+    .uploadeImageupload {
+        height: 63px;
+        border: 1px dashed $primary;
+        border-radius: 6px;
+        background: rgba(55, 88, 249, 0.05);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .uploadeIcon {
+            -webkit-mask-image: url(../../../Assets/images/Icons/Upload.svg);
+            mask-image: url(../../../Assets/images/Icons/Upload.svg);
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            background-color: $primary;
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+
+
+
+}

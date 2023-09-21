@@ -1,0 +1,65 @@
+@import '../../../../styles/GloablStyle/theme';
+
+.addExternalModalHeader {
+    padding: 16px;
+    background-color: $primary;
+    color: $white !important;
+}
+
+.addExternalPagesModalBody {
+    min-height: 80vh !important;
+}
+
+.addExternalPagesContainer {
+    .addExterPagesTopSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+
+
+        .addExternalPagesLeftSide {
+            width: fit-content;
+            border-radius: 8px;
+
+            .externalPageTabBtn {
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                gap: 19px;
+                flex-wrap: wrap;
+            }
+
+            .externalPagesTabButton {
+                background: #FFFFFF;
+                color: #202020;
+                box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.08);
+                border-radius: 68px;
+
+                &.Active {
+                    background: #3758F9;
+                    color: #FFFFFF;
+                }
+            }
+
+            .button {
+                background-color: transparent;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            .button-primary {
+                background-color: $primary;
+            }
+        }
+
+        .addExternalPagesRightSide {
+            justify-self: flex-end;
+        }
+    }
+}
+
+.bgGray {
+    background-color: black;
+}

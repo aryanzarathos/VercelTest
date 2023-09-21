@@ -1,0 +1,112 @@
+@import '../../../styles/GloablStyle/button.module';
+@import '../../../styles/GloablStyle/theme';
+
+.gallery_Container_Vid {
+    position: absolute;
+    top: 66px;
+    left: 0;
+   
+    border-radius: 8px;
+    border: 1px solid rgba(32, 32, 32, 0.20);
+    background: #FFF;
+    min-width: 316px;
+    max-width: 316px;
+    z-index: 999;
+
+    .gallery_subcontainer {
+        position: relative;
+        padding: 11px 16px;
+        
+        .gallery_header_wrap {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #EAEAEA;
+
+
+            .header_txt {
+                color: #000;
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+        .slider_wrap_Container {
+            max-height: 300px;
+            overflow-y: auto;
+
+            .SliderWrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 12px 14px 12px 4px;
+                cursor: pointer;
+                border-bottom: 1px solid #eaeaea;
+
+                .Label {
+                    display: flex;
+                    align-items: center;
+                    gap: 13px;
+
+                    span {
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #202020;
+                        font-family: "Poppins", sans-serif;
+                    }
+
+                    .FormCheckbox {}
+                }
+
+                .Arrow_button {
+                    background-color: transparent;
+                    border: none;
+                    line-height: 0;
+                    font-size: 13px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+                &.borderNone{
+                    border: none !important;
+                }
+            }
+        }
+
+        .AddSlides_button {
+            width: 100%;
+
+            &.Delete_button {
+                background-color: transparent;
+                color: #EA0000;
+                border: 1px solid #EA0000;
+
+                p {
+
+                    line-height: inherit;
+                }
+
+                svg {
+                    height: 16px;
+                    width: 16px;
+                    fill: #EA0000;
+                    margin-right: 4px;
+                }
+
+                &:hover {
+                    background-color: #EA0000;
+                    color: #fff;
+
+                    svg {
+                        fill: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

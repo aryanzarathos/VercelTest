@@ -1,0 +1,487 @@
+{
+    "custom_section_editable": [
+        {
+            "tagType": "section",
+            "text": "",
+            "show": true,
+            "name": "mainSection",
+            "id": "8",
+            "clasName": "",
+            "style": {
+                "desktop": {
+                    "background": "transparent",
+                    "padding": {
+                        "paddingTop": "20px",
+                        "paddingBottom": "20px",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px"
+                    }
+                },
+                "tablet": {
+                    "background": "transparent",
+                    "padding": {
+                        "paddingTop": "20px",
+                        "paddingBottom": "20px",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px"
+                    }
+                },
+                "mobile": {
+                    "background": "transparent",
+                    "padding": {
+                        "paddingTop": "20px",
+                        "paddingBottom": "20px",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px"
+                    }
+                }
+            },
+            "editableField": [
+                {
+                    "title": "Background",
+                    "type": "color",
+                    "value": "var(--global-color-penitentiary)",
+                    "tab": "Grid",
+                    "propertyChange": "background",
+                    "propertyType": "string",
+                    "editId": "1"
+                },
+                {
+                    "title": "Padding",
+                    "type": "input",
+                    "value": "",
+                    "tab": "Grid",
+                    "propertyChange": "paddingTop",
+                    "propertyType": "object",
+                    "updateItems": [
+                        "paddingTop"
+                    ],
+                    "objectKey": "padding",
+                    "editId": "56"
+                }
+            ],
+        },
+        {
+            "tagType": "section",
+            "text": "",
+            "show": true,
+            "name": "product section",
+            "clasName": "someClass",
+            "style": {
+                "desktop": {
+                    "display": "grid",
+                    "gridTemplateColumns": "repeat(4,1fr)",
+                    "gridGap": "21px",
+                    "justifyContent": "center",
+                    "width": "100%",
+                    "margin": "40px auto"
+                },
+                "tablet": {
+                    "gridTemplateColumns": "repeat(3,1fr)"
+                },
+                "mobile": {
+                    "gridTemplateColumns": "repeat(2,1fr)"
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "card product",
+            "clasName": "someClass",
+            "sectionEditable": true,
+            "editableField": [
+                {
+                    "title": "Grid Background",
+                    "type": "color",
+                    "value": "var(--global-color-penitentiary)",
+                    "tab": "Grid",
+                    "propertyChange": "background",
+                    "propertyType": "string",
+                    "editId": "2"
+                },
+                {
+                    "title": "Grid Padding",
+                    "type": "input",
+                    "value": "",
+                    "tab": "Grid",
+                    "propertyChange": "paddingTop",
+                    "propertyType": "object",
+                    "objectKey": "padding",
+                    "editId": "52"
+                },
+                {
+                    "title": "Grid Border",
+                    "type": "color",
+                    "value": "var(--global-color-penitentiary)",
+                    "tab": "Grid",
+                    "propertyChange": "borderColor",
+                    "propertyType": "string",
+                    "editId": "3"
+                },
+                {
+                    "title": "Grid Border Width",
+                    "type": "input",
+                    "value": "",
+                    "tab": "Grid",
+                    "propertyChange": "borderWidth",
+                    "propertyType": "string",
+                    "editId": "4"
+                }
+            ],
+            "id": "1",
+            "style": {
+                "desktop": {
+                    "width": "100%",
+                    "background": "",
+                    "padding": {
+                        "paddingTop": "20px",
+                        "paddingBottom": "20px",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px"
+                    },
+                    "borderStyle": "solid",
+                    "borderWidth": "",
+                    "borderColor": ""
+                },
+                "mobile": {
+                    "background": "transparent",
+                    "padding": {
+                        "paddingTop": "20px",
+                        "paddingBottom": "20px",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px"
+                    }
+                },
+                "tablet": {
+                    "background": "transparent",
+                    "padding": {
+                        "paddingTop": "20px",
+                        "paddingBottom": "20px",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px"
+                    }
+                }
+            }
+        },
+        {
+            "tagType": "p",
+            "text": "",
+            "show": true,
+            "name": "heading",
+            "clasName": "someClass",
+            "sectionEditable": true,
+            "editableField": [
+                {
+                    "title": "Product Name",
+                    "tab": "Text",
+                    "value": "var(--global-color-primary)",
+                    "type": "color",
+                    "propertyChange": "color",
+                    "propertyType": "string",
+                    "editId": "5"
+                }
+            ],
+            "id": "2",
+            "style": {
+                "desktop": {
+                    "textTransform": "capitalize",
+                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                    "fontStyle": "var(--global-typography-fontStyleP)",
+                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                    "fontSize": "var(--global-typography-fontSizeP)",
+                    "lineHeight": "var(--global-typography-lineHeightP)",
+                    "color": "var(--global-color-primary)",
+                    "letterSpacing": "inherit",
+                    "wordSpacing": "inherit",
+                    "textAlign": "left",
+                    "width": "100%",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "",
+                    "display": "-webkit-box",
+                    "webkitLineClamp": "2",
+                    "webkitBoxOrient": "vertical",
+                    "overflow": "hidden",
+                    "margin": {
+                        "marginTop": "9px"
+                    }
+                }
+            }
+        },
+        {
+            "tagType": "h6",
+            "text": "",
+            "show": true,
+            "name": "paragraph",
+            "clasName": "someClass",
+            "sectionEditable": true,
+            "editableField": [
+                {
+                    "title": "Price",
+                    "tab": "Text",
+                    "value": "var(--global-color-primary)",
+                    "type": "color",
+                    "propertyChange": "color",
+                    "propertyType": "string",
+                    "editId": "6"
+                }
+            ],
+            "id": "7",
+            "style": {
+                "desktop": {
+                    "textTransform": "capitalize",
+                    "letterSpacing": "inherit",
+                    "wordSpacing": "inherit",
+                    "fontFamily": "var(--global-typography-fontFamilyH6)",
+                    "fontStyle": "var(--global-typography-fontStyleH6)",
+                    "fontWeight": "var(--global-typography-fontWightSemiBold)",
+                    "fontSize": "var(--global-typography-fontSizeH6)",
+                    "lineHeight": "var(--global-typography-lineHeightH6)",
+                    "color": "var(--global-color-primary)",
+                    "margin": {
+                        "marginTop": "9px",
+                        "marginBottom": "9px"
+                    }
+                }
+            }
+        },
+        {
+            "tagType": "button",
+            "text": "ADD TO CART",
+            "show": true,
+            "name": "button",
+            "clasName": "someClass",
+            "sectionEditable": true,
+            "editableField": [
+                {
+                    "title": "Button Style",
+                    "tab": "Button",
+                    "value": "Stroke",
+                    "type": "Dropdown",
+                    "options": [
+                        "Fill",
+                        "Stroke",
+                        "None"
+                    ],
+                    "propertyChange": "",
+                    "propertyType": "string",
+                    "editId": "7"
+                },
+                {
+                    "title": "Border Radius",
+                    "tab": "Button",
+                    "value": "",
+                    "type": "input",
+                    "propertyChange": "borderRadius",
+                    "propertyType": "string",
+                    "editId": "8"
+                },
+                {
+                    "title": "Text Color",
+                    "tab": "Button",
+                    "value": "var(--global-color-primary)",
+                    "type": "color",
+                    "hover": "var(--global-color-penitentiary)",
+                    "active": "",
+                    "propertyChange": "color",
+                    "propertyType": "string",
+                    "editId": "9"
+                },
+                {
+                    "title": "Background",
+                    "tab": "Button",
+                    "value": "var(--global-color-penitentiary)",
+                    "type": "color",
+                    "hover": "var(--global-color-primary)",
+                    "active": "",
+                    "propertyChange": "backgroundColor",
+                    "propertyType": "string",
+                    "editId": "10"
+                }
+            ],
+            "id": "3",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyButton)",
+                    "fontStyle": "var(--global-typography-fontStyleButton)",
+                    "fontWeight": "var(--global-typography-fontWightMedium)",
+                    "fontSize": "var(--global-typography-fontSizeButton)",
+                    "lineHeight": "var(--global-typography-lineHeightButton)",
+                    "color": "var(--global-color-primary)",
+                    "letterSpacing": "inherit",
+                    "wordSpacing": "inherit",
+                    "width": "100%",
+                    "textTransform": "uppercase",
+                    "outline": "none",
+                    "backgroundColor": "transparent",
+                    "cursor": "pointer",
+                    "transition": "all 0.3s",
+                    "borderWidth": "1px",
+                    "borderStyle": "solid",
+                    "borderColor": "var(--global-color-primary)",
+                    "padding": {
+                        "paddingTop": "12px",
+                        "paddingBottom": "11px"
+                    },
+                    "margin": {
+                        "marginTop": "auto"
+                    },
+                    "hover": {
+                        "backgroundColor": "var(--global-color-primary)",
+                        "color": "var(--global-color-penitentiary)"
+                    }
+                }
+            }
+        },
+        {
+            "tagType": "div",
+            "text": "",
+            "show": true,
+            "name": "MainImage",
+            "clasName": "someClass",
+            "style": {
+                "desktop": {
+                    "height": "417px",
+                    "width": "100%",
+                    "maxWidth": "100%"
+                },
+                "tablet": {
+                    "height": "350px"
+                },
+                "mobile": {
+                    "height": "300px"
+                }
+            }
+        },
+        {
+            "tagType": "img",
+            "text": "",
+            "show": true,
+            "name": "card image",
+            "clasName": "someClass",
+            "sectionEditable": true,
+            "style": {
+                "desktop": {
+                    "maxHeight": "100%",
+                    "objectFit": "cover",
+                    "objectPosition": "center",
+                    "height": "100%",
+                    "width": "100%",
+                    "maxWidth": "100%"
+                }
+            }
+        },
+        {
+            "tagType": "p",
+            "text": "",
+            "show": true,
+            "name": "oldPrice",
+            "clasName": "someClass",
+            "sectionEditable": true,
+            "editableField": [
+                {
+                    "title": "Strikethrough Price",
+                    "tab": "Text",
+                    "value": "var(--global-color-quaternary-lightShadeRegular)",
+                    "type": "color",
+                    "propertyType": "string",
+                    "propertyChange": "color",
+                    "editId": "11"
+                }
+            ],
+            "id": "4",
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                    "fontSize": "calc( var(--global-typography-fontSizeP) - 2px)",
+                    "fontStyle": "var(--global-typography-fontStyleP)",
+                    "fontWeight": "var(--global-typography-fontWightLight)",
+                    "lineHeight": "var(--global-typography-lineHeightP)",
+                    "color": "var(--global-color-quaternary-lightShadeRegular)",
+                    "padding": {
+                        "paddingTop": "0px",
+                        "paddingRight": "0px",
+                        "paddingBottom": "0px",
+                        "paddingLeft": "0px"
+                    },
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    }
+                }
+            }
+        },
+        {
+            "tagType": "p",
+            "text": "",
+            "show": true,
+            "name": "perOff",
+            "clasName": "someClass",
+            "sectionEditable": true,
+            "id": "6",
+            "editableField": [
+                {
+                    "title": "Discount",
+                    "tab": "Text",
+                    "value": "var(--global-color-tertiary)",
+                    "type": "color",
+                    "propertyChange": "color",
+                    "propertyType": "string",
+                    "editId": "12"
+                }
+            ],
+            "style": {
+                "desktop": {
+                    "fontFamily": "var(--global-typography-fontFamilyP)",
+                    "fontSize": "calc( var(--global-typography-fontSizeP) - 2px)",
+                    "fontStyle": "var(--global-typography-fontStyleP)",
+                    "fontWeight": "var(--global-typography-fontWightLight)",
+                    "lineHeight": "var(--global-typography-lineHeightP)",
+                    "color": "var(--global-color-tertiary)",
+                    "padding": {
+                        "paddingTop": "0px",
+                        "paddingRight": "0px",
+                        "paddingBottom": "0px",
+                        "paddingLeft": "0px"
+                    },
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "0px",
+                        "marginLeft": "0px"
+                    }
+                }
+            }
+        },
+        {
+            "tagType": "p",
+            "text": "",
+            "show": true,
+            "name": "OfferWrap",
+            "clasName": "someClass",
+            "style": {
+                "desktop": {
+                    "display": "flex",
+                    "alignItems": "center",
+                    "gap": "10px",
+                    "marginBottom": "16px",
+                    "padding": {
+                        "paddingTop": "0px",
+                        "paddingRight": "0px",
+                        "paddingBottom": "0px",
+                        "paddingLeft": "0px"
+                    },
+                    "margin": {
+                        "marginTop": "0px",
+                        "marginRight": "0px",
+                        "marginBottom": "16px",
+                        "marginLeft": "0px"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+.mainRightSide {
+  padding: 64px 67px;
+  height: 100vh;
+  overflow: auto;
+  @media screen and (max-width: 1100px) {
+    height: auto;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
